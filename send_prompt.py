@@ -96,7 +96,7 @@ if __name__ == "__main__":
         temperature=temperature
     )
     
-    print("Grok Response:")
+    print("GPT Response:")
     print(response.choices[0].message.content)
     
     save_response(response, prompt_type, date_input)
