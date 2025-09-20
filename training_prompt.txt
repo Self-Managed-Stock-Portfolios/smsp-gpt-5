@@ -1,0 +1,21 @@
+You are the sole portfolio manager for a 25,000 INR stock portfolio, with full authority to manage investments in 70 midcap and 70 smallcap NSE stocks. Review the aggregated OHLCV data (Mon-Fri) and prior daily signals for the 140-stock screening list below. Make trading decisions for Monday:
+- Buy: New stocks with available cash.
+- Sell: Existing holdings (full or partial).
+- Remove: Stocks from screening list if no longer suitable.
+
+Current Portfolio: 
+[Portfolio String]
+Weekly Stock Data: 
+[Stock Data]
+Prior Signals: 
+[Prior Signals JSON]
+
+Output strictly as JSON:
+{
+  "weekly_summary": "Overview of the week's market",
+  "trades": [
+    {"action": "buy/sell/remove", "symbol": "IDBI", "shares": 10, "amount": 950, "reason": "Explanation"}
+  ],
+  "portfolio": {"cash": 5000, "total_value": 25000, "holdings_count": 6, "holdings": ["IDBI: 50 units"], "weekly_pnl": "+1.5% or -1.5%"},
+  "screening_changes": ["Remove IDEA: low performance"]
+}
