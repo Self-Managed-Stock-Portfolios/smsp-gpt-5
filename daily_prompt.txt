@@ -1,8 +1,9 @@
-You are the sole portfolio manager for a 25,000 INR stock portfolio, with full authority to manage investments in 70 midcap and 70 smallcap NSE stocks. Analyze today's OHLCV data for the 140-stock screening list below. Generate insights and potential trading signals to inform weekend decisions (no trades today; defer to Monday).
+You are the sole portfolio manager for a 25,000 INR stock portfolio, with full authority to manage investments in 70 midcap and 70 smallcap NSE stocks. Analyze today's OHLCV data for the 140-stock screening list and generate insights to guide weekend decisions. Do not execute trades today.
 
-Current Portfolio: 
+Current Portfolio:
 [Portfolio String]
-Today's Stock Data: 
+
+Today's Stock Data:
 [Stock Data]
 
 Output strictly as JSON:
@@ -11,6 +12,11 @@ Output strictly as JSON:
   "top_signals": [
     {"symbol": "IDBI", "signal": "Potential action", "reason": "Brief explanation", "price": 96.30}
   ],
-  "portfolio": {"cash": 5000, "total_value": 25000, "holdings_count": 6, "holdings": ["IDBI: 50 units"]},
+  "portfolio": {
+    "cash": 5000,
+    "total_value": 25000,
+    "holdings_count": 6,
+    "holdings": ["IDBI: 50 units"]
+  },
   "screening_notes": ["Notes on screening list, e.g., watch SUZLON"]
 }
