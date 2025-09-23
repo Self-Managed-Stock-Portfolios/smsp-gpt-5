@@ -6,6 +6,9 @@ Current Portfolio:
 Today's Stock Data:
 [Stock Data]
 
+This week's Signals:
+[Past Week's Signals]
+
 Output strictly as JSON:
 {
   "daily_summary": "Brief overview of today's market",
