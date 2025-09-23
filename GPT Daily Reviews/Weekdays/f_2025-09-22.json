@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CInU1vQajqEWRiibnYArmwCOV4HXV",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed day: breadth slightly negative with many midcaps closing red while a handful of momentum names (APOLLOHOSP, OFSS, CHOLAFIN, POLYCAB, MUTHOOTFIN) and smallcap PSU/metal plays (HUDCO, HINDCOPPER) showed strength. Energy/chemicals (DABUR, LAURUSLABS, TATACHEM) and logistics (AEGISLOG) weakened. Very heavy absolute volumes in IDEA/SUZLON; price action there was soft.\",\n  \"top_signals\": [\n    {\"symbol\": \"HUDCO\", \"signal\": \"Buy watchlist (breakout setup)\", \"reason\": \"Strong bullish candle; close almost at day\u2019s high, momentum continuation likely if today\u2019s high is reclaimed.\", \"price\": 239.96},\n    {\"symbol\": \"MANAPPURAM\", \"signal\": \"Buy watchlist\", \"reason\": \"Wide-range green candle with close near high; potential follow-through if high is taken out.\", \"price\": 293.90},\n    {\"symbol\": \"APOLLOHOSP\", \"signal\": \"Buy watchlist (momentum)\", \"reason\": \"Large bullish candle, strong close; looks set for continuation on strength above today\u2019s high.\", \"price\": 7739.00},\n    {\"symbol\": \"OFSS\", \"signal\": \"Buy watchlist (strength)\", \"reason\": \"Strong up-close, near day\u2019s high; potential swing continuation.\", \"price\": 9056.50},\n    {\"symbol\": \"CHOLAFIN\", \"signal\": \"Buy watchlist\", \"reason\": \"Wide-range up day with close near high; watch for breakout continuation.\", \"price\": 1630.00},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Buy watchlist (metal momentum)\", \"reason\": \"Strong green day and improving momentum; watch for higher-high confirmation.\", \"price\": 296.57},\n    {\"symbol\": \"GODIGIT\", \"signal\": \"Buy watchlist\", \"reason\": \"Open = low and strong close near high; intraday strength suggests buyers in control.\", \"price\": 356.95},\n    {\"symbol\": \"SUNDARMFIN\", \"signal\": \"Buy watchlist\", \"reason\": \"Solid bullish close and reclaim of intraday weakness; potential continuation if highs are cleared.\", \"price\": 4664.80},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Risk: Weakness\", \"reason\": \"Bearish wide-range down day, close near low; monitor for potential removal if weakness persists.\", \"price\": 772.50},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Risk: Weakness\", \"reason\": \"Large bearish candle closing well below open; avoid buying until strength returns.\", \"price\": 903.80}\n  ],\n  \"portfolio\": {\n    \"cash\": 25000,\n    \"total_value\": 25000,\n    \"holdings_count\": 0,\n    \"holdings\": []\n  },\n  \"screening_notes\": [\n    \"Process: No mid-week trades. Build a buy list from strong closers; place Monday orders only if they trade above today\u2019s high with acceptable risk.\",\n    \"Position sizing (given 25k capital): prefer 3\u20135 positions of ~4\u20136k each; avoid illiquid/high-ticket names (e.g., PAGEIND, DIXON) for now.\",\n    \"Watch SUZLON: soft close near 60; momentum resumes only on sustained move back above 61.\",\n    \"PSU/Infra: HUDCO showed a near high close; RVNL/IRCON softer\u2014prefer relative strength (HUDCO) over laggards.\",\n    \"Healthcare divergence: APOLLOHOSP strong; LAURUSLABS and METROPOLIS weak\u2014stick to strength.\",\n    \"Financials: CHOLAFIN, SUNDARMFIN constructive; INDUSINDBK/AUBANK weak\u2014avoid until reversal.\",\n    \"Metals: HINDCOPPER strong; track follow-through before entry; SAIL modestly positive.\",\n    \"Possible removal candidates if 2 more weak sessions: AEGISLOG, DABUR, LAURUSLABS (pending confirmation of continued underperformance).\",\n    \"Trigger plan (Monday-only): buy-through of today\u2019s highs for HUDCO, MANAPPURAM, APOLLOHOSP, OFSS, CHOLAFIN, GODIGIT; skip if gap-up exceeds 2% without retest.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758596153,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6470,
+    "prompt_tokens": 5723,
+    "total_tokens": 12193,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5504,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
