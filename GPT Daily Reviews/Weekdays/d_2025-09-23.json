@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CJNv878TCMYckiPMCVh6B9J8rRAT8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed session: autos, metals and select capital goods showed strength (e.g., ASHOKLEY, JINDALSTEL, ESCORTS, KEI), while IT, discretionary and FMCG saw pressure (COFORGE, PERSISTENT, TRENT, PIDILITIND). Renewables were mixed (SUZLON softer, NTPCGREEN stable). Volumes were elevated in IDEA, ASHOKLEY, SUZLON. We will use the weekend to finalize entry levels; no trades today.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"ASHOKLEY\",\n      \"signal\": \"Breakout watch\",\n      \"reason\": \"Strong close near day high with heavy volume; watch for sustained move above 144.5\",\n      \"price\": 144.04\n    },\n    {\n      \"symbol\": \"JINDALSTEL\",\n      \"signal\": \"Breakout watch\",\n      \"reason\": \"Bullish close; a push through 1069\u20131070 could open further upside\",\n      \"price\": 1062.7\n    },\n    {\n      \"symbol\": \"AUBANK\",\n      \"signal\": \"Bullish continuation\",\n      \"reason\": \"Closed near day high; buyers in control\",\n      \"price\": 731.65\n    },\n    {\n      \"symbol\": \"ESCORTS\",\n      \"signal\": \"Momentum long watch\",\n      \"reason\": \"Wide green range and strong close; follow-through above 3765 key\",\n      \"price\": 3739.1\n    },\n    {\n      \"symbol\": \"HINDCOPPER\",\n      \"signal\": \"Momentum long watch\",\n      \"reason\": \"High-volume strength; close near highs within metals strength\",\n      \"price\": 307.43\n    },\n    {\n      \"symbol\": \"KAYNES\",\n      \"signal\": \"Relative strength\",\n      \"reason\": \"Closed strong despite broader softness; momentum candidate on continuation\",\n      \"price\": 7242.0\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Buy-the-dip watch\",\n      \"reason\": \"Rejected ~2160 resistance; monitor support 2086\u20132090 for stabilization\",\n      \"price\": 2122.2\n    },\n    {\n      \"symbol\": \"SUZLON\",\n      \"signal\": \"Wait-and-watch\",\n      \"reason\": \"Heavy volume but closed nearer lows; monitor 58.5 support or reclaim of 60\",\n      \"price\": 58.75\n    },\n    {\n      \"symbol\": \"TRENT\",\n      \"signal\": \"Avoid/weakness\",\n      \"reason\": \"Wide red candle and lower close; wait for stability back above ~4925\",\n      \"price\": 4891.0\n    },\n    {\n      \"symbol\": \"PIDILITIND\",\n      \"signal\": \"Breakdown watch\",\n      \"reason\": \"Bearish day; monitor 1480 support\u2014loss of this could extend downside\",\n      \"price\": 1489.3\n    },\n    {\n      \"symbol\": \"MCX\",\n      \"signal\": \"Momentum long watch\",\n      \"reason\": \"Held above 8000 with a higher close; look for follow-through\",\n      \"price\": 8038.5\n    },\n    {\n      \"symbol\": \"IDEA\",\n      \"signal\": \"Speculative accumulation watch\",\n      \"reason\": \"Very high volume green day; only on strength with tight risk (8.35 support, 8.97 resistance)\",\n      \"price\": 8.72\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 25000,\n    \"total_value\": 25000,\n    \"holdings_count\": 0,\n    \"holdings\": []\n  },\n  \"screening_notes\": [\n    \"Sector tone: strength in autos/capital goods/metals (ASHOKLEY, ESCORTS, KEI, CUMMINSIND; JINDALSTEL, SAIL, HINDCOPPER). Weakness in IT (COFORGE, MPHASIS, PERSISTENT) and select consumer names (TRENT, PIDILITIND, DABUR, MARICO).\",\n    \"Renewables mixed: SUZLON soft near 58.5 support; NTPCGREEN stable; WAAREEENER eased\u2014prefer confirmation before entries.\",\n    \"Banks mixed: AUBANK and INDUSINDBK firm; PSU banks split (UNIONBANK up, INDIANB/UCOBANK/IOB softer).\",\n    \"Defence/industrial steady: HAL, GRSE, BEML and THERMAX constructive; watch for follow-through.\",\n    \"Diagnostics/hospitals under pressure: APOLLOHOSP, NH, LALPATHLAB weak\u2014wait for reversal signals.\",\n    \"Key technical levels into Monday: ASHOKLEY > 144.5; JINDALSTEL > 1070; HINDCOPPER > 309; MCX hold > 8000; BSE support 2086\u20132090; SUZLON reclaim 60; TRENT needs > 4925; PIDILITIND holds 1480.\",\n    \"Liquidity fit for \u20b925k: prioritize 1\u20132 liquid names with clear triggers (e.g., ASHOKLEY/HINDCOPPER/BSE) rather than splitting too thin across higher-priced stocks.\",\n    \"Risk plan for entries next week: use tight stops below nearest support (e.g., ~2\u20133%); avoid chasing gap-ups; prefer strength on retests.\",\n    \"IT pocket caution: avoid fresh longs in COFORGE/PERSISTENT/MPHASIS until a higher low forms or strength broadens.\",\n    \"Copper/metals theme on watch: continuation in HINDCOPPER/SAIL/JINDALSTEL could lead next week if indices hold.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758736218,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5149,
+    "prompt_tokens": 5717,
+    "total_tokens": 10866,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3904,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

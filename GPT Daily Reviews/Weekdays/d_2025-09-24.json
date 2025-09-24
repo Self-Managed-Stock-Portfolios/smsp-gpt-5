@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CJO7tg5I8vcZ8Te7yLZ5ch6Aliu8K",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Cautious tone with more red closes across the screen. IT and discretionary remained weak (COFORGE, PERSISTENT, TRENT), while autos/selected financials showed relative strength (AUBANK, SBICARD, JUBLFOOD, MUTHOOTFIN). Metals were mixed but copper names held better (HINDCOPPER steady; SAIL mild pullback). Renewables softened (SUZLON closed near lows). Exchanges eased but BSE defended the 2060 zone on heavy volume. No trades today; we\u2019ll firm up levels over the weekend.\",\n  \"top_signals\": [\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Breakout watch\", \"reason\": \"Strong volume; defended intraday dip and held >142. A sustained push above 144.5 could trigger momentum.\", \"price\": 142.26},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Momentum long watch\", \"reason\": \"Metals resilience; needs continuation above 314 to confirm break; higher-low structure intact.\", \"price\": 308.71},\n    {\"symbol\": \"JUBLFOOD\", \"signal\": \"Reversal long watch\", \"reason\": \"Closed near day high after testing 611; follow-through above 632 can extend bounce.\", \"price\": 630.4},\n    {\"symbol\": \"SBICARD\", \"signal\": \"Bullish continuation\", \"reason\": \"Green close with strong intraday recovery; watch 888\u2013890 breakout zone.\", \"price\": 884.75},\n    {\"symbol\": \"BSE\", \"signal\": \"Buy-the-dip watch\", \"reason\": \"Heavy volume defense of 2060; base-building above 2085\u20132090 would turn constructive.\", \"price\": 2076.4},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Hammer reversal watch\", \"reason\": \"Big intraday rebound from 1681 low; confirmation needed above ~1750.\", \"price\": 1735.2},\n    {\"symbol\": \"PIDILITIND\", \"signal\": \"Bullish reversal\", \"reason\": \"Reclaimed 1500 after undercut to 1475; strength above 1520\u20131522 can negate prior breakdown risk.\", \"price\": 1519.5},\n    {\"symbol\": \"DEEPAKNTR\", \"signal\": \"Breakout attempt\", \"reason\": \"Closed strong; follow-through above 1875\u20131905 with volume would validate a breakout.\", \"price\": 1869.4},\n    {\"symbol\": \"KAYNES\", \"signal\": \"Relative strength\", \"reason\": \"Closed strong despite broader softness; watch 7527 high for continuation (note: high ticket size).\", \"price\": 7454.0},\n    {\"symbol\": \"GRSE\", \"signal\": \"Momentum continuation\", \"reason\": \"Trend intact; a clean move through 2745 can open higher levels.\", \"price\": 2714.8},\n    {\"symbol\": \"CREDITACC\", \"signal\": \"Momentum long watch\", \"reason\": \"Closed near day high; follow-through above 1398 keeps momentum live.\", \"price\": 1391.2},\n    {\"symbol\": \"MCX\", \"signal\": \"Hold/reclaim watch\", \"reason\": \"Lost 8000 on close after intraday strength; need reclaim >8000\u20138050 to stay constructive.\", \"price\": 7955.5},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Wait-and-watch\", \"reason\": \"Closed near lows; bulls need a reclaim of 58.8/60 or hold of 57.3 support.\", \"price\": 57.5},\n    {\"symbol\": \"SAIL\", \"signal\": \"Pullback buy watch\", \"reason\": \"Held 136 after hitting 138.8; a move back above 139 could resume momentum.\", \"price\": 136.34},\n    {\"symbol\": \"AUBANK\", \"signal\": \"Bullish continuation\", \"reason\": \"Green close; watch for breakout above 743\u2013745 to extend uptrend.\", \"price\": 736.15},\n    {\"symbol\": \"JINDALSTEL\", \"signal\": \"Breakout watch\", \"reason\": \"Pullback but structure intact; a push through 1069\u20131070 remains key.\", \"price\": 1052.65},\n    {\"symbol\": \"ESCORTS\", \"signal\": \"Level-based watch\", \"reason\": \"Faded from highs; strength only above 3748/3765. Below, expect chop.\", \"price\": 3698.9}\n  ],\n  \"portfolio\": {\n    \"cash\": 25000.0,\n    \"total_value\": 25000.0,\n    \"holdings_count\": 0,\n    \"holdings\": []\n  },\n  \"screening_notes\": [\n    \"Sector tone: IT and consumer discretionary weak (COFORGE, PERSISTENT, TRENT); selective strength in autos/financials (ASHOKLEY, AUBANK, SBICARD, MUTHOOTFIN). Metals mixed with copper names relatively firm (HINDCOPPER, SAIL). Renewables soft (SUZLON), exchanges eased (BSE, CDSL).\",\n    \"Key Monday triggers: ASHOKLEY > 144.5; HINDCOPPER > 314; JINDALSTEL > 1070; AUBANK > 743\u2013745; SBICARD > 890; JUBLFOOD > 632; DEEPAKNTR > 1905; GRSE > 2745; MCX reclaim > 8000; BSE base > 2085\u20132090; SUZLON hold 57.3 or reclaim 59\u201360; TRENT needs > 4925 to repair.\",\n    \"Liquidity fit for \u20b925k: prioritize 1\u20132 liquid names sub-\u20b91,000 (ASHOKLEY, SAIL, HINDCOPPER, JUBLFOOD, SBICARD [smaller size], AUBANK). Avoid high-ticket entries (KAYNES, MCX, AMBER) for now.\",\n    \"Risk plan for next week: cap risk per trade to ~1% of portfolio (~\u20b9250); place stops ~2\u20133% below entry; avoid chasing gap-ups\u2014prefer breakout-and-retest or pullback near support with confirmation and volume.\",\n    \"Weak/avoid list until strength returns: COFORGE, MPHASIS, PERSISTENT (IT), TRENT (retail), INOXWIND (weak close at support), OBEROIRLTY (realty softness).\",\n    \"Volume cues: Elevated turnover in IDEA, ASHOKLEY, SUZLON; BSE/CDSL active with profit-taking\u2014watch for stabilization near supports.\",\n    \"Tactical: If triggers gap above levels on Monday, wait 15\u201330 minutes for retest before acting; if prices open at support, require reversal candles + improving volume.\",\n    \"No trades executed today; weekend focus on refining levels, alerts, and position sizing for a 1\u20132 position start.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758737009,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 8554,
+    "prompt_tokens": 6856,
+    "total_tokens": 15410,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7040,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
