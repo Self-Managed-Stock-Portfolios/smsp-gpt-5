@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CK0i6AbRSSQ9h8zVV13zjJekMdt1Y",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed-to-cautious close. Metals/defence and select financials showed relative strength (HINDCOPPER, BEL, HAL, AUBANK, SBICARD). IT and discretionary stayed soft (COFORGE, PERSISTENT, TRENT). Renewables weak (SUZLON slipped below near-term support). Exchanges diverged: MCX reclaimed 8000 while BSE hovered at key support. Volumes were elevated in IDEA, HINDCOPPER, ASHOKLEY, SUZLON, GRSE.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Momentum long watch\", \"reason\": \"Big range green day on very high volume; momentum live. Prefer strength through 331\u2013333 with pullback hold above ~320.\", \"price\": 328.23},\n    {\"symbol\": \"AUBANK\", \"signal\": \"Breakout watch\", \"reason\": \"Closed near day high; a clean move above 743\u2013745 can extend trend.\", \"price\": 741.6},\n    {\"symbol\": \"SBICARD\", \"signal\": \"Breakout watch\", \"reason\": \"Coiling just below 890; a push and hold above 890 can trigger follow-through.\", \"price\": 887.0},\n    {\"symbol\": \"BEL\", \"signal\": \"Momentum continuation\", \"reason\": \"Strong close; watch 406.5 breakout zone with volume for continuation.\", \"price\": 403.15},\n    {\"symbol\": \"MCX\", \"signal\": \"Bullish continuation\", \"reason\": \"Reclaimed 8000 on close; strength above 8050 keeps trend intact.\", \"price\": 8023.0},\n    {\"symbol\": \"GRSE\", \"signal\": \"Breakout watch\", \"reason\": \"Trend strong; needs decisive move above 2745 with volume to open higher levels.\", \"price\": 2716.9},\n    {\"symbol\": \"HAL\", \"signal\": \"Momentum continuation\", \"reason\": \"Defence strength; follow-through above ~4825 would support new highs.\", \"price\": 4775.2},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Reversal confirmation\", \"reason\": \"Closed back above ~1750 pivot; sustained strength toward 1772\u20131780 confirms reversal.\", \"price\": 1751.2},\n    {\"symbol\": \"JINDALSTEL\", \"signal\": \"Breakout watch\", \"reason\": \"Constructive close; 1069\u20131070 remains the trigger for momentum expansion.\", \"price\": 1051.7},\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Pullback buy watch\", \"reason\": \"Pulled back to 140\u2013141 support zone; need reclaim of 142.5+ with improving volume.\", \"price\": 140.45},\n    {\"symbol\": \"BSE\", \"signal\": \"Buy-the-dip watch\", \"reason\": \"Hovering near 2040\u20132060 support; constructive only if it bases back above 2085\u20132090.\", \"price\": 2043.3},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Avoid/needs reclaim\", \"reason\": \"Lost 57.3 support; consider only on reclaim >58.5/60 with volume.\", \"price\": 56.64}\n  ],\n  \"portfolio\": {\n    \"cash\": 25000.0,\n    \"total_value\": 25000.0,\n    \"holdings_count\": 0,\n    \"holdings\": []\n  },\n  \"screening_notes\": [\n    \"Sector tone: Metals/copper and defence led (HINDCOPPER, BEL, HAL, GRSE). IT and discretionary weak (COFORGE, PERSISTENT, TRENT). Renewables soft (SUZLON, INOXWIND); utilities mixed (NTPCGREEN stable). Exchanges diverged: MCX firm >8000; BSE at support.\",\n    \"Key Monday triggers: HINDCOPPER > 331\u2013333; AUBANK > 745; SBICARD > 890; BEL > 406.5; JINDALSTEL > 1070; GRSE > 2745; MCX hold > 8000/8050; POLICYBZR hold > 1750; ASHOKLEY reclaim > 142.5; BSE base > 2085\u20132090; SUZLON reclaim > 58.5/60.\",\n    \"Liquidity/\u20b925k fit: Prefer 1\u20132 liquid, sub-\u20b91,000 names (ASHOKLEY, HINDCOPPER, BEL, SBICARD [small size], AUBANK). Avoid high-ticket entries (KAYNES, AMBER, PAGEIND); MCX only if willing to take a 1-share test with tight risk.\",\n    \"Risk plan for next week: risk ~1% of portfolio per trade (~\u20b9250). Use stops ~2\u20133% below entry or below last swing low. Avoid chasing gap-ups; prefer breakout-and-retest or reversal off defined support with uptick in volume.\",\n    \"Avoid/weak list until repair: TRENT (needs >4925), SUZLON (below support), COFORGE/MPHASIS/PERSISTENT (weak IT tape), JUBLFOOD (lost 632), hospital/diagnostics (NH, LALPATHLAB) unless reversal triggers appear.\",\n    \"Volume cues to respect: Very high turnover in IDEA, HINDCOPPER, SUZLON, ASHOKLEY, GRSE\u2014use these as confirmation on trigger days.\",\n    \"Execution notes: If triggers gap above levels, wait 15\u201330 minutes for a retest or inside consolidation. If opening at support, require clear reversal candle plus rising intraday volume.\",\n    \"No trades executed today; weekend focus is to finalize 1\u20132 starter positions contingent on Monday triggers and market tone.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758885326,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 3569,
+    "prompt_tokens": 8404,
+    "total_tokens": 11973,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2304,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

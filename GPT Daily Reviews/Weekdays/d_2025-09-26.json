@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CK0kjAy2GTFBr1lICBVkRsXLDcTAh",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Risk-off Friday: broad selling across IT, consumer and renewables; exchanges soft (BSE at key support, MCX back below 8000). Autos mixed with ASHOKLEY firm; copper/metals pulled back to supports (HINDCOPPER, SAIL, JINDALSTEL). PSU banks eased. Liquidity was high in IDEA, SUZLON, ASHOKLEY, BEL, HINDCOPPER. Several setups sit near clear Monday triggers; no trades executed today.\",\n  \"top_signals\": [\n    {\"symbol\": \"AUBANK\", \"signal\": \"Breakout watch\", \"reason\": \"Closed near 743\u2013745 resistance; strength above 745 with volume can extend trend\", \"price\": 743.20},\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Pullback-to-breakout watch\", \"reason\": \"Strong close; continuation only on push >144.5 and hold\", \"price\": 141.93},\n    {\"symbol\": \"SBICARD\", \"signal\": \"Breakout watch\", \"reason\": \"Coiling below 890; sustained move and hold above 890 triggers momentum\", \"price\": 873.85},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Pullback buy watch\", \"reason\": \"Heavy-volume week; pulled back to 310\u2013312 support\u2014look for reclaim >318/322\", \"price\": 311.97},\n    {\"symbol\": \"BEL\", \"signal\": \"Momentum continuation watch\", \"reason\": \"Trend intact; needs reclaim of 402/406.5 with volume for continuation\", \"price\": 395.90},\n    {\"symbol\": \"MCX\", \"signal\": \"Reclaim watch\", \"reason\": \"Lost 8000 on close; constructive only on reclaim >8000\u20138050\", \"price\": 7920.50},\n    {\"symbol\": \"BSE\", \"signal\": \"Base-building watch\", \"reason\": \"Hovering at 2040\u20132060 support; turn constructive only back above 2085\u20132090\", \"price\": 2043.20},\n    {\"symbol\": \"JINDALSTEL\", \"signal\": \"Breakout watch\", \"reason\": \"Structure intact; 1070 remains the trigger for expansion\", \"price\": 1029.50},\n    {\"symbol\": \"GRSE\", \"signal\": \"Trend watch\", \"reason\": \"Pullback to 2610 zone; momentum resumes above 2745\", \"price\": 2611.50},\n    {\"symbol\": \"HAL\", \"signal\": \"Momentum continuation\", \"reason\": \"Defence strong; follow-through above ~4825 needed\", \"price\": 4736.10},\n    {\"symbol\": \"IDEA\", \"signal\": \"Speculative bounce watch\", \"reason\": \"Very high volume; consider only on strength >8.35 with tight risk\", \"price\": 8.02},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Avoid/needs reclaim\", \"reason\": \"Breakdown toward 55; consider only on reclaim >57.5/58.5\", \"price\": 55.28},\n    {\"symbol\": \"PIDILITIND\", \"signal\": \"Breakdown watch\", \"reason\": \"Lost 1480 support; avoid unless reclaim >1495\u20131500\", \"price\": 1474.80},\n    {\"symbol\": \"SAIL\", \"signal\": \"Support watch\", \"reason\": \"Pulled back to 131; strength only on reclaim >134 with volume\", \"price\": 131.02},\n    {\"symbol\": \"JUBLFOOD\", \"signal\": \"Reversal watch\", \"reason\": \"Weak close; bounce valid only on reclaim >620 then 632\", \"price\": 606.90}\n  ],\n  \"portfolio\": {\n    \"cash\": 25000.00,\n    \"total_value\": 25000.00,\n    \"holdings_count\": 0,\n    \"holdings\": []\n  },\n  \"screening_notes\": [\n    \"Sector tone: IT, consumer discretionary and renewables weak; autos mixed (ASHOKLEY resilient); metals/copper pulled back to key supports (HINDCOPPER, SAIL, JINDALSTEL); PSU banks eased; exchanges soft (BSE near support, MCX <8000).\",\n    \"High-volume cues today: IDEA, SUZLON, ASHOKLEY, BEL, HINDCOPPER\u2014use volume confirmation on any Monday triggers.\",\n    \"Most constructive Monday triggers (fit for \u20b925k): ASHOKLEY >144.5; AUBANK >745; SBICARD >890 (smaller size); BEL >402/406.5; HINDCOPPER reclaim >318/322. Avoid chasing gap-ups\u2014prefer breakout-and-retest.\",\n    \"Levels to respect: BSE needs base >2085\u20132090 (support 2020\u20132040); MCX reclaim >8000\u20138050; JINDALSTEL >1070; GRSE >2745; HAL >4825; IDEA >8.35; SUZLON >57.5/58.5; PIDILITIND reclaim >1495\u20131500; SAIL >134.\",\n    \"Liquidity plan for \u20b925k: start with 1\u20132 liquid, sub-\u20b91,000 names; avoid high-ticket stocks (KAYNES, AMBER, PAGEIND, DIXON) that force under-sized entries.\",\n    \"Risk plan: cap risk per trade to ~1% of portfolio (~\u20b9250); place stops ~2\u20133% below entry or below last swing low; predefine targets 1.5\u20132R; avoid positions if indices gap down and breadth is weak.\",\n    \"Avoid/repair list until signals improve: SUZLON (below support), TRENT (weak trend; needs >4925), IT pack (COFORGE, PERSISTENT, MPHASIS), PIDILITIND (below 1480), hospital/diagnostics (NH, LALPATHLAB) unless reversal triggers appear.\",\n    \"Execution: If triggers open above levels, wait 15\u201330 minutes for a retest and volume confirmation; if opening at support, require clear reversal candle + rising intraday volume.\",\n    \"No trades executed today; weekend focus: finalize alerts and position sizes for 1\u20132 starter entries contingent on Monday market tone and triggers.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758885489,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4251,
+    "prompt_tokens": 9621,
+    "total_tokens": 13872,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2880,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
