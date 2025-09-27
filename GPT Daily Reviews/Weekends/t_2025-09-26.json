@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CKMpe6auSgWkYsh7lTZBAMbZgJ1Ct",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"Risk-off bias into Friday with IT, consumer and renewables weak; autos and select metals held better. Many watchlist names sat just below breakout levels (AUBANK ~745, SBICARD ~890, ASHOKLEY ~144.5, HINDCOPPER ~318/322). For Monday, start with small, liquid positions near defined support in ASHOKLEY and HINDCOPPER, keep risk tight (~1%/trade), and add only on confirmed breakouts.\",\n  \"trades\": [\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"ASHOKLEY\",\n      \"shares\": 70,\n      \"amount\": 9940,\n      \"reason\": \"Starter near 140\u2013142 support with improving relative strength; stop \u20b9139.00. Will add on confirmed breakout >\u20b9144.5 with volume.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"HINDCOPPER\",\n      \"shares\": 35,\n      \"amount\": 10920,\n      \"reason\": \"Buying at 310\u2013312 support with strong weekly volumes; stop \u20b9308.00. Plan to add on strength through \u20b9318/\u20b9322 with volume.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 4140,\n    \"total_value\": 25000,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"ASHOKLEY: 70 units\",\n      \"HINDCOPPER: 35 units\"\n    ],\n    \"weekly_pnl\": \"+0.00%\"\n  },\n  \"screening_changes\": [\n    \"Remove PAGEIND: ticket too large for \u20b925k portfolio; revisit if portfolio scales.\",\n    \"Remove DIXON: high price limits effective sizing.\",\n    \"Remove KAYNES: high price; cannot size position prudently.\",\n    \"Remove AMBER: high price; not capital-efficient for current portfolio.\",\n    \"Remove GILLETTE: high price; low position scalability.\",\n    \"Remove ZFCVINDIA: very high price; unsuitable sizing.\",\n    \"Remove LMW: high price; unsuitable for current capital.\",\n    \"Remove ABBOTINDIA: high price; inefficient sizing.\",\n    \"Remove OFSS: high price; position sizing constraints.\",\n    \"Remove PEL: inconsistent liquidity (0 volume print); deprioritize for now.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758970362,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4156,
+    "prompt_tokens": 32885,
+    "total_tokens": 37041,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3648,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
