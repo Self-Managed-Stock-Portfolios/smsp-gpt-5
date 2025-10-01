@@ -65,18 +65,33 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
             if prompt_type == 'd':
                 prior_signals = []
                 signals_dir = os.path.join("GPT Daily Reviews", "Weekdays")
-                monday = target_date - timedelta(days=target_date.weekday())
-                for i in range(target_date.weekday() + 1):
-                    past_date = (monday + timedelta(days=i)).strftime('%Y-%m-%d')
-                    signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
-                    if os.path.exists(signal_file):
-                        with open(signal_file, 'r', encoding='utf-8') as f:
-                            signal_data = json.load(f)
-                            signal_content = json.loads(signal_data['choices'][0]['message']['content'])
-                            signal_content['date'] = past_date
-                            prior_signals.append(signal_content)
-                prompt = prompt.replace("[Past Week's Signals]", json.dumps(prior_signals))
-                prompt = prompt.replace("[Date]", date_input)
+                if(target_date.weekday() == 0):
+                    new_date = target_date - timedelta(days=3)
+                    monday = new_date - timedelta(days=new_date.weekday())
+                    for i in range(new_date.weekday() + 1):
+                        past_date = (monday + timedelta(days=i)).strftime('%Y-%m-%d')
+                        signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
+                        if os.path.exists(signal_file):
+                            with open(signal_file, 'r', encoding='utf-8') as f:
+                                signal_data = json.load(f)
+                                signal_content = json.loads(signal_data['choices'][0]['message']['content'])
+                                signal_content['date'] = past_date
+                                prior_signals.append(signal_content)
+                    prompt = prompt.replace("[Prior Week's Signals]", json.dumps(prior_signals))
+                    prompt = prompt.replace("[Date]", date_input)
+                else:
+                    monday = target_date - timedelta(days=target_date.weekday())
+                    for i in range(target_date.weekday() + 1):
+                        past_date = (monday + timedelta(days=i)).strftime('%Y-%m-%d')
+                        signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
+                        if os.path.exists(signal_file):
+                            with open(signal_file, 'r', encoding='utf-8') as f:
+                                signal_data = json.load(f)
+                                signal_content = json.loads(signal_data['choices'][0]['message']['content'])
+                                signal_content['date'] = past_date
+                                prior_signals.append(signal_content)
+                    prompt = prompt.replace("[Prior Week's Signals]", json.dumps(prior_signals))
+                    prompt = prompt.replace("[Date]", date_input)
     
     except ValueError as e:
         raise ValueError(f"Error processing stock data: {e}")

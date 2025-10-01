@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CLmntK3yPbwMpKirs6UeWOFROsyg1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Bullish tilt with PSUs, power and select financials closing near highs on strong absolute volumes (NHPC, GAIL, NBCC, ABCAPITAL, LTF). Hospitals diverged (FORTIS/NH strong; MAXHEALTH/APOLLOHOSP softer). Defense shipyards saw profit-taking (GRSE, BEML, MAZDOCK), IT/ER&D largely range-bound. Our holdings both green; no trades today.\",\n  \"top_signals\": [\n    {\"symbol\": \"FORTIS\", \"signal\": \"Breakout watch > 975\", \"reason\": \"Closed near day high with strong momentum; potential follow-through above recent high\", \"price\": 970.75},\n    {\"symbol\": \"LTF\", \"signal\": \"Momentum long on dips/BO\", \"reason\": \"Wide bullish candle from 235 to 245 with strong close; watch dips to 240\u2013242 or BO > 247.5\", \"price\": 244.84},\n    {\"symbol\": \"NHPC\", \"signal\": \"Continuation buy on strength\", \"reason\": \"PSU power bid; close near high; watch push through 86.5\u201387\", \"price\": 85.87},\n    {\"symbol\": \"GAIL\", \"signal\": \"Breakout watch near 177\", \"reason\": \"Trend up and close near high; monitor a clean move/close above 177\u2013178\", \"price\": 176.49},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Breakout watch > 291\", \"reason\": \"Strong close at resistance zone with healthy volume\", \"price\": 289.85},\n    {\"symbol\": \"VOLTAS\", \"signal\": \"Reversal strength\", \"reason\": \"Bounce and close near high; watch 1385\u20131390 for fresh momentum\", \"price\": 1374.50},\n    {\"symbol\": \"LICI\", \"signal\": \"Round-number breakout watch\", \"reason\": \"Approaching \u20b9900; sustained close above could unlock momentum\", \"price\": 895.05},\n    {\"symbol\": \"WOCKPHARMA\", \"signal\": \"Momentum\u2014buy only on controlled pullbacks\", \"reason\": \"Wide-range breakout day; elevated risk after sharp run\", \"price\": 1564.40},\n    {\"symbol\": \"GODFRYPHLP\", \"signal\": \"Breakout follow-through\", \"reason\": \"Strong breakout candle; monitor sustenance above 3540\", \"price\": 3512.00},\n    {\"symbol\": \"FSL\", \"signal\": \"Avoid/Wait for reclaim\", \"reason\": \"Bearish breakdown; demand only if price reclaims 335\u2013340\", \"price\": 326.35},\n    {\"symbol\": \"GRSE\", \"signal\": \"Caution\u2014distribution risk\", \"reason\": \"Heavy selloff from highs; wait for stabilization back above 2520\u20132550\", \"price\": 2493.60},\n    {\"symbol\": \"NBCC\", \"signal\": \"Breakout watch > 108.5\", \"reason\": \"PSU EPC momentum intact; closing strength near resistance\", \"price\": 107.33}\n  ],\n  \"portfolio\": {\n    \"cash\": 4140.00,\n    \"total_value\": 25290.50,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"ASHOKLEY: 70 units @ 142.00, LTP 142.42\",\n      \"HINDCOPPER: 35 units @ 312.00, LTP 319.46\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Holdings: ASHOKLEY consolidating 141\u2013144; add only on close > 144.2 with volume. HINDCOPPER strong; watch 326 breakout or add on pullback to 312\u2013314 with tight risk.\",\n    \"PSU/power bid continued: NHPC, GAIL, SJVN (mild), NBCC, HUDCO showed strength. Favor continuation setups over fresh laggards.\",\n    \"Defense shipyards weak: GRSE, BEML, MAZDOCK saw profit-taking; HAL comparatively resilient. Prefer relative strength if re-entering the theme.\",\n    \"Hospitals diverged: FORTIS/NH showed strength; MAXHEALTH/APOLLOHOSP softer. If adding healthcare, favor names closing near highs (FORTIS, NH).\",\n    \"Financials: ABCAPITAL, LTF, CHOLAHLDNG, POONAWALLA showed momentum; PSBs (UCOBANK, IOB, IDBI) steady\u2014consider only on breakouts to avoid chop.\",\n    \"Consumer/Discretionary: VOLTAS posted strong reversal; VBL steady; JUBLFOOD soft\u2014focus on leaders showing closes near highs.\",\n    \"IT/ER&D mixed: COFORGE flat-to-firm; KPITTECH, PERSISTENT, TATAELXSI mostly range-bound; avoid aggressive entries until breakouts.\",\n    \"Metals/chemicals mixed: HINDCOPPER firm; SAIL flat; TATACHEM and DEEPAKNTR soft; SHYAMMETL mild weakness\u2014be selective and trade near key levels.\",\n    \"Renewables: WAAREEENER strong; INOXWIND and KPIGREEN softer\u2014prefer leaders on strength over laggard bounces.\",\n    \"Logistics/midcap industrials: AEGISLOG faded from highs\u2014wait for basing; IRB/IRCON muted.\",\n    \"Real estate: PRESTIGE, OBEROIRLTY had constructive closes; trend bias remains up; wait for tight-range setups.\",\n    \"High-volume movers to watch: IDEA (very high turnover), MAXHEALTH, INDUSINDBK, WOCKPHARMA\u2014use levels to avoid noise.\",\n    \"Risk plan for Monday: Focus on breakout-or-dip-to-support entries in FORTIS, LTF, NHPC, GAIL, ABCAPITAL, VOLTAS; avoid chasing extended candles (e.g., WOCKPHARMA) and names showing distribution (GRSE, AEGISLOG).\",\n    \"Position sizing: Given small portfolio, limit any new single-position risk to 2\u20133% of portfolio with clear stop levels; prefer 1\u20132 additions max.\",\n    \"Set weekend alerts: FORTIS 975, LTF 247.5/242, NHPC 86.5, GAIL 177.5, ABCAPITAL 291, VOLTAS 1385, LICI 900, NBCC 108.5.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759308525,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4735,
+    "prompt_tokens": 5795,
+    "total_tokens": 10530,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3328,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

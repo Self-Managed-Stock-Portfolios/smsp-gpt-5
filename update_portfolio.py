@@ -1,23 +1,19 @@
 import pandas as pd
-import yfinance as yf
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
+from nsepython import equity_history
 
 def update_portfolio(date_input: str) -> None:
-    """Updates the 'Current Price', 'Total Amount', and 'Perct Change' columns in the portfolio CSV for the given date using yfinance data.
+    """Updates portfolio CSV for the given date using NSE OHLCV data of that date only.
     
-    Args:
-        date_input (str): Date in YYYY-MM-DD format.
-    
-    Raises:
-        ValueError: If date format is invalid.
-        FileNotFoundError: If portfolio CSV does not exist.
-        ValueError: If CSV is missing required columns.
+    - Current Price, Total Amount, and Perct Change are updated
+      strictly with the Close price of the input date.
+    - If no data is available (holiday/non-trading day), row is skipped.
     """
     try:
         target_date = datetime.strptime(date_input, '%Y-%m-%d')
     except ValueError:
-        raise ValueError("Invalid date format. Please use YYYY-MM-DD (e.g., 2025-09-24).")
+        raise ValueError("Invalid date format. Please use YYYY-MM-DD (e.g., 2025-09-29).")
     
     output_dir = "Portfolio Files"
     csv_file = os.path.join(output_dir, f"{target_date.strftime('%Y-%m-%d')}.csv")
@@ -30,27 +26,33 @@ def update_portfolio(date_input: str) -> None:
     if not all(col in df.columns for col in required_cols):
         raise ValueError("CSV missing required columns. Expected: Holding Name, Buying Price, Current Price, Number of Units, Total Amount, Perct Change")
     
-    start_date = target_date
-    end_date = target_date + timedelta(days=1)
+    # NSE date format: dd-mm-yyyy
+    nse_date = target_date.strftime('%d-%m-%Y')
     
     for index, row in df.iterrows():
         symbol = row['Holding Name']
-        if symbol.lower() == 'cash':
+        if symbol.lower() == 'cash':   # Skip cash
             continue
         
         try:
-            ticker = yf.Ticker(f"{symbol}.NS")
-            hist = ticker.history(start=start_date, end=end_date)
+            # Fetch OHLCV for exactly that date
+            hist = equity_history(symbol, "EQ", nse_date, nse_date)
+            
             if not hist.empty:
-                close = hist['Close'].iloc[0]
-                df.at[index, 'Current Price'] = round(close, 2)
+                close_price = float(hist['CH_CLOSING_PRICE'].iloc[0])
+                df.at[index, 'Current Price'] = round(close_price, 2)
                 df.at[index, 'Total Amount'] = round(df.at[index, 'Current Price'] * df.at[index, 'Number of Units'], 2)
-                df.at[index, 'Perct Change'] = round(((df.at[index, 'Current Price'] - df.at[index, 'Buying Price']) / df.at[index, 'Buying Price']) * 100, 2)
+                df.at[index, 'Perct Change'] = round(
+                    ((df.at[index, 'Current Price'] - df.at[index, 'Buying Price']) / df.at[index, 'Buying Price']) * 100, 2
+                )
+            else:
+                print(f"No trading data for {symbol} on {nse_date} (non-trading day?) — skipping update.")
+        
         except Exception as e:
-            print(f"Error fetching data for {symbol}: {e}")
+            print(f"Error fetching NSE data for {symbol} on {nse_date}: {e}")
     
     df.to_csv(csv_file, index=False)
-    print(f"Updated portfolio file: {csv_file}")
+    print(f"Updated portfolio file strictly for {target_date.strftime('%Y-%m-%d')}: {csv_file}")
 
 if __name__ == "__main__":
     date_input = input("Enter the date (YYYY-MM-DD): ").strip()
