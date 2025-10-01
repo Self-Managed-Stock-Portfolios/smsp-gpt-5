@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CLpdfLrHpJhJWxAVvn8UYuwOi5wLD",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Bullish tilt into close with strong momentum in select PSUs and financials. Standouts: LTF, ABCAPITAL, INDUSTOWER, BSE, NBCC, HUDCO, FORTIS; KPITTECH rebounded. Metals steady with HINDCOPPER attempting breakout; ASHOKLEY consolidated near range low. Prefer breakout-or-dip-to-support entries; avoid chasing extended candles.\",\n  \"top_signals\": [\n    {\"symbol\": \"LTF\", \"signal\": \"Momentum long on breakout/dips\", \"reason\": \"Closed near day high with strong volume; trend intact. Buy >259.5 or pullback to 252\u2013254 with tight risk.\", \"price\": 259.5},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Breakout watch >301.60\", \"reason\": \"Strong close at resistance; sustained push above 301.6 can extend uptrend.\", \"price\": 301.6},\n    {\"symbol\": \"NHPC\", \"signal\": \"Continuation buy >87.00\", \"reason\": \"PSU power bid persists; tight base and high-volume closes near highs.\", \"price\": 87.0},\n    {\"symbol\": \"GAIL\", \"signal\": \"Breakout watch >176.80\", \"reason\": \"Uptrend with closes near highs; confirmation above resistance zone 176.8\u2013177.5.\", \"price\": 176.8},\n    {\"symbol\": \"NBCC\", \"signal\": \"Breakout entry >110.10\", \"reason\": \"PSU EPC strength; closing near range high with volume; clean trigger above 110.1.\", \"price\": 110.1},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"High-base breakout >353.00\", \"reason\": \"Series of higher lows; closing strength; watch for range expansion above 353.\", \"price\": 353.0},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Add on strength >340 or buy dips 328\u2013330\", \"reason\": \"Attempted breakout, strong sector tone; manage risk given volatility.\", \"price\": 340.0},\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Range trade; add only on breakout >143.80\", \"reason\": \"Defended 140.8 low; needs range exit to resume momentum.\", \"price\": 143.8},\n    {\"symbol\": \"FORTIS\", \"signal\": \"Follow-through >996.90/1000\", \"reason\": \"Closed near highs; round-number resistance just ahead.\", \"price\": 996.9},\n    {\"symbol\": \"BSE\", \"signal\": \"Fresh-high continuation >2085\", \"reason\": \"Tight, strong close; watch for sustained prints over prior high.\", \"price\": 2085.0},\n    {\"symbol\": \"KPITTECH\", \"signal\": \"Re-entry above 1163.30 or buy pullback 1135\u20131140\", \"reason\": \"Reclaimed momentum after prior selloff; confirmation over day high improves odds.\", \"price\": 1163.3},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Breakout watch >3360\", \"reason\": \"Leader in renewables; base breakout level nearby.\", \"price\": 3360.0},\n    {\"symbol\": \"UNIONBANK\", \"signal\": \"Buy-the-dip zone 136.5\u2013137.5\", \"reason\": \"PSU banks show leadership; constructive consolidation above support.\", \"price\": 137.5},\n    {\"symbol\": \"HUDCO\", \"signal\": \"Breakout watch >235.24\", \"reason\": \"Closing strength with PSU tailwind; trigger above day high.\", \"price\": 235.24},\n    {\"symbol\": \"CDSL\", \"signal\": \"Confirmation on close >1480\", \"reason\": \"Bounce from support; needs higher-high close to confirm reversal.\", \"price\": 1480.0}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"NBCC\", \"action\": \"Buy\", \"reason\": \"PSU momentum + near-range breakout; only if price triggers above day high to avoid chop.\", \"quantity\": 35, \"price\": \"Buy stop-limit 110.30/110.70; SL 105.90; T1 112.80, T2 116.50\"}\n  ],\n  \"portfolio\": {\n    \"cash\": 4140.0,\n    \"total_value\": 25761.6,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"ASHOKLEY: 70 units @ 142.00, LTP 141.23, Value 9886.10\",\n      \"HINDCOPPER: 35 units @ 312.00, LTP 335.30, Value 11735.50\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Holdings: HINDCOPPER\u2014keep holding; add only on strength >340 or pullback 328\u2013330 with SL ~322. ASHOKLEY\u2014support 140.8; add only on breakout >143.8 with volume.\",\n    \"PSU/power: NHPC and GAIL constructive; triggers posted. SJVN steady; consider only on strength >91.3.\",\n    \"PSU banks: UNIONBANK dip-buys favored; INDIANB momentum intact but extended\u2014prefer fresh adds only on strength >750.\",\n    \"Financials: LTF, ABCAPITAL show leadership\u2014focus on breakout or controlled dip entries; SBICARD improving but needs >883 for cleaner structure.\",\n    \"Hospitals: FORTIS strong; MAXHEALTH softer; APOLLOHOSP range-bound\u2014prefer names closing near highs.\",\n    \"IT/ER&D: KPITTECH regained momentum; COFORGE firm; wait for confirmed breakouts in PERSISTENT/TATAELXSI before entries.\",\n    \"Renewables: WAAREEENER leading; INOXWIND and KPIGREEN constructive but secondary\u2014trade only on strength.\",\n    \"Defence/shipyards: GRSE volatile off highs; HAL resilient; BEML firm\u2014prefer strength above respective day highs.\",\n    \"Realty: PRESTIGE/OBEROI constructive; look for tight consolidations before entries.\",\n    \"High-turnover names: IDEA exhibited very heavy volume\u2014avoid unless it bases and reclaims 8.6 with follow-through.\",\n    \"Risk plan: With small portfolio, keep per-trade risk \u22642% (~\u20b9500). Use stop-losses at posted levels and avoid chasing gaps above triggers.\",\n    \"Execution note: If NBCC gaps above 111.5, skip the emergency trade and reassess Monday; prefer planned triggers over impulsive fills.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759319423,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5026,
+    "prompt_tokens": 8508,
+    "total_tokens": 13534,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3584,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
