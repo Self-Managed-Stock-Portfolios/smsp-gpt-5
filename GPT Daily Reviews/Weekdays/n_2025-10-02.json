@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CMAxXG3DP0jtzbe6lKXzbUvg0wFQd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Portfolio up +3.05% with HINDCOPPER driving gains (+7.47%) and ASHOKLEY marginally soft (-0.54%). Cash stands at \u20b94,140 (~16% of portfolio), offering optionality for early-week entries. Last week\u2019s tilt toward metals paid off; we\u2019ll now protect profits in HINDCOPPER (trail/partial), and only add to ASHOKLEY on a confirmed breakout. Focus into Monday: metals (strength), rail/infra (momentum), and power/renewables (volume-led setups). No urgent action required today; prepare conditional orders and watch key trigger levels.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"HINDCOPPER\",\n      \"signal\": \"Trail/Partial profit near resistance\",\n      \"reason\": \"Momentum extended; likely pause around 340\u2013350. Protect gains while keeping upside optionality toward 360/380.\",\n      \"price\": 350\n    },\n    {\n      \"symbol\": \"ASHOKLEY\",\n      \"signal\": \"Add on breakout\",\n      \"reason\": \"Range 138\u2013146 for weeks; sustained close above 146 would confirm trend resumption with room to 155/162.\",\n      \"price\": 146\n    },\n    {\n      \"symbol\": \"RVNL\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Tight consolidation; rail capex tailwinds. Break above recent swing should restart trend.\",\n      \"price\": 420\n    },\n    {\n      \"symbol\": \"NBCC\",\n      \"signal\": \"Buy on dips\",\n      \"reason\": \"Higher-low structure intact; government orderbook strength. Favor entries on 3\u20135% pullbacks.\",\n      \"price\": 128\n    },\n    {\n      \"symbol\": \"IEX\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Cup-and-handle type setup; improving exchange volumes. Momentum confirmation above trigger.\",\n      \"price\": 235\n    },\n    {\n      \"symbol\": \"SUZLON\",\n      \"signal\": \"Buy on dip to support\",\n      \"reason\": \"Trend strong; favorable risk/reward near 20-DMA retests. Use tight stop.\",\n      \"price\": 47\n    },\n    {\n      \"symbol\": \"CDSL\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Base near highs; structural demat/equity participation tailwind.\",\n      \"price\": 2250\n    },\n    {\n      \"symbol\": \"MCX\",\n      \"signal\": \"Buy on dip\",\n      \"reason\": \"Platform stabilization and rising ADTV; pullbacks into demand are buyable with defined risk.\",\n      \"price\": 4800\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"HINDCOPPER\",\n      \"action\": \"Sell\",\n      \"reason\": \"Protect gains in case of sharp reversal; place a stop to lighten up if momentum breaks.\",\n      \"quantity\": 15,\n      \"price\": 323\n    },\n    {\n      \"symbol\": \"SUZLON\",\n      \"action\": \"Buy\",\n      \"reason\": \"If offered near support, nibble with tight stop for favorable R:R using idle cash.\",\n      \"quantity\": 80,\n      \"price\": 47\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 4140,\n    \"total_value\": 25761.6,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"ASHOKLEY: 70 units @ \u20b9142.00 (LTP \u20b9141.23)\",\n      \"HINDCOPPER: 35 units @ \u20b9312.00 (LTP \u20b9335.30)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Metals: Maintain HINDCOPPER with a trailing stop; also watch SAIL and JINDALSAW for continuation.\",\n    \"Rail/Infra: Watch RVNL and NBCC; strength persists on order wins/capex.\",\n    \"Power/Renewables: Track IEX (breakout) and SUZLON (buy-the-dip).\",\n    \"Financials (select): AUBANK and IDBI only on strength; avoid bottom-fishing.\",\n    \"Risk: Cap any single position at ~15% of portfolio; risk \u22641% of portfolio per trade via stops.\",\n    \"Avoid illiquid smallcaps; prefer liquid names with clear breakouts and volume confirmation.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759401379,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4219,
+    "prompt_tokens": 438,
+    "total_tokens": 4657,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3264,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

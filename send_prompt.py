@@ -14,17 +14,36 @@ client = OpenAI(
 )
 
 def get_prompt_type():
+    """Prompts user for prompt type and validates input.
+    
+    Returns:
+        str: Valid prompt type ('f', 'd', 'n' or 't').
+    """
     while True:
-        user_input = input("Enter prompt type (f for first timer, d for daily, t for weekend training): ").strip().lower()
-        if user_input in ['f', 'd', 't']:
+        user_input = input("Enter prompt type (f for first timer, d for daily, t for weekend training or n for no trading day): ").strip().lower()
+        if user_input in ['f', 'd', 't', 'n']:
             return user_input
-        print("Invalid input. Please enter 'f', 'd', or 't'.")
+        print("Invalid input. Please enter 'f', 'd','n' or 't'.")
 
 def load_prompt(prompt_type: str, date_input: str) -> str:
+    """Loads and processes prompt from file, substituting portfolio, stock data, and prior signals.
+    
+    Args:
+        prompt_type (str): Type of prompt ('f', 'd', 't', 'n').
+        date_input (str): Date in YYYY-MM-DD format.
+    
+    Returns:
+        str: Processed prompt string.
+    
+    Raises:
+        FileNotFoundError: If prompt file is missing.
+        ValueError: If date format or stock data processing fails.
+    """
     prompt_files = {
         'f': 'first_timer_prompt.txt',
         'd': 'daily_prompt.txt',
-        't': 'training_prompt.txt'
+        't': 'training_prompt.txt',
+        'n': 'no_trading_day_prompt.txt'
     }
     file_path = prompt_files.get(prompt_type)
     if not os.path.exists(file_path):
@@ -32,7 +51,7 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
     with open(file_path, 'r', encoding='utf-8') as f:
         prompt = f.read().strip()
     
-    if prompt_type in ['d', 't']:
+    if prompt_type in ['d', 't', 'n']:
         portfolio_str = get_portfolio_string(date_input)
         prompt = prompt.replace("[Portfolio String]", portfolio_str)
     
@@ -46,7 +65,21 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
             prompt = prompt.replace("[Stock Data]", stock_data)
             
             prior_signals = []
-            signals_dir = os.path.join("GPT Daily Reviews", "Weekdays")
+            signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
+            for i in range(5):
+                past_date = (target_date - timedelta(days=i)).strftime('%Y-%m-%d')
+                signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
+                if os.path.exists(signal_file):
+                    with open(signal_file, 'r', encoding='utf-8') as f:
+                        signal_data = json.load(f)
+                        signal_content = json.loads(signal_data['choices'][0]['message']['content'])
+                        signal_content['date'] = past_date
+                        prior_signals.append(signal_content)
+            prompt = prompt.replace("[Prior Signals JSON]", json.dumps(prior_signals))
+            prompt = prompt.replace("[Date]", date_input)
+        elif(prompt_type == 'n'):
+            prior_signals = []
+            signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
             for i in range(5):
                 past_date = (target_date - timedelta(days=i)).strftime('%Y-%m-%d')
                 signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
@@ -64,7 +97,7 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
             
             if prompt_type == 'd':
                 prior_signals = []
-                signals_dir = os.path.join("GPT Daily Reviews", "Weekdays")
+                signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
                 if(target_date.weekday() == 0):
                     new_date = target_date - timedelta(days=3)
                     monday = new_date - timedelta(days=new_date.weekday())
@@ -99,10 +132,22 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
     return prompt
 
 def is_weekday():
+    """Checks if today is a weekday (Monday-Friday).
+    
+    Returns:
+        bool: True if weekday, False if weekend.
+    """
     today = date.today()
     return today.weekday() < 5
 
 def save_response(response, prompt_type: str, date_input: str):
+    """Saves response as JSON to appropriate directory.
+    
+    Args:
+        response: OpenAI response object.
+        prompt_type (str): Type of prompt ('f', 'd', 't').
+        date_input (str): Date in YYYY-MM-DD format.
+    """
     base_dir = "GPT Daily Reviews"
     sub_dir = "Weekdays" if is_weekday() else "Weekends"
     os.makedirs(os.path.join(base_dir, sub_dir), exist_ok=True)
