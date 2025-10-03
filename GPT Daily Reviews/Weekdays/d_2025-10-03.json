@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CMaJ5Pz2Y0Njtuf4m1ohlGmTY4nkV",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Firm, pro-cyclical tone into the weekend. PSU/infra, rails, and select IT midcaps closed near day highs (BHEL, RVNL, GAIL, INDIANB, PERSISTENT, TATAELXSI). High-volume movers included AEGISLOG and EIHOTEL. FMCG steady (DABUR, MARICO). Portfolio +3.08% overall; HINDCOPPER holds gains, ASHOKLEY slightly soft but stable above intraday low.\",\n  \"top_signals\": [\n    {\"symbol\": \"NBCC\", \"signal\": \"Buy on strength >114\", \"reason\": \"Bullish close near day high with wide range; momentum continuation likely above 114; manage risk below 109.\", \"price\": 113.12},\n    {\"symbol\": \"IDEA\", \"signal\": \"Speculative breakout buy >8.90\", \"reason\": \"Largest volume in the universe and close near high; a clean push through 8.90 can extend; tight risk below 8.50.\", \"price\": 8.82},\n    {\"symbol\": \"BHEL\", \"signal\": \"Buy on dips 241\u2013243\", \"reason\": \"Closed near high after steady advance; buy-the-dip setup with strength on reclaim of intraday highs.\", \"price\": 245.02},\n    {\"symbol\": \"GAIL\", \"signal\": \"Breakout buy >177.7\", \"reason\": \"Close near day high; strength through the day; trigger above session high can continue trend.\", \"price\": 177.36},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Buy on strength >305\", \"reason\": \"Higher close near the day\u2019s high; watch for continuation through 305 with risk to 298.\", \"price\": 303.95},\n    {\"symbol\": \"INDIANB\", \"signal\": \"Momentum long >770\", \"reason\": \"Wide green candle and close near high; a push above 770 can extend; trail below 752.\", \"price\": 765.95},\n    {\"symbol\": \"RVNL\", \"signal\": \"Buy on strength >348\", \"reason\": \"PSU rail strength; close near high with constructive range; trigger >348 with risk to 341.\", \"price\": 347.05},\n    {\"symbol\": \"SHYAMMETL\", \"signal\": \"Buy on dips 950\u2013960\", \"reason\": \"Strong, wide bullish candle closing near high; prefer pullback entry to manage risk.\", \"price\": 970.8},\n    {\"symbol\": \"HUDCO\", \"signal\": \"Buy on dips 230\u2013232\", \"reason\": \"Bullish close near high; momentum intact; pullback entry offers better R:R.\", \"price\": 233.79},\n    {\"symbol\": \"IRCON\", \"signal\": \"Buy on strength >175.5\", \"reason\": \"Close near high; continuation above day high favored; risk below 170.8.\", \"price\": 174.59}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 4140.0,\n    \"total_value\": 25769.3,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"ASHOKLEY: 70 units\",\n      \"HINDCOPPER: 35 units\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Holdings: HINDCOPPER showed indecision after a run; consider a trailing stop near 330. ASHOKLEY defended 138 intraday; hold unless it loses 136 decisively.\",\n    \"AEGISLOG printed an explosive high-range candle with very high volume and closed off highs; high-risk\u2014prefer pullbacks to 860\u2013870 or wait for Monday confirmation.\",\n    \"EIHOTEL had a big range and elevated volume; watch for acceptance above 400 for follow-through; avoid chasing if it gaps up.\",\n    \"IT midcaps strong into close (PERSISTENT, TATAELXSI, OFSS); look for continuation Monday if the first 15\u201330 minutes hold above today\u2019s highs.\",\n    \"PSU/infra pocket broadly constructive (BHEL, GAIL, RVNL, NBCC, IRCON); bias to buy strength or dips with tight risk.\",\n    \"FMCG steady bid (DABUR, MARICO, COLPAL) suggesting some defensive support if markets wobble.\",\n    \"High-liquidity, low-price setups suitable for our cash buffer Monday: NBCC (>114), IDEA (>8.90), SAIL on dips near 133\u2013134, IDBI on strength >93.5.\",\n    \"Avoid weak closes/indecision today: GMRAIRPORT, LAURUSLABS, CHOLAFIN\u2014wait for structure to improve.\",\n    \"Risk note: All signals are based on today\u2019s OHLCV; confirm with Monday opening action (avoid chasing gap-ups; prefer retests).\",\n    \"Plan: Likely deploy a small tranche of cash Monday into one low-ticket momentum name (NBCC/IDBI/SAIL/IDEA) if triggers are met with volume; otherwise stay patient.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759498815,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5262,
+    "prompt_tokens": 5859,
+    "total_tokens": 11121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4160,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
