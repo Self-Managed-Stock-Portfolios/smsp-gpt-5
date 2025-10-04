@@ -35,7 +35,7 @@ def get_stock_data_string(date_input: str) -> str:
         raise ValueError("CSV missing required columns. Expected: Symbol, Category, Date, Open, High, Low, Close, Volume")
     
     if df.empty:
-        return f"No stock data available for {target_date.strftime('%Y-%m-%d')}."
+        return f"No stock data available for {target_date.strftime('%Y-%m-%d')} \nIt was a non trading day, consider OHLCV to be same as previous date."
     
     stock_str = f"Stock Data for {target_date.strftime('%Y-%m-%d')} ({len(df)} stocks total):\n\n"
     

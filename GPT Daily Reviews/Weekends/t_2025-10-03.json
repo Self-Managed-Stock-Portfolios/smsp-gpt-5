@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CMt5YUR0aT8mbTEIjYo8NmehuH5x0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"PSU and industrials outperformed this week (HINDCOPPER, BEL, HUDCO, NBCC, GRSE, HAL) while BFSI mid-caps (LTF, ABCAPITAL) showed strong momentum. IT was volatile (KPIT rebound), and autos like ASHOKLEY softened into week-end. Our portfolio gained ~2.0% W/W, driven by HINDCOPPER strength. Plan: book some profit in HINDCOPPER to diversify into momentum names (LTF, BEL) while retaining ASHOKLEY with a close watch on support near \u20b9138.\",\n  \"trades\": [\n    {\n      \"action\": \"sell\",\n      \"symbol\": \"HINDCOPPER\",\n      \"shares\": 10,\n      \"amount\": 3384.00,\n      \"reason\": \"Partial profit-booking after a 6%+ weekly rise to diversify risk; retain core position for the copper uptrend.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"LTF\",\n      \"shares\": 15,\n      \"amount\": 3934.95,\n      \"reason\": \"Strong, liquid uptrend all week (higher highs/higher closes, rising volume). Adds BFSI exposure and momentum.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"BEL\",\n      \"shares\": 8,\n      \"amount\": 3301.20,\n      \"reason\": \"Defence PSU momentum with consistent higher closes; broad PSU strength theme. Good liquidity and risk-adjusted trend.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 287.85,\n    \"total_value\": 25769.30,\n    \"holdings_count\": 4,\n    \"holdings\": [\n      \"ASHOKLEY: 70 units\",\n      \"HINDCOPPER: 25 units\",\n      \"LTF: 15 units\",\n      \"BEL: 8 units\"\n    ],\n    \"weekly_pnl\": \"+2.0%\"\n  },\n  \"screening_changes\": [\n    \"Remove PAGEIND: price too high for a \u20b925k portfolio; impractical position sizing\",\n    \"Remove ABBOTINDIA: very high price and low liquidity relative to portfolio size\",\n    \"Remove ZFCVINDIA: very high price; unsuitable sizing for small portfolio\",\n    \"Remove LMW: very high price and thin volumes; poor fit for sizing/risk\",\n    \"Remove GILLETTE: high price and relatively low liquidity\",\n    \"Remove DIXON: very high price per share; limits diversification\",\n    \"Remove AIIL: high price and lower liquidity; not optimal for current capital\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759571012,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4732,
+    "prompt_tokens": 22172,
+    "total_tokens": 26904,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4160,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
