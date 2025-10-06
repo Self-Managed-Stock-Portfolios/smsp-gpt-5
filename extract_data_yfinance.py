@@ -5,42 +5,40 @@ from tqdm import tqdm
 import time
 import os
 import warnings
-from nsepython import *
-from dateutil.parser import parse
+import yfinance as yf
 
 warnings.filterwarnings('ignore')
 
 
 def fetch_ohlcv(symbols, target_date):
-    """Fetch OHLCV data for symbols on the target date using nsepython only."""
-    start = target_date.strftime('%d-%m-%Y')
-    end = start  # same day
+    """Fetch OHLCV data for symbols on the target date using yfinance."""
+    start = target_date.strftime('%Y-%m-%d')
+    end = (target_date + timedelta(days=1)).strftime('%Y-%m-%d')  # yfinance needs next day for daily data
+
     data_list = []
 
     for symbol in tqdm(symbols, desc="Fetching OHLCV"):
         try:
-            symbol_clean = symbol.replace('.NS', '')
-
-            df = equity_history(symbol_clean, "EQ", start, end)
+            df = yf.download(symbol, start=start, end=end, progress=False, interval="1d")
 
             if df.empty:
-                print(f"No data for {symbol_clean} on {target_date.strftime('%Y-%m-%d')}")
+                print(f"No data for {symbol} on {target_date.strftime('%Y-%m-%d')}")
                 continue
 
             row = df.iloc[0]
             data_list.append({
-                'Symbol': symbol_clean,
+                'Symbol': symbol.replace('.NS', ''),
                 'Date': target_date.strftime('%Y-%m-%d'),
-                'Open': float(row['CH_OPENING_PRICE']),
-                'High': float(row['CH_TRADE_HIGH_PRICE']),
-                'Low': float(row['CH_TRADE_LOW_PRICE']),
-                'Close': float(row['CH_CLOSING_PRICE']),
-                'Volume': int(row['CH_TOT_TRADED_QTY'])
+                'Open': float(row['Open']),
+                'High': float(row['High']),
+                'Low': float(row['Low']),
+                'Close': float(row['Close']),
+                'Volume': int(row['Volume'])
             })
 
-            time.sleep(0.5)  # avoid hitting API limits
+            time.sleep(0.2)  # polite delay
         except Exception as e:
-            print(f"nsepython failed for {symbol}: {e}")
+            print(f"yfinance failed for {symbol}: {e}")
             continue
 
     return pd.DataFrame(data_list)

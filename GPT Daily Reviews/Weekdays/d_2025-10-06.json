@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CNdQir1kPYeTtPp9m1QUg9CEzhmgV",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mid- and small-caps showed risk-on tone led by hospitals (FORTIS, MAXHEALTH, ASTERDM), exchanges/depositories (BSE, CDSL), and select IT (PERSISTENT, MPHASIS, COFORGE). PSU banks were softer; metals/mid infra were mixed. Our book is slightly green overall with HINDCOPPER leading and ASHOKLEY/LTF soft. Into Monday, favor strength continuation in healthcare, market infra (BSE/CDSL), and high-RS financials; avoid fresh buys in names showing supply bars (POONAWALLA, AEGISLOG).\",\n  \"top_signals\": [\n    {\"symbol\": \"CDSL\", \"signal\": \"Buy on strength/dips\", \"reason\": \"High-volume range breakout; closes near high and above 1,520 resistance; strong market-infra tailwind\", \"price\": 1524.90},\n    {\"symbol\": \"FORTIS\", \"signal\": \"Buy above 1060\", \"reason\": \"Momentum continuation in hospitals; strong close near day high with elevated volume\", \"price\": 1053.90},\n    {\"symbol\": \"MAXHEALTH\", \"signal\": \"Buy on dips toward 1115-1125\", \"reason\": \"Sector leadership; orderly uptrend with strong close\", \"price\": 1139.70},\n    {\"symbol\": \"NYKAA\", \"signal\": \"Buy on strength >257 or pullback to 248-252\", \"reason\": \"Big volume expansion; breakout attempt with close near high\", \"price\": 255.34},\n    {\"symbol\": \"BSE\", \"signal\": \"Buy above 2225\", \"reason\": \"Fresh-high attempt; sustained momentum in exchange stocks\", \"price\": 2217.90},\n    {\"symbol\": \"CHOLAFIN\", \"signal\": \"Momentum long >1665 or buy dips ~1600\", \"reason\": \"Wide-range day with volume, relative strength in NBFCs\", \"price\": 1634.10},\n    {\"symbol\": \"DELHIVERY\", \"signal\": \"Buy above 465\", \"reason\": \"Gap-and-go day with strong close; potential continuation if clears intraday high\", \"price\": 462.60},\n    {\"symbol\": \"EMCURE\", \"signal\": \"Buy above 1449\", \"reason\": \"High-volume thrust and close near highs; strong pharma tone\", \"price\": 1435.30},\n    {\"symbol\": \"POLYCAB\", \"signal\": \"Buy on dips\", \"reason\": \"All-time-high zone with constructive close; cables/electricals strong\", \"price\": 7615.50},\n    {\"symbol\": \"KAYNES\", \"signal\": \"Buy above 7650\", \"reason\": \"Volatility contraction with breakout attempt; strong close\", \"price\": 7466.50},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Trail SL to 329; hold\", \"reason\": \"Copper theme remains constructive; protect gains under recent swing low\", \"price\": 337.95},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Avoid/Short only below 825\", \"reason\": \"Bearish large red day with volume and close near low; risk of breakdown\", \"price\": 831.00},\n    {\"symbol\": \"POONAWALLA\", \"signal\": \"Wait for stability\", \"reason\": \"Wide range with long upper wick and heavy volume suggests supply; avoid fresh longs now\", \"price\": 531.45}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"ASHOKLEY\", \"action\": \"Sell\", \"reason\": \"Cut if key support fails; protect capital on accelerating downside\", \"quantity\": 70, \"price\": 134.90},\n    {\"symbol\": \"LTF\", \"action\": \"Sell\", \"reason\": \"Break of 252 support invalidates setup; exit to avoid deeper drawdown\", \"quantity\": 15, \"price\": 251.50}\n  ],\n  \"portfolio\": {\n    \"cash\": 287.85,\n    \"total_value\": 25585.25,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"ASHOKLEY: 70 @142.00 (C 137.78)\",\n      \"HINDCOPPER: 25 @312.00 (C 337.95)\",\n      \"LTF: 15 @262.33 (C 259.87)\",\n      \"BEL: 8 @412.65 (C 413.25)\",\n      \"Cash: \u20b9287.85\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Hospitals strong: FORTIS, MAXHEALTH, ASTERDM closed near highs with volume; consider basket exposure Monday on dips.\",\n    \"Market infra: BSE near fresh highs; CDSL broke above ~1520 with volume; MCX firm\u2014theme remains strong.\",\n    \"IT bounce: PERSISTENT, MPHASIS, COFORGE advancing; watch for follow-through above today\u2019s highs.\",\n    \"PSU banks mixed-to-soft: UNIONBANK, INDIANB eased; private niche lenders (CHOLAFIN) showed RS.\",\n    \"Metals mixed: HINDCOPPER strong; SAIL softer; monitor copper complex for follow-through.\",\n    \"Logistics/ecom: DELHIVERY strength; IRCTC steady; AEGISLOG weak\u2014avoid for now.\",\n    \"Consumers/retail: NYKAA strong momentum; TRENT volatile and off highs; DABUR/MARICO stable.\",\n    \"Defence/shipyards: HAL, MAZDOCK firm; GRSE constructive\u2014trend intact.\",\n    \"Renewables/energy: WAAREEENER steady; KPIGREEN weak; INOXWIND cooled\u2014favor quality over high beta.\",\n    \"Pharma/diagnostics: EMCURE, ZYDUSLIFE firm; METROPOLIS, LALPATHLAB rallied\u2014sector breadth improving.\",\n    \"Realty: OBEROIRLTY strong close; PRESTIGE steady\u2014monitor for Monday entries on strength.\",\n    \"Chemicals: SRF flat; DEEPAKNTR/NAVINFLUOR soft\u2014prefer wait for strength signals.\",\n    \"Our holdings: ASHOKLEY near support\u2014only add back above 140.5; LTF needs >264 to regain momentum; BEL steady above 410; trail HINDCOPPER to 329.\",\n    \"PAYTM had strong day but remains event-prone; treat as tactical only above 1230 with tight risk.\",\n    \"Risk plan: If stops in ASHOKLEY/LTF trigger, recycle capital into Monday leaders (CDSL/BSE/hospitals) on constructive tape.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759749148,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5408,
+    "prompt_tokens": 5623,
+    "total_tokens": 11031,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3968,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
