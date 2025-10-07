@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CO0Lv2qeicSqHfMT8oM1mJtwC0csl",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Breadth positive with momentum in PSUs (IRCON, RVNL, TORNTPOWER), telecom (IDEA, BHARTIHEXA) and select tech (KPITTECH, OFSS). Many closes near day highs suggest risk-on into Monday. Some profit-taking in shipbuilders/defense (GRSE, MAZDOCK) and select FMCG/AMCs (HDFCAMC). Current holdings mixed: HINDCOPPER showed intraday reversal but still above buy; BEL slightly soft but near support.\",\n  \"top_signals\": [\n    {\"symbol\": \"IDEA\", \"signal\": \"Momentum breakout watch\", \"reason\": \"High-volume thrust; consider buy only on breakout >9.30 with SL ~8.90; momentum target 9.80\u201310.10 if break sustains.\", \"price\": 9.18},\n    {\"symbol\": \"IRCON\", \"signal\": \"Range breakout + volume\", \"reason\": \"Wide-range day from prior base; prefer buy on dip 178\u2013180 or strength >184.6; SL ~172.5; targets 190/198.\", \"price\": 182.6},\n    {\"symbol\": \"TORNTPOWER\", \"signal\": \"Fresh breakout setup\", \"reason\": \"Closed near day high after clearing recent resistance; trigger >1246 with SL ~1210; targets 1280/1310.\", \"price\": 1240.0},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Breakout with follow-through risk-on\", \"reason\": \"Strong close from consolidation; buy on retest 1735\u20131750 or strength >1788; SL ~1700; targets 1825/1875.\", \"price\": 1765.0},\n    {\"symbol\": \"CDSL\", \"signal\": \"Retest of breakout zone\", \"reason\": \"Push toward 1590s; trigger >1592 with SL ~1530; targets 1635/1675.\", \"price\": 1562.8},\n    {\"symbol\": \"KPITTECH\", \"signal\": \"Momentum continuation\", \"reason\": \"Higher highs/higher lows; trigger >1173 with SL ~1140; targets 1205/1235.\", \"price\": 1170.5},\n    {\"symbol\": \"NYKAA\", \"signal\": \"Bullish close near high\", \"reason\": \"Accumulation-type day; trigger >265.6 with SL ~254; targets 272/279.\", \"price\": 262.4},\n    {\"symbol\": \"OFSS\", \"signal\": \"ATH zone breakout watch\", \"reason\": \"Closing near highs; trigger >9365 with SL ~9150; targets 9550/9700.\", \"price\": 9332.5},\n    {\"symbol\": \"ASTRAL\", \"signal\": \"Base breakout trigger\", \"reason\": \"Strong push; trigger >1425 with SL ~1390; targets 1455/1485.\", \"price\": 1419.4},\n    {\"symbol\": \"RVNL\", \"signal\": \"PSU momentum continuation\", \"reason\": \"Bullish close near highs; trigger >356 with SL ~344; targets 365/374.\", \"price\": 354.85}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 13830.5,\n    \"total_value\": 25429.15,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"HINDCOPPER: 25 units @ \u20b9312.00 (Now \u20b9332.65)\",\n      \"BEL: 8 units @ \u20b9412.65 (Now \u20b9410.30)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Holdings risk management: HINDCOPPER showed a long upper wick (H \u20b9348.85 \u2192 C \u20b9332.65). Maintain with a stop zone \u20b9321\u2013324 (below today\u2019s structure). BEL is hovering around buy price; keep watch on \u20b9409\u2013410 support; hard stop ~\u20b9402.\",\n    \"Monday shortlist aligned to cash: IDEA (breakout >\u20b99.30; size 600\u20131000 shares only on trigger), IRCON (buy-on-dip \u20b9178\u2013180 or BO >\u20b9184.6; size 20\u201335 shares), CDSL (BO >\u20b91592; size 2\u20134 shares), KPITTECH (BO >\u20b91173; size 6\u201310 shares). Use 0.8\u20131.0% portfolio risk per trade (~\u20b9200\u2013250).\",\n    \"Strength clusters: PSU/infra (IRCON, RVNL, TORNTPOWER), telecom (IDEA, BHARTIHEXA), healthcare IT/services (OFSS, KPITTECH), consumer internet (POLICYBZR, NYKAA).\",\n    \"Caution list: SHYAMMETL printed a bearish upper-wick reversal (H \u20b9965.6 \u2192 C \u20b9927.4); avoid fresh longs until it reclaims \u20b9955. GRSE closed near lows; wait for strength back above \u20b92750. HDFCAMC weak (gap-and-sell); avoid until it stabilizes >\u20b95620.\",\n    \"Neutral/consolidating: BHEL, DABUR, MARICO, COLPAL printed inside/indecision-type candles; wait for break in either direction.\",\n    \"Volume standouts: IDEA extremely high volume supports breakout thesis; NYKAA and RVNL showed constructive participation; CDSL volume expansion on thrust toward resistance.\",\n    \"If market turns risk-off Monday, prioritize capital protection: skip breakouts that do not trigger and raise cash rather than forcing entries.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759837263,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4464,
+    "prompt_tokens": 5562,
+    "total_tokens": 10026,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3264,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
