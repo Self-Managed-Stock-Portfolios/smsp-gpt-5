@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-COMwIkQxfFejrepUdCrp3T6RVHKxO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Midcaps and smallcaps had a mixed-to-soft session with several PSU names consolidating. Momentum pockets appeared in hospitals (MAXHEALTH, FORTIS) and select mid/small cap industrials, while some high-beta names showed intraday reversals (ESCORTS, MPHASIS, KAYNES). Strong range expansion and volume in ITI and RBLBANK suggest follow-through potential. Our holdings: HINDCOPPER closed strong, BEL dipped to support; no emergency actions needed.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"ITI\",\n      \"signal\": \"Buy breakout\",\n      \"reason\": \"Wide-range up day with heavy volume; momentum continuation above today's high.\",\n      \"price\": 372.85\n    },\n    {\n      \"symbol\": \"RBLBANK\",\n      \"signal\": \"Buy breakout\",\n      \"reason\": \"Strong close near day high and volume; a push through HOD can extend.\",\n      \"price\": 290.45\n    },\n    {\n      \"symbol\": \"INOXWIND\",\n      \"signal\": \"Buy on strength\",\n      \"reason\": \"Higher low and strong close; continuation if it reclaims/holds above 142.2.\",\n      \"price\": 142.20\n    },\n    {\n      \"symbol\": \"IRCTC\",\n      \"signal\": \"Buy near support\",\n      \"reason\": \"Price holding just above 700 round-number support; favorable R:R on pullback entry.\",\n      \"price\": 705.00\n    },\n    {\n      \"symbol\": \"RVNL\",\n      \"signal\": \"Buy the dip\",\n      \"reason\": \"Pulled back into 345\u2013347 zone; risk defined below intraday low 344.4.\",\n      \"price\": 346.50\n    },\n    {\n      \"symbol\": \"NBCC\",\n      \"signal\": \"Buy breakout\",\n      \"reason\": \"Base around 110\u2013112; strength above 113 can start a fresh leg.\",\n      \"price\": 113.00\n    },\n    {\n      \"symbol\": \"UNOMINDA\",\n      \"signal\": \"Reversal buy if reclaims\",\n      \"reason\": \"Sharp flush; reclaiming 1335\u20131340 would signal a bear-trap reversal.\",\n      \"price\": 1335.00\n    },\n    {\n      \"symbol\": \"AUBANK\",\n      \"signal\": \"Buy breakout\",\n      \"reason\": \"Momentum improves above 772.4 day high; financials showing selective strength.\",\n      \"price\": 772.40\n    },\n    {\n      \"symbol\": \"HINDCOPPER\",\n      \"signal\": \"Hold/Trail\",\n      \"reason\": \"Closed strong; trail stops to 332\u2013335 zone or consider partial near 345\u2013348.\",\n      \"price\": 342.20\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Hold/Watch\",\n      \"reason\": \"Dipped to support; add only on strength above 412; manage risk if it loses 397\u2013400.\",\n      \"price\": 403.65\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 13830.50,\n    \"total_value\": 25614.70,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"HINDCOPPER: 25 units @ 312.00 (CMP 342.20)\",\n      \"BEL: 8 units @ 412.65 (CMP 403.65)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Volume expansion and range break candidates: ITI, RBLBANK, INOXWIND.\",\n    \"Hospitals firm: MAXHEALTH, FORTIS strength; watch KIMS/NH for follow-through.\",\n    \"Diagnostics soft: METROPOLIS, LALPATHLAB weak; favor hospitals over diagnostics near term.\",\n    \"PSU/infra mixed: RVNL, IRCON, NBCC consolidating; watch breakouts above today's highs.\",\n    \"Tight-range basing: NTPCGREEN (~98.5) shows compression; watch for expansion move.\",\n    \"High-beta reversals: ESCORTS wide-range rejection; MPHASIS spiked and faded\u2014avoid fresh longs unless highs are reclaimed.\",\n    \"Consumer/Discretionary: JUBLFOOD defended 602\u2013605; a reclaim above 616 could signal a bounce.\",\n    \"Auto ancillaries: UNOMINDA flush to 1305 low; reversal only if it reclaims 1335\u20131340.\",\n    \"Capital goods: BHEL near 238 support; sustained strength only above ~245.\",\n    \"IT services mixed: COFORGE strong close; PERSISTENT/MPHASIS indecisive\u2014prefer strength above respective day highs.\",\n    \"Our holdings: HINDCOPPER\u2014trend intact, trail stops; BEL\u2014wait for strength >412 to add, protect downside <397\u2013400.\",\n    \"Avoid very low-priced, high-volatility names (e.g., IDEA) for now given portfolio size and risk.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759924086,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5309,
+    "prompt_tokens": 5592,
+    "total_tokens": 10901,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4224,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
