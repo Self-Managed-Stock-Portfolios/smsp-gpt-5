@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CPMnoal9WE2joGsIWaBQfRxMlI353",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"Momentum broadened through the week. Exchanges (BSE, CDSL) and telecom/data (TATACOMM) posted strong breakouts on heavy volume. PSU banks stayed firm (UNIONBANK, INDIANB, IDBI), while select private banks (RBLBANK) showed steady higher closes. Consumer/platform names (NYKAA) improved with rising volumes. Metals (HINDCOPPER) were volatile but finished the week above Monday levels. Bias: moderately risk-on; deploy cash selectively into strength.\",\n  \"trades\": [\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"BSE\",\n      \"shares\": 1,\n      \"amount\": 2385.00,\n      \"reason\": \"Strong multi-day breakout with rising volumes; sector (exchanges/depositories) showing leadership.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"TATACOMM\",\n      \"shares\": 1,\n      \"amount\": 1870.20,\n      \"reason\": \"Range breakout to new highs on very high volume; follow-through likely if market risk-on persists.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"RBLBANK\",\n      \"shares\": 10,\n      \"amount\": 2916.00,\n      \"reason\": \"Four-day uptrend with higher closes and solid volume; relative strength among mid/small financials.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"IDBI\",\n      \"shares\": 20,\n      \"amount\": 1869.20,\n      \"reason\": \"PSU banking momentum; steady higher highs/lows through the week with controlled volatility.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"NYKAA\",\n      \"shares\": 10,\n      \"amount\": 2651.90,\n      \"reason\": \"Improving trend and volumes; reclaimed and held weekly highs, offering a favorable risk/reward.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 2138.20,\n    \"total_value\": 25752.25,\n    \"holdings_count\": 7,\n    \"holdings\": [\n      \"HINDCOPPER: 25 units\",\n      \"BEL: 8 units\",\n      \"BSE: 1 units\",\n      \"TATACOMM: 1 units\",\n      \"RBLBANK: 10 units\",\n      \"IDBI: 20 units\",\n      \"NYKAA: 10 units\"\n    ],\n    \"weekly_pnl\": \"+0.7%\"\n  },\n  \"screening_changes\": [\n    \"Remove RAJESHEXPO: persistently low liquidity and no momentum edge.\",\n    \"Remove VSTIND: thin volumes; limited trend participation.\",\n    \"Remove CHOLAHLDNG: low liquidity/holding-company discount; weak momentum fit.\",\n    \"Remove RATNAMANI: very low traded volumes in this period; better opportunities elsewhere.\",\n    \"Remove BIRLACORPN: choppy with inconsistent volumes; fails momentum/quality screen.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760161888,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5205,
+    "prompt_tokens": 26213,
+    "total_tokens": 31418,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4544,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

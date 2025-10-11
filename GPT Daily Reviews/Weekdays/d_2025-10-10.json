@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CPMgPLwlKssADB1bEDf8kSNCoT8tl",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Momentum skewed to exchanges, financials and select infra. Strong open=low breakouts in TATACOMM, CDSL, IRB, RBLBANK; profit-taking in metals (HINDCOPPER long upper wick, SAIL weak). IT/ER&D mixed with weakness in TATAELXSI; real estate resilient (PRESTIGE). Breadth slightly positive; watch for follow-through on Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Buy on pullback / momentum continuation\", \"reason\": \"Open=Low, wide range up, high volume; closing strong suggests follow-through. Prefer pullback entry with tight risk.\", \"price\": 1855.0},\n    {\"symbol\": \"CDSL\", \"signal\": \"Bullish breakout\", \"reason\": \"Open=Low, strong close near day high with high volume; exchange/depository theme strong alongside BSE.\", \"price\": 1608.0},\n    {\"symbol\": \"IRB\", \"signal\": \"Momentum buy\", \"reason\": \"Open=Low and strong close; continuation above recent intraday high favoured.\", \"price\": 43.6},\n    {\"symbol\": \"RBLBANK\", \"signal\": \"Breakout watch\", \"reason\": \"Higher high/low day; close near H. Trigger above today\u2019s high for continuation.\", \"price\": 293.0},\n    {\"symbol\": \"IDBI\", \"signal\": \"Breakout watch\", \"reason\": \"Approaching swing high; strength in PSBs. Trigger on sustained move above today\u2019s high.\", \"price\": 94.8},\n    {\"symbol\": \"NAVINFLUOR\", \"signal\": \"Range expansion buy\", \"reason\": \"Strong range expansion and close near highs; consider only on strength over today\u2019s high.\", \"price\": 4750.0},\n    {\"symbol\": \"PRESTIGE\", \"signal\": \"Buy on breakout\", \"reason\": \"Real estate strength; trigger above day high to confirm momentum.\", \"price\": 1638.0},\n    {\"symbol\": \"SYNGENE\", \"signal\": \"Buy above trigger\", \"reason\": \"Reclaimed 650 zone; strength above micro-resistance improves odds.\", \"price\": 654.0},\n    {\"symbol\": \"UNOMINDA\", \"signal\": \"Wait for reclaim\", \"reason\": \"Intraday sell-off to support; only consider long if it reclaims key level, else avoid.\", \"price\": 1240.0},\n    {\"symbol\": \"TATAELXSI\", \"signal\": \"Avoid / breakdown risk\", \"reason\": \"Weak close near lows after failed bounce; risk of further downside below trigger.\", \"price\": 5400.0},\n    {\"symbol\": \"BSE\", \"signal\": \"Buy on dips\", \"reason\": \"Strong day with higher high/close; consider pullback entry near support.\", \"price\": 2360.0},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Trim/Trail on weakness\", \"reason\": \"Long upper wick from 365 to 344 close indicates supply; protect gains if it slips under intraday support.\", \"price\": 341.0}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"HINDCOPPER\", \"action\": \"Sell\", \"reason\": \"Distribution candle with long upper wick and high volume; lock partial gains if price weakens. Execute only if it trades below 341.\", \"quantity\": 10, \"price\": 341.0}\n  ],\n  \"portfolio\": {\n    \"cash\": 13830.5,\n    \"total_value\": 25752.25,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"HINDCOPPER: 25 units @ \u20b9312.00 (CMP \u20b9344.55)\",\n      \"BEL: 8 units @ \u20b9412.65 (CMP \u20b9413.50)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Exchanges/Depositories strong: BSE, CDSL leading; watch for follow-through.\",\n    \"PSBs steady-to-strong: RBLBANK (private), IDBI, UCOBANK improving; look for breakouts above today\u2019s highs.\",\n    \"Metals mixed: HINDCOPPER shows supply; SAIL weak\u2014avoid fresh longs until strength returns.\",\n    \"Real estate resilient: PRESTIGE near breakout; OBEROIRLTY stable.\",\n    \"Renewables mixed: KPIGREEN constructive; WAAREEENER and NTPCGREEN range-bound.\",\n    \"IT/ER&D soft: TATAELXSI weak; KPITTECH flat; MPHASIS softer\u2014prefer strength names only.\",\n    \"Healthcare mixed: LAURUSLABS rebound attempt; SYNGENE strength over 654; diagnostics (LALPATHLAB) firm.\",\n    \"Infra/Rail PSUs: IRB strong momentum; IRCON soft; RVNL range-bound.\",\n    \"Appliances/Electricals: VOLTAS firm; HAVELLS steady; AMBER strong but high-priced.\",\n    \"Consider Monday entries: CDSL above 1608, IRB above 43.6, IDBI above 94.8; size small with tight stops.\",\n    \"Risk: Maintain 1.5\u20132.5% stop below entry for momentum plays; avoid chasing extended gaps.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760161429,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6461,
+    "prompt_tokens": 5583,
+    "total_tokens": 12044,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5312,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

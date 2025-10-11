@@ -16,6 +16,7 @@ def update_portfolio(input_date, output_date):
 
     df = pd.read_csv(csv_input_path)
 
+    # Handle cash row
     cash_row = df[df['Holding Name'] == 'Cash']
     if cash_row.empty:
         cash = 0.0
@@ -23,14 +24,19 @@ def update_portfolio(input_date, output_date):
         cash = cash_row['Total Amount'].values[0]
         df = df[df['Holding Name'] != 'Cash']
 
+    # Process each trade
     for trade in trades:
         action = trade['action']
         symbol = trade['symbol']
         shares = trade['shares']
-        amount = round(trade['amount'], 2)
-        price = round(amount / shares, 2)
+
+        # Skip 'remove' trades
+        if action == 'remove':
+            continue
 
         if action == 'sell':
+            amount = round(trade['amount'], 2)
+            price = round(amount / shares, 2)
             cash += amount
             idx = df[df['Holding Name'] == symbol].index
             if not idx.empty:
@@ -44,7 +50,10 @@ def update_portfolio(input_date, output_date):
                     df.at[idx[0], 'Perct Change'] = round(((price - buying_price) / buying_price) * 100, 2)
                 else:
                     df = df.drop(idx[0])
+
         elif action == 'buy':
+            amount = round(trade['amount'], 2)
+            price = round(amount / shares, 2)
             cash -= amount
             idx = df[df['Holding Name'] == symbol].index
             if not idx.empty:
@@ -70,6 +79,7 @@ def update_portfolio(input_date, output_date):
                 }
                 df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
+    # Add cash back
     cash = round(cash, 2)
     cash_row = pd.DataFrame({
         'Holding Name': ['Cash'],
@@ -79,17 +89,17 @@ def update_portfolio(input_date, output_date):
         'Total Amount': [cash],
         'Perct Change': [0.00]
     })
-
     df = pd.concat([df, cash_row], ignore_index=True)
 
+    # Round all numeric values
     df['Buying Price'] = df['Buying Price'].round(2)
     df['Current Price'] = df['Current Price'].round(2)
     df['Total Amount'] = df['Total Amount'].round(2)
     df['Perct Change'] = df['Perct Change'].round(2)
 
+    # Save updated file
     df.to_csv(csv_output_path, index=False)
-
-    print(f"Updated portfolio saved to {csv_output_path}")
+    print(f"✅ Updated portfolio saved to {csv_output_path}")
 
 if __name__ == "__main__":
     input_date = input("Enter date for JSON and CSV input (YYYY-MM-DD): ")

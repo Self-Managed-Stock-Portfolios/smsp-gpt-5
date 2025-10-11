@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CPMXqOPhOI0z6WirkvhFM4TwzI5Az",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Constructive day for mid/small caps with strong closes near day-highs across metals (HINDCOPPER, SAIL), infra/PSUs (NBCC, RVNL), exchanges (BSE, MCX, CDSL) and select IT (PERSISTENT, TATAELXSI). Consumer names (VBL, MARICO) stayed firm. Some profit-taking/weakness in select names (ITI, UNOMINDA, KAYNES, HAVELLS). Banks were mixed. Our book benefited from HINDCOPPER\u2019s strong range close; BEL remains slightly below cost but stable.\",\n  \"top_signals\": [\n    {\"symbol\": \"SAIL\", \"signal\": \"Buy on breakout\", \"reason\": \"Strong range-day; close near high (metals momentum). Prefer entry only on strength above 137 with tight risk to 131.6.\", \"price\": 136.46},\n    {\"symbol\": \"NBCC\", \"signal\": \"Buy on continuation\", \"reason\": \"PSU/infra bid; high close location value and steady trend. Buy on shallow dip to 112\u2013113 or strength >114.\", \"price\": 113.65},\n    {\"symbol\": \"NYKAA\", \"signal\": \"Buy on strength\", \"reason\": \"Bullish day closing near highs; a daily close above 265 can confirm continuation. Risk to 256.5.\", \"price\": 264.11},\n    {\"symbol\": \"VBL\", \"signal\": \"Buy on dips\", \"reason\": \"Wide-range up day; momentum intact. Prefer pullback entries 439\u2013442 with risk to 432.\", \"price\": 445.90},\n    {\"symbol\": \"BSE\", \"signal\": \"Watch for pullback buy\", \"reason\": \"Range expansion and close near highs; slightly extended. Stagger entries on dips toward 2280\u20132300.\", \"price\": 2330.20},\n    {\"symbol\": \"MAZDOCK\", \"signal\": \"Breakout watch\", \"reason\": \"Defense/shipbuilding strength; price parked just below round 2900. Trigger >2900 with risk to 2800.\", \"price\": 2888.70},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold/Trail\", \"reason\": \"Strong close near highs; trail partials and consider profit-booking into 370\u2013375 if spiky move persists.\", \"price\": 364.15},\n    {\"symbol\": \"ITI\", \"signal\": \"Avoid/Weakness\", \"reason\": \"Intraday breakdown from 350s; weak close. Avoid fresh longs until it reclaims 345\u2013350 with follow-through.\", \"price\": 337.70}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"HINDCOPPER\", \"action\": \"Sell\", \"reason\": \"Partial profit if euphoric spike; lock gains without exiting core.\", \"quantity\": 5, \"price\": 375.00},\n    {\"symbol\": \"HINDCOPPER\", \"action\": \"Sell\", \"reason\": \"Protect gains if sharp reversal; stop-loss tranche.\", \"quantity\": 10, \"price\": 349.80}\n  ],\n  \"portfolio\": {\n    \"cash\": 13830.50,\n    \"total_value\": 26209.05,\n    \"holdings_count\": 2,\n    \"holdings\": [\n      \"HINDCOPPER: 25 units @ 312.00 (CMP 364.15)\",\n      \"BEL: 8 units @ 412.65 (CMP 409.35)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Metals/PSU strength: HINDCOPPER, SAIL robust; watch for follow-through Monday. Consider SAIL as the higher-liquidity satellite to our HINDCOPPER core.\",\n    \"Infra/rail PSU bid continues: NBCC strong; RVNL steady. Prefer staggered entries on minor dips.\",\n    \"Exchanges theme hot: BSE, CDSL breakouts; MCX very strong but price-per-share is high for our wallet\u2014keep on watch-only.\",\n    \"Selective IT momentum: PERSISTENT, TATAELXSI, KPITTECH firm. Given ticket sizes, wait for dips or keep as watchlist rather than immediate buys.\",\n    \"Consumer strength: VBL leadership; MARICO firm. VBL buy-the-dip favored over chasing highs.\",\n    \"Weak/avoid list for now: ITI breakdown; UNOMINDA heavy sell-off to 1250\u20131260 support (watch for reversal candle before acting); KAYNES under pressure.\",\n    \"Banks mixed: AUBANK closed weak; private banks need confirmation. Avoid fresh exposure in small/private lenders till strength resumes.\",\n    \"Risk management for Monday: Prioritize 2\u20133 adds from SAIL, NBCC, NYKAA, VBL. Example sizing within cash: SAIL 30@\u2264137.5 (~\u20b94.1k), NBCC 40@\u2264114 (~\u20b94.6k), NYKAA 10@\u2264265 (~\u20b92.6k). Keep ~\u20b92\u20133k cash buffer.\",\n    \"Stops/levels: For any Monday entries, cap per-position risk to ~2% of portfolio (~\u20b9520) using logical stops (below day low/structure). Trail winners rather than over-trading.\",\n    \"If Friday gaps up sharply across PSUs, prefer patience\u2014let first 15\u201330 mins settle and buy only on consolidations/breakouts with volume.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760160898,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 7579,
+    "prompt_tokens": 5593,
+    "total_tokens": 13172,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 6400,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
