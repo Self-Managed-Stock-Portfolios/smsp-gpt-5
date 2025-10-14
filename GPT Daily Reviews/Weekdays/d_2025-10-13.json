@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CQQcr6lCCTNAIz1BiLUyHqUAnibAd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Momentum tilted positive in midcaps (power/financials led). Breakout-type closes in TORNTPOWER, ABCAPITAL, LTF, FORTIS; consolidations in BEL/IDBI/NYKAA. Our book is steady (HINDCOPPER leading); no emergency buys\u2014focus on risk control and pullback entries.\",\n  \"top_signals\": [\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Buy breakout\", \"reason\": \"Strong close near day high with higher volume; round-number resistance at 300\u2014enter on strength above it.\", \"price\": 301.00},\n    {\"symbol\": \"TORNTPOWER\", \"signal\": \"Buy breakout\", \"reason\": \"Wide-range green candle closing near high; continuation likely if price clears today's high.\", \"price\": 1288.00},\n    {\"symbol\": \"LTF\", \"signal\": \"Buy on retest\", \"reason\": \"High-volume up day closing near high; look for dip/retest of 261\u2013263 zone to enter with defined risk.\", \"price\": 262.00},\n    {\"symbol\": \"FORTIS\", \"signal\": \"Buy breakout\", \"reason\": \"Range expansion; trigger above intraday high to avoid false breaks.\", \"price\": 1104.00},\n    {\"symbol\": \"HDFCAMC\", \"signal\": \"Buy momentum\", \"reason\": \"Strong follow-through and rising volume; momentum entry on strength.\", \"price\": 5685.00},\n    {\"symbol\": \"BEL\", \"signal\": \"Add on dip (existing holding)\", \"reason\": \"Defended 406\u2013407 intraday; small add only if it revisits support and holds.\", \"price\": 407.00},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Trim/Trail (existing holding)\", \"reason\": \"Up ~9% from cost; near intraday resistance ~348; book partial to de-risk and trail remainder.\", \"price\": 348.00},\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Risk control\", \"reason\": \"Closed near lower end of range; protect capital with stop below today\u2019s low.\", \"price\": 1765.00}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"HINDCOPPER\", \"action\": \"Sell\", \"reason\": \"Book partial profits near resistance to de-risk while trend remains intact.\", \"quantity\": 5, \"price\": 348.00},\n    {\"symbol\": \"TATACOMM\", \"action\": \"Sell\", \"reason\": \"Stop-loss below today\u2019s low to avoid deeper drawdown if weakness extends.\", \"quantity\": 1, \"price\": 1765.00}\n  ],\n  \"portfolio\": {\n    \"cash\": 2138.20,\n    \"total_value\": 25587.00,\n    \"holdings_count\": 7,\n    \"holdings\": [\n      \"HINDCOPPER: 25 units @ 312.00 (Current 340.80)\",\n      \"BEL: 8 units @ 412.65 (Current 409.40)\",\n      \"BSE: 1 unit @ 2385.00 (Current 2476.00)\",\n      \"TATACOMM: 1 unit @ 1870.20 (Current 1798.20)\",\n      \"RBLBANK: 10 units @ 291.60 (Current 290.00)\",\n      \"IDBI: 20 units @ 93.46 (Current 93.23)\",\n      \"NYKAA: 10 units @ 265.19 (Current 261.48)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"ABCAPITAL: Strong momentum; watch sustained breakout above 300 with volume.\",\n    \"TORNTPOWER: Breakout day; continuation likely >1288; dips to 1250\u20131265 can be buyable.\",\n    \"LTF: High-volume surge; preferred buy zone 261\u2013263 with stop under 257.\",\n    \"FORTIS: Range expansion; trigger >1103; manage risk below 1075.\",\n    \"BSE: Strong session; add only on pullbacks to 2430\u20132450; trail if closes <2385.\",\n    \"BEL: Support 406\u2013407; weakness if closes <406; strength back above 414.\",\n    \"HINDCOPPER: Momentum intact; resistance 348\u2013350; trail stop ~332 after partial profit.\",\n    \"TATACOMM: Support 1786; loss of this level opens 1750; keep stop discipline.\",\n    \"IDBI: Tight range 92.4\u201393.7; momentum trigger above 94.2; buy-the-dip near 92.5 only if it holds.\",\n    \"RBLBANK: Demand near 286; short-term breakout above 296 could open 305\u2013310.\",\n    \"NYKAA: Sideways 260\u2013267; structure improves on close >268 with volume.\",\n    \"WAAREEENER: Trend strong; avoid chasing; better risk-reward on pullback to 3350\u20133370.\",\n    \"MCX: Momentum strong; continuation above 8988; pricey for our capital but good watch.\",\n    \"KEI: Trend up; buyable on dips to 4250\u20134270 with tight stops.\",\n    \"KAYNES: Volatile pullback; reclaiming and holding >6900 would improve setup.\",\n    \"GAIL/NHPC: Steady bids; constructive above 180 and 86 respectively.\",\n    \"CHOLAFIN: Strong close; watch 1652 breakout follow-through with risk under 1610.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760414913,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5493,
+    "prompt_tokens": 5534,
+    "total_tokens": 11027,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4288,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
