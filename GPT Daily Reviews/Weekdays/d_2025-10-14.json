@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CQZB1I2JtSEGsrIH4UHCpNCIe9gKv",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed-to-soft session across the screeners: several PSU/broking/infra names saw profit-taking (PSU banks, NBCC, IRCON, HUDCO), while selective momentum held in tech/telecom and exchanges (TATACOMM strong breakout; MCX extended). Liquidity was heavy in IDEA (distribution), and midcaps generally closed off highs. Our portfolio dipped slightly on BEL/NYKAA/IDBI; RBLBANK closed mid-range after a wide session. Plan: keep high cash, protect recent laggards, and look to deploy small, high-conviction add-ons Monday on strength.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"NYKAA\",\n      \"signal\": \"Reduce on breakdown < 254.5\",\n      \"reason\": \"Open=High sell setup, closed near lows; a break of 254.5 (today\u2019s support) risks a slide to 248/242. Preserve capital.\",\n      \"price\": 254.5\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Add only if reclaim > 410; otherwise keep tight stop\",\n      \"reason\": \"Closed near round-number support 400 after lower high; strength only if price reclaims 410 with volume. Place stop near 399 if weakness persists.\",\n      \"price\": 410\n    },\n    {\n      \"symbol\": \"RBLBANK\",\n      \"signal\": \"Add on breakout > 300\",\n      \"reason\": \"High-volume, wide-range day; a clean move through 299.6\u2013300 can trigger momentum. Use 286 as invalidation.\",\n      \"price\": 300\n    },\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Add only on strength > 93.6\",\n      \"reason\": \"PSU banks were soft; avoid averaging down. If 93.6 reclaims with volume, momentum can resume. Otherwise accumulate closer to 90.5 with tight risk.\",\n      \"price\": 93.6\n    },\n    {\n      \"symbol\": \"TATACOMM\",\n      \"signal\": \"Buy on retest 1860\u20131865\",\n      \"reason\": \"Fresh breakout with strong close and elevated volume; a shallow pullback offers favorable risk. Stop ~1805; targets 1950/2000.\",\n      \"price\": 1862\n    },\n    {\n      \"symbol\": \"NBCC\",\n      \"signal\": \"Buy near 110 (risk 105)\",\n      \"reason\": \"Pulled back to prior support zone 108\u2013110 on higher volume; favorable R:R for a swing toward 118\u2013120 if market stabilizes.\",\n      \"price\": 110\n    },\n    {\n      \"symbol\": \"IRCTC\",\n      \"signal\": \"Buy on breakout > 713\",\n      \"reason\": \"Tight range; a push through today\u2019s high (712.65) can open 730\u2013735. Keep stop ~695.\",\n      \"price\": 713\n    },\n    {\n      \"symbol\": \"KPIGREEN\",\n      \"signal\": \"Buy on continuation > 456\",\n      \"reason\": \"Higher-low structure; clearing today\u2019s high confirms strength. Stop ~440; target 475\u2013480.\",\n      \"price\": 456\n    },\n    {\n      \"symbol\": \"TATACHEM\",\n      \"signal\": \"Re-entry only above 945\",\n      \"reason\": \"Failed breakout (long upper wick) with close back near 914; wait for strength back over 945 to avoid chop.\",\n      \"price\": 945\n    },\n    {\n      \"symbol\": \"MCX\",\n      \"signal\": \"Avoid fresh buys / consider partial profit if holding\",\n      \"reason\": \"Very extended after a strong breakout to 9460; risk of mean reversion is high near ATH zone.\",\n      \"price\": 9397.5\n    },\n    {\n      \"symbol\": \"AUBANK\",\n      \"signal\": \"Buy on strength > 776.5\",\n      \"reason\": \"Closed strong within range; follow-through above day high can target 800\u2013815. Stop ~760.\",\n      \"price\": 776.5\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"NYKAA\",\n      \"action\": \"Sell\",\n      \"reason\": \"Break of 254.5 invalidates near-term support after O=H bearish day; cut quickly to avoid deeper drawdown.\",\n      \"quantity\": \"10\",\n      \"price\": 254.5\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"action\": \"Sell\",\n      \"reason\": \"If 400 fails (sell stop 399.5), it signals loss of key round-number support; re-enter later on strength.\",\n      \"quantity\": \"8\",\n      \"price\": 399.5\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 12456.4,\n    \"total_value\": 25431.6,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BEL: 8 @ 412.65 (CMP 402.40)\",\n      \"BSE: 1 @ 2385.00 (CMP 2448.30)\",\n      \"RBLBANK: 10 @ 291.60 (CMP 291.50)\",\n      \"IDBI: 20 @ 93.46 (CMP 91.74)\",\n      \"NYKAA: 10 @ 265.19 (CMP 255.79)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Momentum/Breakouts: TATACOMM (strong close, high volume), NAVINFLUOR (bullish day), MCX (very extended).\",\n    \"Distribution/Weakness: IDEA (huge volume, close near low), PSU banks soft (IDBI, UCO, IOB, CENTRALBK).\",\n    \"Range set-ups: LTF (watch 269 up / 261 down), INDUSTOWER (strength only back > 351), IRCTC (trigger > 713).\",\n    \"Infra/PSU pullbacks near support: NBCC ~110, IRCON ~170\u2013172, HUDCO ~225\u2014prefer only with tight risk.\",\n    \"Defence: BEL soft at 400 support; HAL steady. Reassess if sector momentum wanes.\",\n    \"Realty mixed: OBEROIRLTY faded; PRESTIGE soft. Avoid fresh until strength returns.\",\n    \"IT selective: COFORGE faded intraday; KPITTECH needs >1190 for momentum.\",\n    \"Position sizing: keep each new position <= 8\u201310% of portfolio; stagger entries on triggers only.\",\n    \"Plan: Prefer Monday execution on confirmed triggers; only act tomorrow if emergency stops on NYKAA/BEL trigger.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760447783,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5935,
+    "prompt_tokens": 5496,
+    "total_tokens": 11431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4480,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
