@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CQttosiMPvNM81SOl3Dhb12oJmnXm",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broad-based green close with many names finishing near day highs. PSU/financials/metals led (NHPC, SJVN, HUDCO, HINDCOPPER, CHOLAFIN, ABCAPITAL). IT momentum (PERSISTENT, COFORGE) stayed firm but looks extended. No material breakdowns on the screen. Maintain a cautiously bullish bias; favor breakouts over bottom-fishing.\",\n  \"top_signals\": [\n    {\"symbol\": \"LTF\", \"signal\": \"Buy on breakout\", \"reason\": \"Strong close near day high after range expansion; momentum continuation likely above today\u2019s high\", \"price\": 272.20},\n    {\"symbol\": \"NHPC\", \"signal\": \"Buy on breakout\", \"reason\": \"Tight range, close near high; PSU power bid strong\u2014clean trigger above intraday high\", \"price\": 87.90},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Buy on breakout\", \"reason\": \"Consolidation near highs; strength above resistance can extend trend\", \"price\": 346.50},\n    {\"symbol\": \"VOLTAS\", \"signal\": \"Buy on breakout\", \"reason\": \"Strong session; clearing day high signals continuation from consolidation\", \"price\": 1416.00},\n    {\"symbol\": \"BEL\", \"signal\": \"Buy on breakout\", \"reason\": \"Persistent uptrend with strength in defense/PSU; watch a push through round-number resistance\", \"price\": 410.50},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Buy on breakout\", \"reason\": \"Metals bid; momentum continuation above recent intraday resistance\", \"price\": 345.00},\n    {\"symbol\": \"IRCTC\", \"signal\": \"Buy on breakout\", \"reason\": \"Tight flag; print through day high can trigger follow-through\", \"price\": 717.50},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Buy on breakout\", \"reason\": \"Steady accumulation; push through resistance can open room to 312\u2013315\", \"price\": 305.50},\n    {\"symbol\": \"RBLBANK\", \"signal\": \"Hold; add on strength\", \"reason\": \"We hold; reclaiming 300 with volume\u2014consider add only above 305 with tight stop\", \"price\": 305.00},\n    {\"symbol\": \"BSE\", \"signal\": \"Hold/Trail; add on breakout\", \"reason\": \"We hold; price hovering near resistance\u2014add only on a clean push above day high\", \"price\": 2480.00},\n    {\"symbol\": \"IDBI\", \"signal\": \"Hold; add only on trigger\", \"reason\": \"Range-bound; avoid averaging lower\u2014consider add only above 94\", \"price\": 94.00}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 18233.50,\n    \"total_value\": 25548.30,\n    \"holdings_count\": 3,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (CMP 2456.30)\",\n      \"RBLBANK: 10 units @ 291.60 (CMP 299.55)\",\n      \"IDBI: 20 units @ 93.46 (CMP 93.15)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU strength: NHPC, SJVN, HUDCO, BEL, HINDCOPPER all closed strong\u2014prefer breakout entries above today\u2019s highs.\",\n    \"Financials constructive: CHOLAFIN firm (trigger ~1710), ABCAPITAL strong near 305; RBLBANK watch 305 for add.\",\n    \"IT momentum intact but extended: PERSISTENT, COFORGE up\u2014avoid chasing; wait for pullbacks or fresh bases.\",\n    \"Realty strength: PRESTIGE, OBEROIRLTY gained; risk of chase\u2014prefer pullbacks (e.g., PRESTIGE ~1640\u20131650) over breakouts at highs.\",\n    \"Defense names (HAL, BEML, GRSE) strong but extended; treat as buy-on-dips, not breakouts.\",\n    \"Metals bid: HINDCOPPER >345 and SAIL >131.7 are cleaner continuation triggers than laggards.\",\n    \"Avoid low-priced high-volatility entries like IDEA despite volume; risk/reward poor for our small portfolio.\",\n    \"Risk management for current holdings: BSE trail stop ~2390; RBLBANK stop ~286; IDBI stop ~90.\",\n    \"For Monday: prioritize 1\u20132 small adds from NHPC, BEL, or ABCAPITAL on triggers to keep position sizing prudent.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760527440,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4596,
+    "prompt_tokens": 5585,
+    "total_tokens": 10181,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3584,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
