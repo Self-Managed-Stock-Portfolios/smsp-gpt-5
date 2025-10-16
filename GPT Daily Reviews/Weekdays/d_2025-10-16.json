@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CRHGqpFEnDO4bZNph8rlsUppXjGrF",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broader tone was constructive with strength in healthcare (MAXHEALTH, FORTIS, LALPATHLAB, METROPOLIS), power/renewables (TORNTPOWER, WAAREEENER, KPIGREEN) and select consumption (COLPAL, MARICO). Capital goods/wires showed supply (KEI sharp selloff; POLYCAB wide range). Banks were mixed: RBLBANK led with a strong close near the day\u2019s high; PSU banks were softer. Exchanges diverged (BSE strong, MCX weak). Given portfolio size, prefer 2\u20133 compact momentum adds on Monday after confirming strength. No emergency trades required today. Note: For information only; use stops and position sizing.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"IRB\",\n      \"signal\": \"Buy on breakout above 43.20\",\n      \"reason\": \"Closed near high with strong volume; momentum building in roads; clean level to trigger\",\n      \"price\": 43.08\n    },\n    {\n      \"symbol\": \"TORNTPOWER\",\n      \"signal\": \"Buy on strength above 1320 with tight stop near 1288\",\n      \"reason\": \"Range expansion, close near high; power names bid\",\n      \"price\": 1337.60\n    },\n    {\n      \"symbol\": \"RBLBANK\",\n      \"signal\": \"Add on strength through 308\u2013310\",\n      \"reason\": \"Strong up-day, close near high with high volume; momentum continuation likely\",\n      \"price\": 306.75\n    },\n    {\n      \"symbol\": \"ITI\",\n      \"signal\": \"Buy pullback 330\u2013333 or breakout > 351\",\n      \"reason\": \"Large range up-day on heavy volume; manage volatility with clear triggers\",\n      \"price\": 336.55\n    },\n    {\n      \"symbol\": \"FACT\",\n      \"signal\": \"Buy on close above 910\",\n      \"reason\": \"Breakout attempt with strong close and volume; needs confirmation\",\n      \"price\": 906.00\n    },\n    {\n      \"symbol\": \"NAVINFLUOR\",\n      \"signal\": \"Buy on dips to 4980\u20135000\",\n      \"reason\": \"Momentum day in specialty chemicals; buying strength on shallow pullbacks\",\n      \"price\": 5057.70\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Hold; consider add on dip to 2475\u20132490\",\n      \"reason\": \"Solid trend day with high volume; avoid chasing highs, buy orderly pullbacks\",\n      \"price\": 2509.20\n    },\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Risk control: set stop near 91.70; trim if broken\",\n      \"reason\": \"Closed weak near low and below open; lagging peers\",\n      \"price\": 92.31\n    },\n    {\n      \"symbol\": \"WAAREEENER\",\n      \"signal\": \"Watch for continuation > 3650\",\n      \"reason\": \"Trend intact in renewables; high beta\u2014buy only on strength\",\n      \"price\": 3627.40\n    },\n    {\n      \"symbol\": \"KEI\",\n      \"signal\": \"Avoid new longs; consider short only on break < 4100\",\n      \"reason\": \"Bearish wide-range reversal; supply overhead\",\n      \"price\": 4172.60\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 18233.50,\n    \"total_value\": 25656.40,\n    \"holdings_count\": 3,\n    \"holdings\": [\n      \"BSE: 1 @ avg 2385.00, LTP 2509.20, Value 2509.20\",\n      \"RBLBANK: 10 @ avg 291.60, LTP 306.75, Value 3067.50\",\n      \"IDBI: 20 @ avg 93.46, LTP 92.31, Value 1846.20\"\n      ]\n  },\n  \"screening_notes\": [\n    \"Healthcare leadership: MAXHEALTH, FORTIS, LALPATHLAB, METROPOLIS all firm; look for follow-through Monday.\",\n    \"Power/renewables strong: TORNTPOWER trend day; WAAREEENER and KPIGREEN constructive; NTPCGREEN steady.\",\n    \"Banks mixed: RBLBANK led with strong close; PSU pack softer (UCO, CENTRALBK, IOB).\",\n    \"Exchanges diverged: BSE strong momentum; MCX weak and volatile.\",\n    \"Capital goods/wires: KEI sharp selloff from open; POLYCAB wide intraday range\u2014exercise caution.\",\n    \"Telecom: IDEA huge volume churn but tight range; needs > 9.00 to avoid chop.\",\n    \"Realty: PRESTIGE, OBEROIRLTY firm; positive breadth.\",\n    \"IT mixed: PERSISTENT positive; COFORGE slightly soft; TATAELXSI stable\u2014no broad trend.\",\n    \"Chemicals improving: NAVINFLUOR momentum; DEEPAKNTR steady; watch for sector rotation.\",\n    \"Transportation/logistics: IRCTC stable; DELHIVERY weak\u2014avoid until reclaiming 455.\",\n    \"Metals mixed: SAIL firm; HINDCOPPER soft; watch USD/Cu cues.\",\n    \"For Monday: prioritize IRB (confirm > 43.2), TORNTPOWER (> 1320 hold), and one healthcare/chemicals name on dip for diversification.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760617280,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5676,
+    "prompt_tokens": 5550,
+    "total_tokens": 11226,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4480,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
