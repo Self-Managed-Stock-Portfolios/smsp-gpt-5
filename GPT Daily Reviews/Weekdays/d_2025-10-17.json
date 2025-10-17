@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CRkK2JRkGMAyA2TrQZq5kTpc4qzek",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed day with defensive consumption and healthcare firm (DABUR, MARICO, COLPAL, MAXHEALTH, FORTIS), PSU power/infra mixed (NHPC soft, SJVN green, RVNL flat), private banks stabilizing (AUBANK, INDUSINDBK), IT weak (MPHASIS, PERSISTENT). Select momentum in BEL, DELHIVERY, KPIGREEN, LAURUSLABS; profit-taking in POLYCAB and WAAREEENER.\",\n  \"top_signals\": [\n    {\"symbol\": \"BEL\", \"signal\": \"Buy breakout\", \"reason\": \"Closed strong near resistance; above 420 zone could extend with high volume support today\", \"price\": 421.0},\n    {\"symbol\": \"DELHIVERY\", \"signal\": \"Buy breakout\", \"reason\": \"Strong close near day\u2019s high; continuation above today\u2019s high sets fresh swing up\", \"price\": 467.0},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Buy breakout\", \"reason\": \"Range breakout setup with rising volume; trigger above today\u2019s high\", \"price\": 482.0},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Buy breakout\", \"reason\": \"Momentum day; strength continuation if price clears round-number resistance\", \"price\": 902.1},\n    {\"symbol\": \"RVNL\", \"signal\": \"Buy breakout\", \"reason\": \"Tight consolidation between 329\u2013335; entry on range expansion above day high\", \"price\": 336.0},\n    {\"symbol\": \"NBCC\", \"signal\": \"Buy breakout\", \"reason\": \"Higher-low structure; push through recent high can resume uptrend\", \"price\": 113.1},\n    {\"symbol\": \"IRCON\", \"signal\": \"Buy breakout\", \"reason\": \"Constructive base; trigger above today\u2019s high to avoid chop\", \"price\": 173.2},\n    {\"symbol\": \"AUBANK\", \"signal\": \"Buy on strength\", \"reason\": \"Banks stabilizing; reclaim of 800s opens room to prior swing highs\", \"price\": 802.6},\n    {\"symbol\": \"IDBI\", \"signal\": \"Hold; add on strength\", \"reason\": \"Pullback held 91 zone; add only on reclaim of resistance to avoid averaging down\", \"price\": 93.4},\n    {\"symbol\": \"RBLBANK\", \"signal\": \"Hold/Trail; add on strength\", \"reason\": \"Uptrend intact; add only through recent high to stay with momentum\", \"price\": 305.6}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 18233.5,\n    \"total_value\": 25548.5,\n    \"holdings_count\": 3,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (CMP 2485.60)\",\n      \"RBLBANK: 10 units @ 291.60 (CMP 299.50)\",\n      \"IDBI: 20 units @ 93.46 (CMP 91.72)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Hospitals firm: MAXHEALTH, FORTIS show steady demand; consider pullback buys into strength next week.\",\n    \"Consumption resilient: DABUR, MARICO, COLPAL closed green; low-beta anchors if broader market wobbles.\",\n    \"IT weak: MPHASIS, PERSISTENT faded; avoid fresh longs until they reclaim today\u2019s opens.\",\n    \"Cap goods cables: POLYCAB saw heavy dip; consider only on reclaim > 7510 to confirm strength. KEI mild softness.\",\n    \"Solar/renewables: WAAREEENER sold off hard; wait for stabilization; KPIGREEN shows relative strength\u2014prefer KPIGREEN on breakout.\",\n    \"Telecom infra: BHARTIHEXA strong momentum; watch for continuation above 1826 with tight risk.\",\n    \"Rail PSUs: RVNL, IRCON poised\u2014prefer breakout entries to avoid range noise. SJVN watch above 91.3.\",\n    \"Logistics: DELHIVERY closing near highs; potential follow-through early next week.\",\n    \"Engineering/defence: HAL range-bound; GRSE cooled after spike\u2014wait for fresh setups.\",\n    \"Financials: AUBANK constructive; SBICARD muted; CREDITACC weak\u2014avoid for now.\",\n    \"CDSL steady; BSE holding gains\u2014maintain BSE with a trailing stop near 2445.\",\n    \"Banks PSU mixed: UNIONBANK, INDIANB soft intraday\u2014no fresh PSU bank buys until strength returns.\",\n    \"For our holdings: RBLBANK trail stop around 294; IDBI risk guard around 89.8; BSE trail near 2445.\",\n    \"Position sizing plan for Monday: pick 2\u20133 best breakouts (e.g., BEL/DELHIVERY/KPIGREEN), ~\u20b93\u20134k each, use buy-stop triggers with 2\u20133% stops.\",\n    \"Avoid chasing extended candles at open; prefer confirmation above trigger plus sustained volume.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760728954,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5194,
+    "prompt_tokens": 5431,
+    "total_tokens": 10625,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4096,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
