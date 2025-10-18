@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CRxXYrQO4uR6xsZZdQGeHXCzKSHSu",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"PSU and select defensives outperformed while broader indices were range-bound. Banks were mixed (private mid-tier stronger than PSU), NBFCs showed momentum (LTF), pharma/healthcare (LAURUS, MANKIND) strengthened late-week, while IT was sideways. Metals/capital goods were choppy; energy/renewables consolidated.\",\n  \"trades\": [\n    {\n      \"action\": \"sell\",\n      \"symbol\": \"IDBI\",\n      \"shares\": 20,\n      \"amount\": 1834.40,\n      \"reason\": \"Weak relative strength and lower highs/lows through the week; rotate capital from lagging PSU bank into stronger momentum names.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"LTF\",\n      \"shares\": 30,\n      \"amount\": 7987.80,\n      \"reason\": \"NBFC momentum intact; higher highs Wed\u2013Thu and holding 264\u2013266 support. Favor follow-through with defined risk.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"BEL\",\n      \"shares\": 10,\n      \"amount\": 4128.00,\n      \"reason\": \"PSU defense leader with steady uptrend and strong relative strength; reclaimed 410 zone and closed firm.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"LAURUSLABS\",\n      \"shares\": 3,\n      \"amount\": 2700.15,\n      \"reason\": \"Pharma showing late-week strength; stock reclaimed 900 with improving momentum.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"RBLBANK\",\n      \"shares\": 10,\n      \"amount\": 2995.00,\n      \"reason\": \"Adds to winner; persistent momentum from Mon close 290 to Fri 299.5 with healthy volumes.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 2256.95,\n    \"total_value\": 25548.50,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"RBLBANK: 20 units\",\n      \"BEL: 10 units\",\n      \"LTF: 30 units\",\n      \"LAURUSLABS: 3 units\"\n    ],\n    \"weekly_pnl\": \"+0.3%\"\n  },\n  \"screening_changes\": [\n    \"Remove GMRAIRPORT: duplicate/alias of GMRINFRA in list; keep GMRINFRA to avoid duplication\",\n    \"Remove IDEA: sub-\u20b910, very high volatility; outside risk parameters\",\n    \"Remove RAJESHEXPO: thin liquidity and inconsistent momentum\",\n    \"Remove VSTIND: low liquidity vs peers; limited momentum\",\n    \"Remove RATNAMANI: lower liquidity; focus on higher-volume metals/cap goods\",\n    \"Remove BIRLACORPN: lower liquidity; overlap with stronger cement names (AMBUJA, RAMCO)\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760779764,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5828,
+    "prompt_tokens": 25570,
+    "total_tokens": 31398,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5184,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
