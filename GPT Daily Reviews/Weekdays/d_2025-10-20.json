@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CSnVzz5OSquPQ4NaZu7G2evlupb58",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Strong risk-on day led by financials. PSU and mid-tier banks outperformed (AUBANK, RBLBANK, INDIANB, CENTRALBK, UCO, IOB), many closing near day highs with heavy volumes. Select momentum in industrials/capital goods (POLYCAB, CUMMINSIND) and healthcare (LAURUSLABS, RADICO). Renewables mixed (KPIGREEN up, WAAREEENER down). Exchanges diverged (BSE steady, MCX weaker). Our portfolio benefited mainly from RBLBANK strength; no emergency actions needed ahead of Monday.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"AUBANK\",\n      \"signal\": \"Bullish breakout; buy on dip 850\u2013855 or strength >872\",\n      \"reason\": \"Wide-range +5.8% up day, close near high with top-tier volume; momentum continuation likely if 870 area clears convincingly.\",\n      \"price\": 865.2\n    },\n    {\n      \"symbol\": \"RBLBANK\",\n      \"signal\": \"Hold/Trail; add on pullback 318\u2013320 only\",\n      \"reason\": \"Big +8% breakout on very high volume; avoid chasing. Trail stop ~308 to lock gains; consider partial add only on controlled dip.\",\n      \"price\": 326.65\n    },\n    {\n      \"symbol\": \"INDIANB\",\n      \"signal\": \"Buy on strength >820 or retest 800\u2013805\",\n      \"reason\": \"+3.8% strong close with solid volume; PSU bank momentum breadth supports follow-through.\",\n      \"price\": 813.8\n    },\n    {\n      \"symbol\": \"INDUSTOWER\",\n      \"signal\": \"Breakout watch >356.5\",\n      \"reason\": \"+2.7% close near day high; clearing 356\u2013357 could open room toward 370; manage risk below 343.\",\n      \"price\": 354.4\n    },\n    {\n      \"symbol\": \"RADICO\",\n      \"signal\": \"Momentum buy above 3285\",\n      \"reason\": \"High-volume +4% day from consolidation zone; follow-through possible if 3285 holds; risk below ~3170.\",\n      \"price\": 3254.7\n    },\n    {\n      \"symbol\": \"KPIGREEN\",\n      \"signal\": \"Buy on dip 490\u2013492\",\n      \"reason\": \"Relative strength in renewables vs peers; constructive +2.9% day. Favor risk-defined entry on pullback; risk below 475.\",\n      \"price\": 496.6\n    },\n    {\n      \"symbol\": \"DELHIVERY\",\n      \"signal\": \"Buy on strength >480\",\n      \"reason\": \"Recovered from early weakness to close strong; trigger above 480 targets 500 area; risk below 466.\",\n      \"price\": 474.9\n    },\n    {\n      \"symbol\": \"POLYCAB\",\n      \"signal\": \"Breakout continuation above 7700\",\n      \"reason\": \"Strong recovery candle; a push through 7700 can extend trend; risk below 7510.\",\n      \"price\": 7673.5\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 2256.95,\n    \"total_value\": 26237.2,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (Now 2494.10)\",\n      \"RBLBANK: 20 units @ 295.55 (Now 326.65)\",\n      \"LTF: 30 units @ 266.26 (Now 267.54)\",\n      \"BEL: 10 units @ 412.80 (Now 416.50)\",\n      \"LAURUSLABS: 3 units @ 900.05 (Now 920.65)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU/mid-tier banks strong breadth: CENTRALBK +4.5%, UCO +3.2%, IOB +3.2%, INDIANB +3.8%. Favor buying strength selectively on Monday; avoid chasing gap-ups.\",\n    \"Our holdings: RBLBANK\u2014trail stop ~308; consider booking 20\u201325% if Monday gaps >335 and fades. LTF\u2014soft today; add only above 271; protect below 261. BEL\u2014tight consolidation; alert on breakout above 418.5 with stop 408. LAURUSLABS\u2014hold; trail ~898. BSE\u2014steady; trail ~2425.\",\n    \"Exchanges diverged: MCX fell -2.2% while BSE held; avoid MCX buys until it reclaims 9300 decisively.\",\n    \"Renewables mixed: KPIGREEN showed RS; WAAREEENER -1.9% and SJVN soft\u2014prefer KPIGREEN over peers for momentum.\",\n    \"Industrials/capital goods constructive: POLYCAB near 7700 breakout; CUMMINSIND firm; KEI steady. Use strength triggers with tight risk.\",\n    \"Healthcare/consumption: RADICO showed high-volume breakout; APOLLOHOSP/MANKIND steady; consider RADICO on strength only.\",\n    \"Caution: POONAWALLA sold off intraday (closed -3.4% from open); avoid fresh buys until it stabilizes above 520.\",\n    \"Monday watch-levels: AUBANK 850\u2013855 buy-dip/SL 828; INDIANB >820 or 800\u2013805 retest/SL 788; INDUSTOWER >356.5/SL 343; RADICO >3285/SL 3170; KPIGREEN 490\u2013492/SL 475; DELHIVERY >480/SL 466; POLYCAB >7700/SL 7510.\",\n    \"Position sizing: given small available cash, prefer no new entries until we rotate or get pullbacks; if a high-conviction trigger hits, consider trimming 10\u201320% RBLBANK on strength to fund a new position.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760979555,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4254,
+    "prompt_tokens": 5413,
+    "total_tokens": 9667,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2944,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
