@@ -40,10 +40,10 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
         ValueError: If date format or stock data processing fails.
     """
     prompt_files = {
-        'f': 'first_timer_prompt.txt',
-        'd': 'daily_prompt.txt',
-        't': 'training_prompt.txt',
-        'n': 'no_trading_day_prompt.txt'
+        'f': './Prompts/first_timer_prompt.txt',
+        'd': './Prompts/daily_prompt.txt',
+        't': './Prompts/training_prompt.txt',
+        'n': './Prompts/no_trading_day_prompt.txt'
     }
     file_path = prompt_files.get(prompt_type)
     if not os.path.exists(file_path):

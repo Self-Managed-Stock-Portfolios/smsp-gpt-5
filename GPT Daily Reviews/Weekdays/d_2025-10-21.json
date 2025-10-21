@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CT4a9J58bHxmsKd7pkTVSJsosjeML",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Market action was muted and rangebound with selective strength in power/renewables (INDUSTOWER, TORNTPOWER, WAAREEENER) and consumer durables (VOLTAS). Some capital goods/chemicals were weak-to-soft (POLYCAB, SRF), while IT saw mixed intraday moves. Our portfolio held up: BSE +4.3% since buy, RBLBANK +9.9%, BEL +1.2%, LAURUSLABS +2.7%, LTF +0.6%. With cash at \u20b92,256.95, any fresh buys will require trims or waits for Monday. No emergency action needed unless key supports break.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"INDUSTOWER\",\n      \"signal\": \"Buy on breakout > today\u2019s high\",\n      \"reason\": \"Strong close near day\u2019s high with steady buying; potential continuation if 361.2 is taken out and held.\",\n      \"price\": 362\n    },\n    {\n      \"symbol\": \"TORNTPOWER\",\n      \"signal\": \"Buy on breakout > today\u2019s high\",\n      \"reason\": \"Closed near the high; relative strength within power names. Momentum above 1324 can extend.\",\n      \"price\": 1324\n    },\n    {\n      \"symbol\": \"VOLTAS\",\n      \"signal\": \"Buy on strength > 1460\",\n      \"reason\": \"Green day with higher high; a sustained move above 1460 can trigger follow-through.\",\n      \"price\": 1460\n    },\n    {\n      \"symbol\": \"WAAREEENER\",\n      \"signal\": \"Buy on breakout > 3531\",\n      \"reason\": \"Very tight range at the top; a coil that can expand upward if volume confirms.\",\n      \"price\": 3532\n    },\n    {\n      \"symbol\": \"LLOYDSME\",\n      \"signal\": \"Buy on breakout > 1355\",\n      \"reason\": \"Momentum day with strong close; continuation above the day\u2019s high is the clean trigger.\",\n      \"price\": 1356\n    },\n    {\n      \"symbol\": \"INOXWIND\",\n      \"signal\": \"Buy on breakout > 150.8\",\n      \"reason\": \"Constructive higher-high/higher-low day; watch for push through 150.8 for continuation.\",\n      \"price\": 151\n    },\n    {\n      \"symbol\": \"RBLBANK\",\n      \"signal\": \"Add only on strength > 329\",\n      \"reason\": \"Existing holding near resistance; add on breakout through 329 and hold, else book partials near 330\u2013332 if momentum stalls.\",\n      \"price\": 329\n    },\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Add only on breakout > 270\",\n      \"reason\": \"Tight range near resistance; a reclaim above 270 improves risk-reward. Keep a mental stop near 262 if adding.\",\n      \"price\": 270\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Add only if it closes > 420\",\n      \"reason\": \"Flagging near highs; a close above 420 signals fresh momentum.\",\n      \"price\": 420\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Add on sustained move > 930\",\n      \"reason\": \"Holding above 900 with higher base; strength above 930 can invite follow-through buying.\",\n      \"price\": 931\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Add on strength > 2519\",\n      \"reason\": \"Reclaim of intraday high would signal buyers back in control; consider only 1 share due to position sizing.\",\n      \"price\": 2520\n    },\n    {\n      \"symbol\": \"POLYCAB\",\n      \"signal\": \"Avoid new longs until it reclaims > 7650\",\n      \"reason\": \"Weak close versus open and range expansion on the downside; let price prove strength first.\",\n      \"price\": 7650\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"RBLBANK\",\n      \"action\": \"Sell\",\n      \"reason\": \"Protect gains if momentum fails; place a stop-loss below today\u2019s intraday support to avoid giving back recent outperformance.\",\n      \"quantity\": \"10\",\n      \"price\": 318\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 2256.95,\n    \"total_value\": 26221.95,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (C 2487.80)\",\n      \"RBLBANK: 20 units @ 295.55 (C 324.65)\",\n      \"LTF: 30 units @ 266.26 (C 267.85)\",\n      \"BEL: 10 units @ 412.80 (C 417.70)\",\n      \"LAURUSLABS: 3 units @ 900.05 (C 923.90)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Power/renewables leaders: INDUSTOWER, TORNTPOWER, WAAREEENER showed constructive closes; focus on high-of-day breakouts.\",\n    \"Consumer durables: VOLTAS strong; AMBER recovered off lows\u2014sector watch for follow-through.\",\n    \"Small-cap energy/infra: INOXWIND, KPIGREEN firm; look for volume-backed breakouts over 150.8 and 509.5 respectively.\",\n    \"Financials mixed: RBLBANK closed just under resistance; AUBANK softer\u2014prefer strength confirmation before adds.\",\n    \"Chemicals: SRF saw a weak close; DEEPAKNTR/NAVINFLUOR steady but no triggers yet\u2014wait for breakouts.\",\n    \"Cables/Capital goods: POLYCAB weak; CUMMINSIND/ABB stable\u2014avoid new longs in laggards until they reclaim key levels.\",\n    \"Hospitals/healthcare: MAXHEALTH and NH held ranges; LAURUSLABS constructive above 900\u2014watch 930.\",\n    \"Rail/defence PSUs: RVNL steady; GRSE/HAL holding but extended\u2014prefer consolidations or tight-range breakouts.\",\n    \"Platform/fintech: BSE flat-to-soft near highs; CDSL in tight base\u2014breakouts above 2519/1615 respectively are clean triggers.\",\n    \"Staples/consumption: MARICO, DABUR stable; JUBLFOOD rangebound\u2014trade only on decisive range breaks.\",\n    \"IT services/product: TATAELXSI bounced off intraday lows; COFORGE soft\u2014wait for strength signals.\",\n    \"Given limited cash, prioritize only A+ setups with clear breakouts and predefined stops; consider partial profit-taking in RBLBANK into 330\u2013332 if momentum fades to fund new high-conviction entries.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761045161,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5966,
+    "prompt_tokens": 5573,
+    "total_tokens": 11539,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4480,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
