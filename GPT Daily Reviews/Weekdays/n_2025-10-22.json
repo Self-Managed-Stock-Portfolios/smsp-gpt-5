@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CTm7YOdtjUjPPzn45hGgd5hRpO4vU",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Portfolio at \u20b926,221.95 (+34.76% on invested \u20b919,457.90). Equity allocation \u20b917,472.00; cash \u20b98,749.95 (~33%). Winners steady across BSE, LTF, BEL, and LAURUSLABS; no drawdowns needing action. Position sizes remain small and diversified with scope to deploy cash selectively into mid/smallcap momentum or high-quality pullbacks. Plan: hold core, queue buy-on-dips and buy-on-breakout orders for Monday; only 1 small emergency add is proposed to keep risk in check.\",\n  \"top_signals\": [\n    {\"symbol\": \"IDFCFIRSTB\", \"signal\": \"Buy on breakout above\", \"reason\": \"Banking midcap showing higher-base formation; breakout adds momentum and diversifies financials exposure beyond LTF\", \"price\": 95.50},\n    {\"symbol\": \"AUBANK\", \"signal\": \"Buy on dips to\", \"reason\": \"Stable asset quality with retail mix; risk-reward favorable near 50-DMA zone\", \"price\": 690.00},\n    {\"symbol\": \"CDSL\", \"signal\": \"Buy on dips to\", \"reason\": \"Structural DP account growth; duopoly moat; pullback to support preferred\", \"price\": 2050.00},\n    {\"symbol\": \"IEX\", \"signal\": \"Buy on dips to\", \"reason\": \"Gradual improvement in traded volumes; regulatory overhang easing; base support\", \"price\": 150.00},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Buy on breakout above\", \"reason\": \"Orderbook visibility and clean balance sheet; above swing high can re-ignite trend\", \"price\": 52.00},\n    {\"symbol\": \"IREDA\", \"signal\": \"Buy on dips to\", \"reason\": \"Renewables financing tailwinds; higher-lows structure intact\", \"price\": 145.00},\n    {\"symbol\": \"KALYANKJIL\", \"signal\": \"Buy on dips to\", \"reason\": \"Store expansion and operating leverage; buy near rising averages\", \"price\": 435.00},\n    {\"symbol\": \"RVNL\", \"signal\": \"Buy on dips to\", \"reason\": \"Rail capex pipeline visibility; buy-the-dip towards support\", \"price\": 280.00}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"IDFCFIRSTB\", \"action\": \"Buy\", \"reason\": \"Breakout add to strengthen financials exposure with defined risk; position size fits cash buffer\", \"quantity\": 70, \"price\": 95.50}\n  ],\n  \"portfolio\": {\n    \"cash\": 8749.95,\n    \"total_value\": 26221.95,\n    \"holdings_count\": 4,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 30 units\",\n      \"BEL: 10 units\",\n      \"LAURUSLABS: 3 units\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Maintain core: Hold BSE, LTF, BEL, LAURUSLABS; no trims yet.\",\n    \"Financials: If IDFCFIRSTB breaks 95.5, consider rotating future adds between it and AUBANK to avoid single-name concentration in LTF.\",\n    \"Industrials/PSU: Watch RVNL pullbacks; sustain only if volume contraction on dips.\",\n    \"Power/exchanges: IEX buy zone ~150; avoid chasing spikes above 160 without consolidation.\",\n    \"Renewables: SUZLON only on confirmed breakout above 52; avoid averaging down on weakness.\",\n    \"Renewables finance: IREDA accumulate near 145 with tight risk control.\",\n    \"CDSL: Prefer staggered entries toward 2050; avoid if breakdown below 1980.\",\n    \"Risk: Place notional stops\u2014BSE < 2360, LTF < 255, BEL < 398, LAURUSLABS < 880; revise Monday post open.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761212524,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4266,
+    "prompt_tokens": 505,
+    "total_tokens": 4771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3392,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
