@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CU4sDz297fanMlZWKrw1H6Zqi2jmJ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed day across the mid/small-cap basket. Defensives (FMCG/healthcare) showed relative strength (COLPAL, DABUR, SYNGENE), while several financials and specialty chemicals closed soft. PSU/infra were mixed (NHPC, RVNL slight red; IRCON steady near a breakout pivot). Our portfolio held up: LAURUSLABS and BEL closed green, LTF flat, BSE slightly off day\u2019s high. No urgent risk in current holdings; bias is to wait for clean breakouts Monday, with one optional momentum add if it triggers tomorrow.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"SYNGENE\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Strong close near day\u2019s high with wide bullish range; momentum continuation likely if price takes out today\u2019s high.\",\n      \"price\": 664.25\n    },\n    {\n      \"symbol\": \"PPLPHARMA\",\n      \"signal\": \"Buy on strength\",\n      \"reason\": \"Bullish candle and higher close in small-cap pharma; a push through today\u2019s high can start a leg up.\",\n      \"price\": 204.95\n    },\n    {\n      \"symbol\": \"IRCON\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Coiling just below resistance; a move above today\u2019s high can confirm continuation in rail PSUs.\",\n      \"price\": 172.2\n    },\n    {\n      \"symbol\": \"COLPAL\",\n      \"signal\": \"Pullback buy\",\n      \"reason\": \"Defensive strength; strong candle after testing lower intraday. Prefer buy on minor dip or sustained trade above close.\",\n      \"price\": 2286.9\n    },\n    {\n      \"symbol\": \"CUMMINSIND\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"RS leader in industrials; strong trend day. Entry on strength above round number resistance.\",\n      \"price\": 4100\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Add on breakout\",\n      \"reason\": \"In-portfolio name holding 418 support; add only if it clears intraday high decisively.\",\n      \"price\": 422.5\n    },\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Add on breakout\",\n      \"reason\": \"Inside-day-like behavior around 265\u2013269 zone; add only on strength through today\u2019s high.\",\n      \"price\": 269.47\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Add on breakout\",\n      \"reason\": \"Higher-low day with strong close; add above today\u2019s high to ride momentum.\",\n      \"price\": 943\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"PPLPHARMA\",\n      \"action\": \"Buy\",\n      \"reason\": \"Momentum continuation candidate with accessible price; buy only if price trades above today\u2019s high to confirm strength. Risk control: stop below \u20b9197.\",\n      \"quantity\": \"20\",\n      \"price\": \"204.50\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 8749.95,\n    \"total_value\": 26235.95,\n    \"holdings_count\": 4,\n    \"holdings\": [\n      \"BSE: 1 units @ \u20b92385.00 (current \u20b92487.50)\",\n      \"LTF: 30 units @ \u20b9266.26 (current \u20b9266.96)\",\n      \"BEL: 10 units @ \u20b9412.80 (current \u20b9418.65)\",\n      \"LAURUSLABS: 3 units @ \u20b9900.05 (current \u20b9934.40)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Defensives firm: COLPAL, DABUR, MARICO printed strong closes; consider rotation if broader tape weakens.\",\n    \"Healthcare/mid-cap pharma positive tone: SYNGENE strong close; LAURUSLABS maintained momentum; PPLPHARMA accelerating\u2014watch above \u20b9204.95.\",\n    \"Railways/PSU infra mixed: RVNL soft; IRCON near breakout (watch \u20b9172.2); NHPC marginal red but stable.\",\n    \"Financials: LTF tight day near resistance (\u20b9269.5); AU Bank green but needs follow-through; SBICARD and POONAWALLA had weak candles\u2014avoid fresh longs until stabilization.\",\n    \"Industrials: CUMMINSIND trend day; TORNTPOWER steady; THERMAX/NAVINFLUOR weak\u2014avoid bottom-fishing.\",\n    \"Volatile/weak today: FORTIS large red (avoid until back above \u20b91080); GODFRYPHLP heavy selloff\u2014wait for base; TATACOMM long red day\u2014needs a base before considering.\",\n    \"Metals/resources mixed-to-weak: HINDCOPPER wide red candle; SAIL soft\u2014prefer strength confirmation before entries.\",\n    \"Our holdings: BEL defended ~\u20b9418; add only above \u20b9422.5. LTF add only above \u20b9269.5; otherwise hold. LAURUSLABS add above \u20b9943 or hold with a stop under \u20b9921 swing. BSE closed lower half; trail stop under \u20b92460 if volatility spikes.\",\n    \"Sizing guide for Monday: keep single-position risk \u22641% of portfolio (~\u20b9260), use 3\u20134k slots per add to stay diversified and retain liquidity.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761284609,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5718,
+    "prompt_tokens": 5406,
+    "total_tokens": 11124,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4544,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
