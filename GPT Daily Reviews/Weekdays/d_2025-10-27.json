@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CVM4e2y8IWWEuaQOIRoUtpgPWWcyG",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Momentum tilted risk-on with PSU banks, realty, and market infrastructure leading. Strong closes near day-highs in POLICYBZR, PRESTIGE, CDSL, JINDALSTEL, and TATACOMM; FSL showed a wide-range breakout with heavy volume. Chemicals were mixed-to-soft (NAVINFLUOR, DEEPAKNTR), while BEL and KEI saw supply. Our portfolio closed +1.33%, helped by BSE, LAURUSLABS, and INDUSTOWER. No emergency action needed; prefer planned entries on strength or pullbacks Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"IDBI\", \"signal\": \"Buy above\", \"reason\": \"PSU bank momentum; strong close near H with good volume\", \"price\": 96.5},\n    {\"symbol\": \"FSL\", \"signal\": \"Buy on retest\", \"reason\": \"Wide-range breakout; look for pullback to prior breakout zone\", \"price\": 342.0},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Buy above\", \"reason\": \"Strong trend day with volume; potential continuation if H breaks\", \"price\": 1757.0},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Add above\", \"reason\": \"High-volume push; add only on breakout continuation above day high\", \"price\": 381.5},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Add above\", \"reason\": \"Momentum continuation if it clears intraday high\", \"price\": 956.0},\n    {\"symbol\": \"CDSL\", \"signal\": \"Buy on pullback\", \"reason\": \"Open=Low and close near H; prefer a dip entry into support\", \"price\": 1615.0},\n    {\"symbol\": \"RBLBANK\", \"signal\": \"Buy above\", \"reason\": \"Close near H with elevated volume; momentum entry\", \"price\": 326.0},\n    {\"symbol\": \"PRESTIGE\", \"signal\": \"Buy on retest\", \"reason\": \"Realty strength; buy a dip toward breakout area if it holds\", \"price\": 1765.0},\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Buy above\", \"reason\": \"Range expansion and strong close; trigger on fresh breakout\", \"price\": 1954.0},\n    {\"symbol\": \"JINDALSTEL\", \"signal\": \"Buy above\", \"reason\": \"Metals bid; clean trigger over day high\", \"price\": 1036.5},\n    {\"symbol\": \"IRCTC\", \"signal\": \"Buy above\", \"reason\": \"Tight trend day; continuation over round-number resistance\", \"price\": 725.0},\n    {\"symbol\": \"BEL\", \"signal\": \"Wait for reclaim\", \"reason\": \"Supply near open; avoid adds until it reclaims resistance\", \"price\": 420.0}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 6942.2,\n    \"total_value\": 26295.35,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units @ \u20b92385.00 (LTP \u20b92510.20)\",\n      \"LTF: 30 units @ \u20b9266.26 (LTP \u20b9267.15)\",\n      \"BEL: 10 units @ \u20b9412.80 (LTP \u20b9415.15)\",\n      \"LAURUSLABS: 3 units @ \u20b9900.05 (LTP \u20b9940.15)\",\n      \"INDUSTOWER: 5 units @ \u20b9361.55 (LTP \u20b9371.30)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU banks strong: UNIONBANK, IDBI, IOB, UCO, CENTRALBK showed momentum; prefer strength entries.\",\n    \"Realty bid: PRESTIGE and OBEROIRLTY closed strong; watch dips to prior breakout zones.\",\n    \"Market infra theme: BSE, CDSL, MCX firm; avoid overconcentration but dips in CDSL look attractive.\",\n    \"FSL printed a high-volume breakout; watch 342\u2013346 as retest support.\",\n    \"Diagnostics rotation: LALPATHLAB and METROPOLIS strong; consider on constructive dips.\",\n    \"Chemicals mixed-to-weak (NAVINFLUOR, DEEPAKNTR); avoid fresh buys until strength returns.\",\n    \"BEL showed supply; only add if it reclaims 420 with volume.\",\n    \"IDEA saw extreme volume and wide range; high-risk\u2014avoid chasing.\",\n    \"Defense mixed: HAL softened; monitor for higher-low setups rather than breakout buys.\",\n    \"Technology midcaps constructive (KPITTECH, MPHASIS); selective buys only on strength continuation.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761589056,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4877,
+    "prompt_tokens": 5475,
+    "total_tokens": 10352,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3840,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
