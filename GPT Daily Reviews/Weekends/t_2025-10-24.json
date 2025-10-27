@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CVD9N8IS2i5IJ3bpdCyDUnL2ylPcv",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"Breadth stayed constructive with PSU/infra and renewables leading; metals (copper) rebounded late-week, NBFCs steady, while staples/IT were range-bound. We deploy part of cash into high-liquidity momentum (infrastructure towers and airports) and keep a cash buffer for volatility.\",\n  \"trades\": [\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"GMRINFRA\",\n      \"shares\": 50,\n      \"amount\": 4660.00,\n      \"reason\": \"3-day up-move with rising volumes; weekly close near highs (\u20b993.20). Adds infra exposure with strong liquidity. Risk: place stop near \u20b990.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"INDUSTOWER\",\n      \"shares\": 5,\n      \"amount\": 1807.75,\n      \"reason\": \"Trend continuation; higher close vs prior sessions (\u20b9361.55) and solid volumes through the week. Telecom-tower capex cycle tailwind. Risk: stop near \u20b9350.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 2282.20,\n    \"total_value\": 26234.65,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 30 units\",\n      \"BEL: 10 units\",\n      \"LAURUSLABS: 3 units\",\n      \"GMRINFRA: 50 units\",\n      \"INDUSTOWER: 5 units\"\n    ],\n    \"weekly_pnl\": \"+0.6%\"\n  },\n  \"screening_changes\": [\n    \"Remove RAJESHEXPO: very low liquidity and inconsistent appearance in weekly screen\",\n    \"Remove VSTIND: thin volumes; not fitting momentum/liquidity filter\",\n    \"Remove BIRLACORPN: low turnover vs peers; limited signals this week\",\n    \"Remove CHOLAHLDNG: persistently low volumes; outside focus universe\",\n    \"Remove RATNAMANI: low liquidity and limited actionable signals this week\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761554753,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4490,
+    "prompt_tokens": 25297,
+    "total_tokens": 29787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4032,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

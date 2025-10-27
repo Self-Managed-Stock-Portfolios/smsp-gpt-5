@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CVD7yLXQXc99LFvZcl9qSjKWUtabr",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed session with strength in capital goods, select financials, and metals. Notable momentum/breakout setups in CHOLAFIN, CUMMINSIND, THERMAX, and HINDCOPPER. Our portfolio closed positive; no urgent actions needed before Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Buy on strength >345\", \"reason\": \"Strong trend day (+3.6%) closing near high with solid volume; potential continuation if clears 345 decisively.\", \"price\": 343.10},\n    {\"symbol\": \"CHOLAFIN\", \"signal\": \"Momentum buy above 1755\", \"reason\": \"Range expansion and close near high with high volume; watch for breakout continuation >1755.\", \"price\": 1733.60},\n    {\"symbol\": \"CUMMINSIND\", \"signal\": \"Breakout continuation >4205\", \"reason\": \"Bullish follow-through candle; closing strong near 52W region; buy on strength above 4205.\", \"price\": 4183.20},\n    {\"symbol\": \"THERMAX\", \"signal\": \"Buy on dips 3230\u20133250\", \"reason\": \"Fresh breakout candle; look for shallow pullback entry with strength in industrials.\", \"price\": 3276.50},\n    {\"symbol\": \"SBICARD\", \"signal\": \"Reversal long above 935\", \"reason\": \"Long lower wick reclaiming 920 zone; confirmation above 935 improves reward-to-risk.\", \"price\": 928.95},\n    {\"symbol\": \"BEL\", \"signal\": \"Add on close >424\", \"reason\": \"Consolidating at highs with heavy volume; adding above 424 reduces false-break risk.\", \"price\": 422.05},\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Continuation above 1910\", \"reason\": \"Strong rebound from 1843; clearing 1910 likely resumes uptrend.\", \"price\": 1896.00},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Watch for reclaim >940\", \"reason\": \"Rejected at 943 but defended 902; strength only above 940 for adds.\", \"price\": 926.40}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 8749.95,\n    \"total_value\": 26234.65,\n    \"holdings_count\": 4,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (LTP 2475.00)\",\n      \"LTF: 30 units @ 266.26 (LTP 267.00)\",\n      \"BEL: 10 units @ 412.80 (LTP 422.05)\",\n      \"LAURUSLABS: 3 units @ 900.05 (LTP 926.40)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Volume leaders: NHPC, GAIL, BEL, GMRINFRA; power names mixed (NHPC red, NTPCGREEN steady).\",\n    \"Metals: HINDCOPPER showed strong momentum; SAIL flat\u2014prefer HINDCOPPER on strength.\",\n    \"Capital goods/industrials strong: CUMMINSIND, THERMAX, KEI advancing; look for follow-through if indices remain firm.\",\n    \"Financials mixed: CHOLAFIN strong; SBICARD reversal attempt; AUBANK weak\u2014avoid until it reclaims 872.\",\n    \"Exchanges: BSE consolidating near highs; CDSL soft; MCX sold to 9000 area\u2014watch for support hold.\",\n    \"Pharma/chemicals: LAURUSLABS defended 902 but below 940 trigger; ZYDUS/LUPIN stable; NAVINFLUOR faded from open.\",\n    \"IT midcaps: KPITTECH green; PERSISTENT muted; COFORGE rangebound\u2014no immediate edge.\",\n    \"Consumer: DABUR steady; JUBLFOOD soft\u2014avoid until it reclaims 600.\",\n    \"Infra/Rail: RVNL/IRCON largely flat; IRCTC soft; GMRINFRA constructive above 93.\",\n    \"Realty: PRESTIGE firm; OBEROIRLTY positive close.\",\n    \"Risk management (current holdings): trail BSE >2425; BEL add only on close >424; LTF protect below 258; LAURUS risk line near 900.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761554666,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4297,
+    "prompt_tokens": 5391,
+    "total_tokens": 9688,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3328,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
