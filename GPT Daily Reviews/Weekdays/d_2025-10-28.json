@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CVc7dHtCpbHXOglqdxwYPqTGR9wf8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broadly constructive session led by PSU banks and select pharma; IT weak. Notable strength: IDBI (+6% on heavy volume), INDUSTOWER (+6.7% closing near highs), LAURUSLABS (+6.6% breakout attempt). Our portfolio closed +1.56% with LAURUSLABS and INDUSTOWER offsetting a heavy-volume pullback in BSE. Cash remains ample (~26%) for a targeted add on a high-conviction breakout Monday. No emergency actions needed today.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Buy on breakout > 104.20; stop 98.50; initial targets 110/113\",\n      \"reason\": \"Strong PSU bank momentum, highest volume in the screen, close near day\u2019s high suggesting follow-through potential\",\n      \"price\": 104.2\n    },\n    {\n      \"symbol\": \"INDUSTOWER\",\n      \"signal\": \"Momentum continuation above 386.50; trail stop to 372 on existing position\",\n      \"reason\": \"Range breakout with high volume and close near high; trend intact, manage risk with a tighter trailing stop\",\n      \"price\": 385.9\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Buy on strength > 963; stop 936; targets 990/1015\",\n      \"reason\": \"Wide-range green candle on volume, closing near high; potential continuation if HOD is reclaimed\",\n      \"price\": 963\n    },\n    {\n      \"symbol\": \"POLICYBZR\",\n      \"signal\": \"Buy on breakout > 1790; stop 1730; target 1860\",\n      \"reason\": \"Strong up day, testing recent highs; clean trigger above the day\u2019s high with defined risk\",\n      \"price\": 1790\n    },\n    {\n      \"symbol\": \"SAIL\",\n      \"signal\": \"Buy on breakout > 133.20; stop 129.50; target 138\",\n      \"reason\": \"Metals firming; attempting to clear short-term resistance with decent volume\",\n      \"price\": 133.2\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 6942.2,\n    \"total_value\": 26356.35,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 30 units\",\n      \"BEL: 10 units\",\n      \"LAURUSLABS: 3 units\",\n      \"INDUSTOWER: 5 units\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Position management (current holdings): LTF hold; tighten risk below 262 (today\u2019s LL 266.28). INDUSTOWER trail stop 372; consider add only on >386.5. LAURUSLABS protect with stop ~936. BSE watch 2400 support; if a daily close <2380, consider cutting the lone share. BEL hold; add only on decisive close >417.\",\n    \"PSU banks strong across the board (IDBI, UNIONBANK, INDIANB, CENTRALBK, IOB, UCOBANK); focus on IDBI for clean, liquid setup.\",\n    \"IT weak: KPITTECH and MPHASIS sold off; avoid fresh buys in IT until reversal signals appear.\",\n    \"Metals mixed but improving breadth: JINDALSTEL strong; SAIL nearing breakout; HINDCOPPER soft\u2014prefer steel over copper near term.\",\n    \"Power/utilities mixed: TORNTPOWER pulled back sharply; watch for stabilization above 1265 before considering.\",\n    \"High-volume move down in BSE may indicate distribution; give it room but respect 2380 on closing basis.\",\n    \"POLICYBZR closed strong; breakout through 1790 would confirm continuation.\",\n    \"KPIL and ABB showed relative strength; keep on secondary watchlist for follow-through next week.\",\n    \"Consumption mixed (MARICO flat, VBL soft); no high-conviction signals today.\",\n    \"Monday plan with current cash: Priority 1 = IDBI breakout >104.2 (position ~\u20b95\u20136k). Alternate = LAURUSLABS add on >963 (very small add, 1\u20132 shares) if IDBI doesn\u2019t trigger.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761650745,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4591,
+    "prompt_tokens": 5401,
+    "total_tokens": 9992,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3648,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
