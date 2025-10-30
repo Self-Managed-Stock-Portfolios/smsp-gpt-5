@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CW4f5r8w5Ce9Yh0lrFRkwDjSgpcHb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broad strength in mid/small caps led by PSU infra, metals, and power. Breakout-style closes with heavy volume in SAIL, VBL, NBCC, HUDCO, HINDCOPPER, BHEL. Healthcare (LAURUS, BIOCON, LUPIN) firm; BFSI mixed; discretionary (JUBLFOOD, TRENT) constructive. Our portfolio gained on LAURUS, INDUSTOWER, BSE; BEL was soft but held its intraday low.\",\n  \"top_signals\": [\n    {\"symbol\": \"SAIL\", \"signal\": \"Buy on pullback\", \"reason\": \"Wide-range bullish day; close near high with very high volume suggests continuation; metals strong across board.\", \"price\": 139.0},\n    {\"symbol\": \"VBL\", \"signal\": \"Buy breakout > H\", \"reason\": \"Strong momentum candle from 455 to 501.7 with heavy volume; close near high favors continuation.\", \"price\": 501.7},\n    {\"symbol\": \"NBCC\", \"signal\": \"Buy breakout > H\", \"reason\": \"PSU infra strength; tight day closing near high with rising volume.\", \"price\": 116.15},\n    {\"symbol\": \"HUDCO\", \"signal\": \"Buy breakout > H\", \"reason\": \"PSU housing/infra theme strong; close near day\u2019s high, momentum intact.\", \"price\": 236.7},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Buy on pullback\", \"reason\": \"Copper names bid; strong close near high; look to buy minor dip toward prior demand.\", \"price\": 349.0},\n    {\"symbol\": \"BHEL\", \"signal\": \"Buy breakout > H\", \"reason\": \"Power-cap theme strength; strong close with above-average range; continuation above day\u2019s high.\", \"price\": 246.7},\n    {\"symbol\": \"KPITTECH\", \"signal\": \"Buy breakout > round 1200\", \"reason\": \"Recovered from intraday dip and closed strong; momentum resumes on a clean break over 1200.\", \"price\": 1199.0},\n    {\"symbol\": \"NHPC\", \"signal\": \"Buy breakout > H\", \"reason\": \"Defensive power PSU showing steady momentum; close near high signals trend continuation.\", \"price\": 87.09},\n    {\"symbol\": \"RVNL\", \"signal\": \"Buy breakout > H\", \"reason\": \"Rail/infra bid continues; closing strength favors a push through today's high.\", \"price\": 334.0},\n    {\"symbol\": \"JUBLFOOD\", \"signal\": \"Buy strength on close > H\", \"reason\": \"Constructive follow-through day; demand into close; look for continuation above today\u2019s high.\", \"price\": 614.9}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 6942.2,\n    \"total_value\": 26296.95,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units @ 2447.30\",\n      \"LTF: 30 units @ 268.17\",\n      \"BEL: 10 units @ 407.20\",\n      \"LAURUSLABS: 3 units @ 961.70\",\n      \"INDUSTOWER: 5 units @ 381.05\",\n      \"CASH: \u20b96942.20\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU infra/power pack led: NBCC, HUDCO, RVNL, NHPC, NTPCGREEN showed strong closes near highs.\",\n    \"Metals strong: SAIL and HINDCOPPER printed high-volume up days; JINDALSTEL firm.\",\n    \"Healthcare momentum: LAURUSLABS, BIOCON, LUPIN positive; consider adds only on strength above today\u2019s highs.\",\n    \"Consumer/discretionary constructive: JUBLFOOD and TRENT; NYKAA stable.\",\n    \"For Monday: prioritize breakout entries above today\u2019s highs or buy-the-dip levels noted; size small (\u20b92k\u2013\u20b93.5k per trade) given portfolio size.\",\n    \"Risk: place initial stops below today\u2019s lows for new buys; trail winners to lock gains.\",\n    \"Avoid high ticket names (e.g., POLYCAB, MCX, ABB) due to capital constraints; focus on liquid sub-300 names for position builds.\",\n    \"Current holdings management: LTF hold (monitor 266\u2013270 zone), BEL hold with stop under today\u2019s low, INDUSTOWER hold/add on dips near 378\u2013380, LAURUSLABS trail; consider add only above 970, BSE hold while above 2410.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761760451,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4215,
+    "prompt_tokens": 5395,
+    "total_tokens": 9610,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3200,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
