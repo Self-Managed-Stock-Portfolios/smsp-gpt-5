@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CXbEUT3OOlNcvaefjeoGKwdMLtsPp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"PSU and capital goods led the tape. BHEL and PSU banks (UNIONBANK, IDBI) showed strong momentum into Friday on rising volumes. Defence (BEL) strengthened with a high-volume breakout. IT was mixed; FMCG (Dabur/Marico) softened mid-week. Telecom infra (Indus Towers) rolled over late week. Overall breadth in smallcaps improved, with cyclicals (metals/PSUs) firming.\",\n  \"trades\": [\n    {\n      \"action\": \"sell\",\n      \"symbol\": \"INDUSTOWER\",\n      \"shares\": 5,\n      \"amount\": 1818.00,\n      \"reason\": \"Two consecutive weak sessions, Friday close near weekly lows and below 370 support; rotate to stronger momentum names.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"BEL\",\n      \"shares\": 10,\n      \"amount\": 4261.00,\n      \"reason\": \"High-volume breakout to new weekly highs; defence strength and relative outperformance vs broader market.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"BHEL\",\n      \"shares\": 10,\n      \"amount\": 2654.90,\n      \"reason\": \"Three-day momentum surge with heavy volumes; close near highs signals continuation potential.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"IDBI\",\n      \"shares\": 10,\n      \"amount\": 1038.00,\n      \"reason\": \"PSU banks rebounded Friday with strong volume; IDBI reclaimed prior breakdown area, offering low-priced exposure.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 806.30,\n    \"total_value\": 26475.85,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 30 units\",\n      \"BEL: 20 units\",\n      \"LAURUSLABS: 3 units\",\n      \"BHEL: 10 units\",\n      \"IDBI: 10 units\"\n    ],\n    \"weekly_pnl\": \"+0.7%\"\n  },\n  \"screening_changes\": [\n    \"Remove PEL: zero liquidity all week (suspended/illiquid), not actionable for our mandate\",\n    \"Remove IDEA: sub-\u20b910 high-volatility penny behavior; risk/impact not suitable for the portfolio\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762123982,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5197,
+    "prompt_tokens": 25164,
+    "total_tokens": 30361,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4672,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
