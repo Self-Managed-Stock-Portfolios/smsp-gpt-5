@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CXbB4wiWRtxpzSU9dLeMaBrgtHwdg",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed session: PSU banks led gains (UNIONBANK, IDBI), defence steady (BEL, HAL), while FMCG/consumption and select IT (DABUR, VBL, MPHASIS) were weak. Portfolio closed +2.02% with BEL and BSE strong; maintain a selective buy-on-strength approach into Monday.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Buy breakout > 106.5\",\n      \"reason\": \"Wide bullish candle and strong close after testing 107; continuation above 106.5 opens room higher. Use 100.8\u2013101 as risk reference.\",\n      \"price\": 106.5\n    },\n    {\n      \"symbol\": \"UNIONBANK\",\n      \"signal\": \"Buy on dips 146\u2013147\",\n      \"reason\": \"PSU bank momentum day with strong participation; buying closer to 146\u2013147 offers better risk-reward. Risk reference near 141.\",\n      \"price\": 148.67\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Hold/Add on strength > 427.5\",\n      \"reason\": \"Closed near high with solid range expansion; a push through 427.5 can extend trend. For existing holding, trail risk near 412.\",\n      \"price\": 426.1\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Hold/Trail\",\n      \"reason\": \"Recovered from an intraday shakeout and closed strong; trail protective stop near 2390\u20132350 to lock gains.\",\n      \"price\": 2479.0\n    },\n    {\n      \"symbol\": \"NAVINFLUOR\",\n      \"signal\": \"Buy pullback 5600\u20135650\",\n      \"reason\": \"Strong range expansion and firm close; prefer entries on shallow retracements rather than chasing highs. Risk reference ~5480.\",\n      \"price\": 5687.4\n    },\n    {\n      \"symbol\": \"HAL\",\n      \"signal\": \"Buy on dips 4650\u20134680\",\n      \"reason\": \"Defence momentum intact with steady higher-lows; buy-the-dip setup with risk reference ~4580.\",\n      \"price\": 4679.8\n    },\n    {\n      \"symbol\": \"NHPC\",\n      \"signal\": \"Accumulate 84\u201385\",\n      \"reason\": \"Tight consolidation near support; accumulation zone with defined risk below 82.9 for a carry move.\",\n      \"price\": 84.84\n    },\n    {\n      \"symbol\": \"KPITTECH\",\n      \"signal\": \"Breakout watch > 1181\",\n      \"reason\": \"Narrow-range day near recent highs; breakout above 1181 can trigger momentum continuation.\",\n      \"price\": 1166.7\n    },\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Hold/Add on close > 273.5\",\n      \"reason\": \"Inside-to-up potential; only add on a decisive close above 273.5 to confirm momentum. Risk guide ~262.\",\n      \"price\": 270.49\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Hold with tight risk\",\n      \"reason\": \"Weak close toward day low after a strong week; keep a tight guard\u2014below 940 consider trimming; above 972 strength resumes.\",\n      \"price\": 953.65\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 6942.2,\n    \"total_value\": 26475.85,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00, LTP 2479.00\",\n      \"LTF: 30 units @ 266.26, LTP 270.49\",\n      \"BEL: 10 units @ 412.80, LTP 426.10\",\n      \"LAURUSLABS: 3 units @ 900.05, LTP 953.65\",\n      \"INDUSTOWER: 5 units @ 361.55, LTP 363.60\",\n      \"Cash: \u20b96942.20\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU banks leadership: UNIONBANK, IDBI, UCOBANK, IOB, CENTRALBK showed relative strength; maintain positive bias on dips.\",\n    \"Defence complex resilient: BEL, HAL, GRSE, BEML steady; treat as buy-on-dips within trend.\",\n    \"FMCG/Consumption soft: DABUR, VBL, JUBLFOOD, MARICO weak\u2014avoid fresh longs until strength returns.\",\n    \"IT mixed-to-weak: MPHASIS saw heavy selling; COFORGE soft\u2014wait for stabilization before entries.\",\n    \"Chemicals bifurcated: NAVINFLUOR strong range expansion; DEEPAKNTR subdued\u2014prefer the leader.\",\n    \"Hospitals mixed: APOLLOHOSP and FORTIS softer; MAXHEALTH slipped\u2014await base formation.\",\n    \"Power/utilities steady: NHPC/SJVN tight ranges; TORNTPOWER firm\u2014watch for breakouts.\",\n    \"Realty mixed: OBEROIRLTY firm; PRESTIGE mild decline\u2014stock-specific approach.\",\n    \"Exchanges/brokers: BSE strong close; CDSL soft; MCX elevated\u2014avoid chasing MCX highs.\",\n    \"Telecom infra: INDUSTOWER consolidating; watch > 371 for momentum resumption.\",\n    \"Airports/logistics: GMRAIRPORT closed weak; DELHIVERY under pressure\u2014avoid until reversal signals.\",\n    \"Risk/positioning: With limited cash, prioritize 1\u20132 high-conviction adds (e.g., IDBI breakout or NHPC accumulate) and trail stops on winners.\",\n    \"Data note: Received 130 tickers in today\u2019s file; insights are based on the provided set.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762123770,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6214,
+    "prompt_tokens": 5499,
+    "total_tokens": 11713,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4928,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
