@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CXb6sJYzxNy2fOIB79OoqDlUAhKLX",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broadly constructive session for mid/small caps. Momentum strong in PSU/infra (BHEL, NBCC, HUDCO), selective financials (ABCAPITAL, POLICYBZR), and defense (BEML). Some softness in telecom infra (INDUSTOWER) and select financials (SBICARD, UNIONBANK). Given our small-capital setup, bias is to buy strength on breakouts or pullbacks with tight risk. No emergency trades needed; prefer confirmation on Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Buy on breakout\", \"reason\": \"Wide-range up day, close near high with strong volume; momentum continuation if day\u2019s high clears\", \"price\": 329.00},\n    {\"symbol\": \"BHEL\", \"signal\": \"Buy on pullback\", \"reason\": \"Strong close near high with heavy volume; better risk/reward on shallow dip\", \"price\": 257.00},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Buy on continuation\", \"reason\": \"Bullish reversal and strong close; trigger on takeout of today\u2019s high\", \"price\": 1852.00},\n    {\"symbol\": \"IRCON\", \"signal\": \"Buy on breakout\", \"reason\": \"Tight close just below resistance; breakout level nearby\", \"price\": 175.50},\n    {\"symbol\": \"IDBI\", \"signal\": \"Mean-reversion buy\", \"reason\": \"Sharp intraday selloff into support; bounce setup if reclaims 98\", \"price\": 98.20},\n    {\"symbol\": \"NBCC\", \"signal\": \"Buy on strength\", \"reason\": \"Closed near high with good volume; momentum continuation above day\u2019s high\", \"price\": 119.00},\n    {\"symbol\": \"BEML\", \"signal\": \"Buy on breakout retest\", \"reason\": \"Range expansion toward 2268 then cool-off; buy if highs are reclaimed\", \"price\": 2270.00},\n    {\"symbol\": \"RVNL\", \"signal\": \"Buy on breakout\", \"reason\": \"Coiling below resistance; continuation if 337 area is cleared\", \"price\": 337.50},\n    {\"symbol\": \"BEL\", \"signal\": \"Add on strength\", \"reason\": \"Near prior swing; add only if price pushes through today\u2019s high\", \"price\": 411.00}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 6942.20,\n    \"total_value\": 26270.60,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (CMP 2442.80)\",\n      \"LTF: 30 units @ 266.26 (CMP 267.89)\",\n      \"BEL: 10 units @ 412.80 (CMP 409.90)\",\n      \"LAURUSLABS: 3 units @ 900.05 (CMP 969.55)\",\n      \"INDUSTOWER: 5 units @ 361.55 (CMP 368.25)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU/infra momentum: BHEL, NBCC, HUDCO strong; prefer staggered entries on minor dips or breakout confirmations.\",\n    \"Rail PSUs coiling: RVNL and IRCON sitting just under resistance; watch for volume-backed breakouts.\",\n    \"Financials: ABCAPITAL strong momentum; POLICYBZR showed a powerful reversal; LTF neutral-to-positive, keep holding.\",\n    \"Telecom infra: INDUSTOWER printed O=H and sold off intraday; key support 364\u2013365. Manage risk if this zone breaks.\",\n    \"Healthcare: LAURUSLABS momentum day; use a trailing stop to protect gains. LUPIN steady.\",\n    \"Defense/Capital goods: BEML range expansion; HAL flat-to-soft; BEL constructive\u2014look to add only on strength.\",\n    \"Caution list (avoid until strength returns): UNIONBANK, SBICARD, AEGISLOG (weak close), AMBER (distribution-type day).\",\n    \"Low/odd liquidity flags: PEL had zero volume; IDEA extremely thin\u2014exclude from trade plans.\",\n    \"Risk guardrails for current holdings (monitor on gap-downs): INDUSTOWER < 362 risk-off, BEL < 398 risk-off, LTF < 261 risk-off, LAURUSLABS < 950 trail stop, BSE < 2408 trail stop.\",\n    \"Position sizing for Monday: favor affordable setups for our cash\u2014IDBI (~98) 40\u201360 shares on trigger; ABCAPITAL (~329) 10\u201315 shares on breakout; NBCC (~119) 20\u201330 shares if strength persists.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762123510,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4932,
+    "prompt_tokens": 5487,
+    "total_tokens": 10419,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3904,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
