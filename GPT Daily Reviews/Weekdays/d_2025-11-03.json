@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CXzgiBUyH80tmxhUcw6qfL19PuC3p",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broadly positive session for mid/small caps with leadership in pharma (Laurus, Wock, Navin), insurance/AMCs (HDFCAMC, Policybazaar) and select infra/defense (Prestige, MAZDOCK, GRSE). High-volume breadth: PSU banks and telecom saw heavy activity (IDEA, UNIONBANK, INDUSTOWER). Portfolio held gains; strength led by LAURUSLABS and BSE, while IDBI lagged near key \u20b9100 support.\",\n  \"top_signals\": [\n    {\"symbol\": \"LTF\", \"signal\": \"Buy-on-strength / Add\", \"reason\": \"Strong close near day high with solid volume; momentum intact; add on breakout >\u20b9280 with tight stop\", \"price\": 279.70},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Hold / Trail\", \"reason\": \"Follow-through day; momentum continuation; trail stop below \u20b9955\", \"price\": 975.40},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Watch for breakout\", \"reason\": \"Pushed into resistance; trigger above \u20b91824 could start next leg\", \"price\": 1810.20},\n    {\"symbol\": \"PRESTIGE\", \"signal\": \"Buy on dips\", \"reason\": \"Fresh highs zone; buy near \u20b91750\u20131765 on pullback; trend strong\", \"price\": 1780.70},\n    {\"symbol\": \"HDFCAMC\", \"signal\": \"Buy on dips\", \"reason\": \"Momentum intact near highs; look \u20b95350\u20135380 zone for entry with stop ~\u20b95240\", \"price\": 5404.50},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Watch for continuation\", \"reason\": \"Wide-range up day, close near high; continuation above \u20b9384.5\", \"price\": 382.75},\n    {\"symbol\": \"NAVINFLUOR\", \"signal\": \"Buy on pullback\", \"reason\": \"Gap-and-go; prefer retest toward \u20b95800\u20135860 rather than chase\", \"price\": 5905.50},\n    {\"symbol\": \"WOCKPHARMA\", \"signal\": \"Momentum long (risky)\", \"reason\": \"Big breakout on high volume; consider only small size on dips to \u20b91380\u20131400\", \"price\": 1413.80},\n    {\"symbol\": \"IDBI\", \"signal\": \"Risk management\", \"reason\": \"Weak close; \u20b9100 is key support. Exit on decisive break below \u20b9100 to limit drawdown\", \"price\": 101.51},\n    {\"symbol\": \"BHEL\", \"signal\": \"Hold / Watch 262\u2013268 range\", \"reason\": \"Indecision day at resistance; add only on close >\u20b9268 or reduce on break <\u20b9262\", \"price\": 264.95}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"IDBI\", \"action\": \"Sell\", \"reason\": \"Protect capital if psychological support fails; momentum turning down in PSU small banks\", \"quantity\": 10, \"price\": \"SL-M below \u20b999.80 (trigger 99.80)\"}\n  ],\n  \"portfolio\": {\n    \"cash\": 806.30,\n    \"total_value\": 26782.40,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units @ \u20b92385.00 (CMP \u20b92548.30)\",\n      \"LTF: 30 units @ \u20b9266.26 (CMP \u20b9279.70)\",\n      \"BEL: 20 units @ \u20b9419.45 (CMP \u20b9422.30)\",\n      \"LAURUSLABS: 3 units @ \u20b9900.05 (CMP \u20b9975.40)\",\n      \"BHEL: 10 units @ \u20b9265.49 (CMP \u20b9264.95)\",\n      \"IDBI: 10 units @ \u20b9103.80 (CMP \u20b9101.51)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"IDEA: Massive volume and strong close; momentum buy only if sustained >\u20b99.60 with tight stop (<\u20b99.05).\",\n    \"PSU banks mixed: UNIONBANK firm; smaller PSBs (IDBI, UCO, IOB) softer\u2014prefer strength within the pack.\",\n    \"Pharma leadership broadening: LAURUS, WOCKPHARMA, LUPIN, ALKEM, NAVINFLUOR strong\u2014favor buy-the-dip setups.\",\n    \"Realty/Infra: PRESTIGE breakout; OBEROIRLTY and TORNTPOWER constructive; watch TORNTPOWER >\u20b91352.5 for continuation.\",\n    \"Retail/Discretionary: TRENT near highs; JUBLFOOD needs >\u20b9603 for a clean trigger.\",\n    \"Tech/ER&D: KPITTECH constructive; watch >\u20b91170; COFORGE steady; PERSISTENT resilient.\",\n    \"Defense/Shipbuilders: MAZDOCK, GRSE, HAL steady uptrends; buy only on pullbacks to prior breakout zones.\",\n    \"Financials: SBICARD basing; watch >\u20b9890; AUBANK support near \u20b9865\u2013870.\",\n    \"MCX extended after strong run; prefer pullback toward \u20b99300\u20139400 before considering fresh entries.\",\n    \"Data received for 129 of 140 names; remainder not assessed today.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762217988,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4044,
+    "prompt_tokens": 5482,
+    "total_tokens": 9526,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2880,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
