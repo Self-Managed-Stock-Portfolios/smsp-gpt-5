@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CYDez5xzJuzFydwmAVQPiI9gJQg29",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed session with mild risk-off in IT and renewables; FMCG and select healthcare outperformed. PSU/industrial names were steady. Several liquid midcaps printed inside-to-positive days, while smallcaps showed dispersion with metals active on volume. Our portfolio closed +2.54%, led by Laurus Labs, LTF and BSE; IDBI and BEL lagged.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Risk alert / consider reduce if weakness persists\",\n      \"reason\": \"Closed below \u20b9100 after open=high reversal; sellers active. A sustained break below \u20b998.8 would invalidate near-term support.\",\n      \"price\": 99.26\n    },\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Add on breakout\",\n      \"reason\": \"Tight consolidation at highs; consider adding only on strength above today\u2019s high (\u20b9284.45) for continuation.\",\n      \"price\": 280.0\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Hold, trail stops\",\n      \"reason\": \"Momentum continuation with higher close; trail below today\u2019s low (~\u20b9970.6) to lock gains.\",\n      \"price\": 983.15\n    },\n    {\n      \"symbol\": \"BHEL\",\n      \"signal\": \"Hold; add only above strength\",\n      \"reason\": \"Positive day holding higher lows; consider add only on push above \u20b9268.4 with volume.\",\n      \"price\": 267.25\n    },\n    {\n      \"symbol\": \"DABUR\",\n      \"signal\": \"Buy on strength\",\n      \"reason\": \"Expansion candle closing near high with solid volume; trigger above \u20b9520 with tight risk.\",\n      \"price\": 517.05\n    },\n    {\n      \"symbol\": \"AUBANK\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Strong close near day high; breakout trigger above \u20b9881 for momentum follow-through.\",\n      \"price\": 880.3\n    },\n    {\n      \"symbol\": \"CHOLAFIN\",\n      \"signal\": \"Buy on controlled dip\",\n      \"reason\": \"Strong up-close after testing highs; look for pullback into \u20b91730\u20131740 for a better entry if strength holds.\",\n      \"price\": 1745.9\n    },\n    {\n      \"symbol\": \"JINDALSTEL\",\n      \"signal\": \"Breakout watch\",\n      \"reason\": \"Closed strong; continuation setup above \u20b91085 with defined risk.\",\n      \"price\": 1080.7\n    },\n    {\n      \"symbol\": \"SAIL\",\n      \"signal\": \"High-volume breakout watch\",\n      \"reason\": \"Heavy volume with price near recent range top; trigger above \u20b9140.8 for a quick swing.\",\n      \"price\": 138.18\n    },\n    {\n      \"symbol\": \"NAVINFLUOR\",\n      \"signal\": \"Momentum continuation (watch only given price/lot size)\",\n      \"reason\": \"Large bullish range closing near highs; continuation possible above \u20b96099, but unit price is high for our current cash.\",\n      \"price\": 6055.0\n    },\n    {\n      \"symbol\": \"CDSL\",\n      \"signal\": \"Avoid / wait for stabilization\",\n      \"reason\": \"Sharp intraday fade from highs on notable volume; monitor \u20b91530 support before considering longs.\",\n      \"price\": 1539.1\n    },\n    {\n      \"symbol\": \"WAAREEENER\",\n      \"signal\": \"Avoid longs for now\",\n      \"reason\": \"Lower close with weak tape in renewables; wait for reclaim of \u20b93429 and strength confirmation.\",\n      \"price\": 3369.6\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"IDBI\",\n      \"action\": \"Sell\",\n      \"reason\": \"Exit on breakdown below key \u20b998.8 support to cap downside and free cash.\",\n      \"quantity\": 10,\n      \"price\": 98.8\n    },\n    {\n      \"symbol\": \"SAIL\",\n      \"action\": \"Buy\",\n      \"reason\": \"Only if IDBI stop triggers and price crosses \u20b9140.8 with momentum; rotate into a liquid, high-volume breakout candidate.\",\n      \"quantity\": 12,\n      \"price\": 141.0\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 806.3,\n    \"total_value\": 26620.45,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units @ \u20b92385.00 (CMP \u20b92496.60, +4.68%)\",\n      \"LTF: 30 units @ \u20b9266.26 (CMP \u20b9280.00, +5.16%)\",\n      \"BEL: 20 units @ \u20b9419.45 (CMP \u20b9415.15, -1.03%)\",\n      \"LAURUSLABS: 3 units @ \u20b9900.05 (CMP \u20b9983.15, +9.23%)\",\n      \"BHEL: 10 units @ \u20b9265.49 (CMP \u20b9267.25, +0.66%)\",\n      \"IDBI: 10 units @ \u20b9103.80 (CMP \u20b999.26, -4.37%)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"AUBANK: Watch breakout > \u20b9881; close near highs suggests strength.\",\n    \"CHOLAFIN: Strong session; buy-the-dip toward \u20b91730\u20131740 if strength persists.\",\n    \"DABUR: Expansion day; trigger > \u20b9520 for continuation.\",\n    \"JINDALSTEL: Momentum setup; trigger > \u20b91085.\",\n    \"SAIL: High volume; breakout watch > \u20b9140.8.\",\n    \"NAVINFLUOR: Strong momentum; price heavy for our capital\u2014watch only.\",\n    \"NH: Wide-range up day; constructive above \u20b91810.\",\n    \"TATACHEM: Relative strength; monitor follow-through above \u20b9895.\",\n    \"KPIL: Firm close; momentum improves above \u20b91325.\",\n    \"BEL: Pullback; monitor \u20b9412\u2013414 as near-term support.\",\n    \"IDBI: Sub-\u20b9100 close with supply; use tight risk or exit on breakdown.\",\n    \"CDSL: Distribution-like day; watch \u20b91530 for stabilization.\",\n    \"IT basket (PERSISTENT, KPITTECH, COFORGE, TATAELXSI): Soft tape; wait for strength before new longs.\",\n    \"WAAREEENER/NTPCGREEN: Renewables soft; avoid until key levels are reclaimed.\",\n    \"BSE: Cooling after gap; still strong trend\u2014hold while above \u20b92489 day low.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762271697,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6116,
+    "prompt_tokens": 5412,
+    "total_tokens": 11528,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4672,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
