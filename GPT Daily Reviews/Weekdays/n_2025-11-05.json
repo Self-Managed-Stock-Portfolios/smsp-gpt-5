@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CZE2HvCeYJRVQGB2tFC5SBfVGi002",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Portfolio +2.54% since cost; value \u20b926,620.45 with \u20b9806.30 cash (~3%). Leaders: LAURUSLABS (+9.23%), LTF (+5.16%), BSE (+4.68%); laggards: IDBI (-4.37%), BEL (-1.03%). Concentration risk: LTF (31.6%) and BEL (31.2%) = ~62.8% of equity exposure. Bias: Financials (LTF, IDBI), Industrials/Defence (BEL, BHEL), Exchange (BSE), Pharma (Laurus). This past week\u2019s stance (ride winners, avoid averaging losers, tighten risk) largely worked; no trades taken. Into Monday: prioritize risk control (trail stops on winners), only add on strength confirmations, and consider trimming outsized positions into strength to reduce concentration.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Partial book/Trail\",\n      \"reason\": \"Up ~5% from cost and largest weight; into 290\u2013300 supply zone, prefer realizing some gains and raising stop to protect P&L.\",\n      \"price\": 292\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Add on strength / Cut on weakness\",\n      \"reason\": \"Heavy weight but slightly below buy. Prefer add only on sustained move back above recent pivot; cut if breakdown extends.\",\n      \"price\": 422\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Scale-out near round number; trail stop\",\n      \"reason\": \"Quick ~9% pop; psychological resistance near 1000. Lock some gains and trail remainder.\",\n      \"price\": 1008\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Buy the dip only\",\n      \"reason\": \"Momentum strong; prefer add on retest of 2400\u20132450 zone with tight risk rather than chase.\",\n      \"price\": 2405\n    },\n    {\n      \"symbol\": \"BHEL\",\n      \"signal\": \"Add above breakout\",\n      \"reason\": \"Sideways; confirmation above 275 improves risk/reward; otherwise hold with stop under recent swing.\",\n      \"price\": 275\n    },\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Wait for reclaim / Protect downside\",\n      \"reason\": \"Below cost and underperforming. Avoid averaging down; reconsider if it reclaims 100 with volume; exit on close <96.\",\n      \"price\": 96\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 806.3,\n    \"total_value\": 26620.45,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 30 units\",\n      \"BEL: 20 units\",\n      \"LAURUSLABS: 3 units\",\n      \"BHEL: 10 units\",\n      \"IDBI: 10 units\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Watch SUZLON: strong multi-month trend; prefer buy-the-dip into prior breakout zones, not breakouts.\",\n    \"IEX: prolonged base; monitor for clean breakout with volume; avoid if false breaks persist.\",\n    \"AUBANK: improving credit metrics; look for higher-low setup to add if it clears recent swing highs.\",\n    \"RVNL/IRCON (rail capex theme): remain strong; only add on pullbacks to 20/50-DMA equivalents with defined stops.\",\n    \"KPITTECH: momentum name; consider on constructive pullback rather than chase; earnings volatility caution.\",\n    \"MAPMYINDIA: growth + high ROCE; watch for tight consolidation breakout; size small due to liquidity.\",\n    \"COFORGE/LTIM (IT mid): rotating strength; stagger entries, earnings risk high\u2014buy post-results confirmation.\",\n    \"IIFLSEC/ANGELONE (broking ecosys with BSE holding): correlation tailwind; add only on dips to avoid overexposure to same theme.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762511469,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 3459,
+    "prompt_tokens": 567,
+    "total_tokens": 4026,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2560,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
