@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CZEdNUWwc7VYHw1XSsqZH1KHH8xIP",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Broad midcap strength led by Financials and Exchanges. LTF posted a strong trend day closing above 300 on very high volume; BSE printed a wide\u2011range bullish candle closing near the day\u2019s high. PSU banks (UNIONBANK/INDIANB/IDBI) firm; Metals (SAIL/HINDCOPPER) showed momentum; Depositories/Exchanges (CDSL/MCX/BSE) strong. IT mixed to soft (PERSISTENT/MPHASIS faded), Renewables (WAAREEENER) weak. Portfolio +5.8% total P&L with LTF and BSE driving gains. No emergency trades needed; plan to rebalance and add selectively on Monday if setups confirm.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Trim/Trail\",\n      \"reason\": \"Breakout and close above 300 on very high volume; position is 33% of portfolio. Book partial profits Monday (sell 5\u201310 shares near 302\u2013305) and trail the rest with stop ~290.\",\n      \"price\": 303.6\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Add on retest / Hold\",\n      \"reason\": \"Wide-range bullish breakout day with heavy volume; exchange/depository theme strong. Consider 1 add on a pullback to 2610\u20132630 or on breakout above 2719; stop for new add ~2575.\",\n      \"price\": 2678.3\n    },\n    {\n      \"symbol\": \"ABCAPITAL\",\n      \"signal\": \"Buy on retest\",\n      \"reason\": \"Closed back above the 335\u2013340 resistance zone on strong volume; look to enter on a retest of 335\u2013340 with stop ~324.\",\n      \"price\": 338.1\n    },\n    {\n      \"symbol\": \"HINDCOPPER\",\n      \"signal\": \"Buy on dips\",\n      \"reason\": \"Metals showing relative strength; strong close near highs. Buy 326\u2013333 with stop ~312 for momentum continuation.\",\n      \"price\": 332.8\n    },\n    {\n      \"symbol\": \"CDSL\",\n      \"signal\": \"Buy on retest\",\n      \"reason\": \"Breakout toward 1600+ with volume; pairs well with existing BSE exposure. Prefer entries 1550\u20131575; stop ~1495.\",\n      \"price\": 1578.8\n    },\n    {\n      \"symbol\": \"SAIL\",\n      \"signal\": \"Buy on dips\",\n      \"reason\": \"Momentum continuation in metals; sustained close near highs. Prefer entries 137\u2013140; stop ~132.\",\n      \"price\": 141.0\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Hold\",\n      \"reason\": \"Recovered intraday and closed near highs; maintain with risk control. Stop ~402 to protect capital.\",\n      \"price\": 414.25\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Hold/Add above 990\",\n      \"reason\": \"Steady uptrend; close near highs. Consider small add only on strength above 990 with stop ~960.\",\n      \"price\": 982.15\n    },\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Hold/Add on dips\",\n      \"reason\": \"Regained 100 handle with PSU bank strength. Add 97.5\u201399 if available; stop ~95.5.\",\n      \"price\": 100.42\n    },\n    {\n      \"symbol\": \"WAAREEENER\",\n      \"signal\": \"Avoid for now\",\n      \"reason\": \"Bearish close near day\u2019s low after early strength; wait for stabilization back above 3320 before considering longs.\",\n      \"price\": 3276.2\n    }\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 806.3,\n    \"total_value\": 27466.75,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (LTP 2678.30)\",\n      \"LTF: 30 units @ 266.26 (LTP 303.60)\",\n      \"BEL: 20 units @ 419.45 (LTP 414.25)\",\n      \"LAURUSLABS: 3 units @ 900.05 (LTP 982.15)\",\n      \"BHEL: 10 units @ 265.49 (LTP 263.85)\",\n      \"IDBI: 10 units @ 103.80 (LTP 100.42)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Position sizing: LTF (33%) and BEL (30%) together are >60% of portfolio. Plan to trim LTF (5\u201310 shares) Monday to diversify risk.\",\n    \"PSU banks strong: UNIONBANK, INDIANB, IDBI closed near highs; watch for follow\u2011through Monday. Prefer adds on mild dips rather than gap\u2011ups.\",\n    \"Metals momentum: SAIL and HINDCOPPER showed strength; consider staggered buys on dips with tight stops to manage volatility.\",\n    \"Depository/Exchange theme: BSE, CDSL, MCX strong. Prefer CDSL on a pullback 1550\u20131575; add BSE only on retest or fresh breakout.\",\n    \"Renewables mixed: WAAREEENER weak (close near low); KPIGREEN firmer but inside range. Avoid fresh buys in WAAREEENER until it reclaims 3320.\",\n    \"IT soft-to-mixed: PERSISTENT/MPHASIS faded from highs; COFORGE stable but not expanding. Avoid chasing IT until strength returns.\",\n    \"Hospitals/Healthcare: FORTIS firm; APOLLOHOSP saw a sharp fade from highs. For LAURUSLABS, keep stop ~960; add only above 990.\",\n    \"Capital goods/Industrial: BHEL green close; hold with stop ~255. ABB/CUMMINS showed intraday weakness; avoid fresh entries there for now.\",\n    \"Financials ex\u2011banks: ABCAPITAL strong reclaim of 335\u2013340; potential add candidate if we free cash from LTF trim.\",\n    \"If Monday opens with broad market gap down >0.7%, delay new buys and let first 30\u201345 minutes establish ranges; use pullback entries only.\",\n    \"Risk controls (indicative stops): LTF 290 (trail), BSE 2575 (new adds), BEL 402, LAURUS 960, BHEL 255, IDBI 95.5.\",\n    \"Liquidity check: Today\u2019s leaders carried strong volumes (LTF, BSE, ABCAPITAL, SAIL/HINDCOPPER), supporting continuation probability.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762513769,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6463,
+    "prompt_tokens": 5500,
+    "total_tokens": 11963,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4992,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
