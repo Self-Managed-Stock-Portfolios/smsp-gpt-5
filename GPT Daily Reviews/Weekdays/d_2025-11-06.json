@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CZEUGhginUkCo703pK0dzXsT1kFCJ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed-to-weak session across mid/small caps. PSU banks and metals softened (IDBI, UCO, IOB, HINDCOPPER), while momentum held in select financials and AMC/tower plays (SUNDARMFIN, HDFCAMC, INDUSTOWER) and building products (ASTRAL). Notable wide-range declines in VOLTAS, ZYDUSLIFE, DELHIVERY; constructive strength/breakout attempts in ASTRAL, HDFCAMC, INDUSTOWER. Portfolio closed +0.94% led by LAURUSLABS and LTF; risk flag on IDBI and BHEL.\",\n  \"top_signals\": [\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Buy on breakout > \u20b9404\", \"reason\": \"Strong close with heavy volume; consolidation just below round number; potential continuation if 404/405 clears.\", \"price\": 398.30},\n    {\"symbol\": \"ASTRAL\", \"signal\": \"Buy on dip or on breakout\", \"reason\": \"Range expansion up on very high volume; consider dips to 1535\u20131550 or strength >1575 with tight stop.\", \"price\": 1566.10},\n    {\"symbol\": \"HDFCAMC\", \"signal\": \"Buy on strength/dips\", \"reason\": \"Bullish candle from opening lows; momentum in AMCs. Add on dips ~5330\u20135360 or >5400 with stop near 5230.\", \"price\": 5388.50},\n    {\"symbol\": \"SUNDARMFIN\", \"signal\": \"Buy on dip\", \"reason\": \"Trend intact; higher highs with strong close. Prefer entries near 4780\u20134820 with stop under 4700.\", \"price\": 4858.40},\n    {\"symbol\": \"MANAPPURAM\", \"signal\": \"Buy on dip\", \"reason\": \"Momentum day closing near highs with good volume; look for 270\u2013272 pullback, stop ~263.\", \"price\": 274.00},\n    {\"symbol\": \"CDSL\", \"signal\": \"Buy on breakout > \u20b91538\", \"reason\": \"Tight consolidation with slight up-close; market infra remains resilient; potential push toward 1600.\", \"price\": 1532.90},\n    {\"symbol\": \"KPITTECH\", \"signal\": \"Buy above \u20b91162\", \"reason\": \"Held firm; tech auto-theme strength. Break above day high could extend trend.\", \"price\": 1159.20},\n    {\"symbol\": \"AUBANK\", \"signal\": \"Breakout watch > \u20b9892.7\", \"reason\": \"Tight range near resistance; clean trigger above day high for continuation.\", \"price\": 881.00},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Trail SL / Add on strength\", \"reason\": \"Strong relative strength; trail stop near 959 to lock gains; potential add above 995.\", \"price\": 979.80},\n    {\"symbol\": \"BSE\", \"signal\": \"Hold; breakout watch > \u20b92496\", \"reason\": \"Consolidation day; structure intact. Trail risk near 2415.\", \"price\": 2455.50},\n    {\"symbol\": \"VOLTAS\", \"signal\": \"Avoid new longs / breakdown risk\", \"reason\": \"Wide-range down day closing near lows; watch 1288 support\u2014below it, momentum likely accelerates.\", \"price\": 1292.40},\n    {\"symbol\": \"ZYDUSLIFE\", \"signal\": \"Avoid longs near-term\", \"reason\": \"Wide bearish bar from 998 to 937 closing near lows; wait for stabilization above 950.\", \"price\": 936.70},\n    {\"symbol\": \"DELHIVERY\", \"signal\": \"Avoid catching knife\", \"reason\": \"Gap down and heavy selloff with very high volume; need base back above 450 for safer long.\", \"price\": 442.60},\n    {\"symbol\": \"CHOLAFIN\", \"signal\": \"Watch for reversal only\", \"reason\": \"Large intraday drop into 1653\u20131680 support zone; buy only on a clear bullish reversal candle.\", \"price\": 1683.40}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"IDBI\", \"action\": \"Sell\", \"reason\": \"PSU banks weak across board; IDBI closed near day low and lost the \u20b9100 handle. Protect capital if breakdown extends.\", \"quantity\": 10, \"price\": 95.90}\n  ],\n  \"portfolio\": {\n    \"cash\": 806.30,\n    \"total_value\": 26206.30,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 30 units\",\n      \"BEL: 20 units\",\n      \"LAURUSLABS: 3 units\",\n      \"BHEL: 10 units\",\n      \"IDBI: 10 units\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU banks weak: UNIONBANK, IDBI, UCO, IOB, CENTRALBK all slipped; keep exposure light and use tight stops.\",\n    \"Capital goods/consumer durables under pressure: VOLTAS and ESCORTS showed wide-range declines; HAVELLS softer\u2014prefer strength confirmation before any buys.\",\n    \"Healthcare mixed: LAURUSLABS strong; ZYDUSLIFE and METROPOLIS printed weak candles\u2014focus on relative strength names within pharma.\",\n    \"Market infra: BSE held up; CDSL constructive; MCX eased\u2014bias positive for exchange/depository theme.\",\n    \"Renewables/power: NHPC, SJVN drifted; WAAREEENER steady near highs\u2014watch a clean breakout >3415.\",\n    \"Rail/defence: RVNL, IRCON, GRSE soft; HAL steady; avoid fresh buys in rail PSU pack until momentum returns.\",\n    \"Logistics: DELHIVERY had a heavy breakdown with very high volume; AEGISLOG more stable with upward bias >772.\",\n    \"Autos/auto-IT: ASHOKLEY flat; KPITTECH held strength\u2014prefer buys above day highs.\",\n    \"Financials: LTF mild pullback but trend intact; SUNDARMFIN strong; SBICARD weak and hovering near support.\",\n    \"Staples/FMCG: DABUR, MARICO stable; GODREJCP modestly lower\u2014no clear edge.\",\n    \"Metals/chemicals: HINDCOPPER weak; SHYAMMETL volatile; TATACHEM eased; DEEPAKNTR/NAVINFLUOR range-bound\u2014avoid chasing.\",\n    \"IT services: COFORGE/MPHASIS/PERSISTENT steady; OFSS softer; TATAELXSI underperformed.\",\n    \"Real estate: PRESTIGE/OBEROIRLTY slightly lower; keep watch for sector cues before adding.\",\n    \"Building products: ASTRAL showed a strong, high-volume breakout\u2014top quality candidate on dips.\",\n    \"Data note: Received 127 of 140 tickers today; signals reflect available set.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762513204,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6707,
+    "prompt_tokens": 5417,
+    "total_tokens": 12124,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5184,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
