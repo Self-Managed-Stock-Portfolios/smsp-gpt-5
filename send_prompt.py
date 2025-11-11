@@ -65,7 +65,7 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
             prompt = prompt.replace("[Stock Data]", stock_data)
             
             prior_signals = []
-            signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
+            signals_dir = os.path.join("GPT Daily Reviews", "Weekdays")
             for i in range(5):
                 past_date = (target_date - timedelta(days=i)).strftime('%Y-%m-%d')
                 signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
@@ -79,7 +79,7 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
             prompt = prompt.replace("[Date]", date_input)
         elif(prompt_type == 'n'):
             prior_signals = []
-            signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
+            signals_dir = os.path.join("GPT Daily Reviews", "Weekdays")
             for i in range(5):
                 past_date = (target_date - timedelta(days=i)).strftime('%Y-%m-%d')
                 signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
@@ -97,7 +97,7 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
             
             if prompt_type == 'd':
                 prior_signals = []
-                signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
+                signals_dir = os.path.join("GPT Daily Reviews", "Weekdays")
                 if(target_date.weekday() == 0):
                     new_date = target_date - timedelta(days=3)
                     monday = new_date - timedelta(days=new_date.weekday())
