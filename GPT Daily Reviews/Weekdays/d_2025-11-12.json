@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CbS4OUYo53buoV0yqMy7BaTDGRCzO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mid/small caps stayed constructive. Leadership rotated to pharma (BIOCON, LUPIN, WOCKPHARMA, ALKEM), telecom towers (INDUSTOWER), and select exchanges/depositories (BSE steady, CDSL firm). Metals mixed: HINDCOPPER saw a sharp intraday flush; SAIL coiling just under breakout. Our portfolio held gains with BSE/LAURUSLABS strong, LTF stable but still a large single-name exposure (~30%). Focus: buy strength on defined triggers, avoid chasing extended names, and keep tight stops into the week.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"SAIL\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Coiling just below 145.2 resistance; high-volume continuation likely if level clears. Favor small starter with tight stop.\",\n      \"price\": 143.49\n    },\n    {\n      \"symbol\": \"BHEL\",\n      \"signal\": \"Add on breakout\",\n      \"reason\": \"PSU/defence bid intact; a decisive move above 290.9 opens room higher. Keep stop near 276 on adds.\",\n      \"price\": 287.05\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Add on strength\",\n      \"reason\": \"Range 422\u2013430; buy only on a clean push above 429.4 with volume; otherwise hold.\",\n      \"price\": 424.75\n    },\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Add on breakout or dip\",\n      \"reason\": \"Exchange/depository theme firm. Add above 2818\u20132820 or on dips to 2735\u20132750 with stop ~2680.\",\n      \"price\": 2775.4\n    },\n    {\n      \"symbol\": \"CDSL\",\n      \"signal\": \"Buy on retest\",\n      \"reason\": \"Breakout held; prefer entries on dip to 1615\u20131635 or strength back above 1660 with stop ~1515.\",\n      \"price\": 1655.3\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Hold/Trail; add on strength\",\n      \"reason\": \"Uptrend intact; trail stop near 965. Consider add only on a sustained break above 1000\u20131005.\",\n      \"price\": 989.25\n    },\n    {\n      \"symbol\": \"LTF\",\n      \"signal\": \"Trail/Reduce on weakness\",\n      \"reason\": \"Still ~30% of portfolio; maintain trailing stop around 289\u2013291. Reduce on breakdown to control concentration risk.\",\n      \"price\": 294.9\n    },\n    {\n      \"symbol\": \"INDUSTOWER\",\n      \"signal\": \"Breakout watch\",\n      \"reason\": \"Tight base; momentum trigger above 410.7 could open next leg. Keep stop ~392 on fresh buys.\",\n      \"price\": 406.95\n    },\n    {\n      \"symbol\": \"BIOCON\",\n      \"signal\": \"Buy-the-dip or strength\",\n      \"reason\": \"Pharma leadership; prefer controlled dips to 394\u2013398 or strength above 409 with stop ~389.\",\n      \"price\": 405.9\n    },\n    {\n      \"symbol\": \"ASTRAL\",\n      \"signal\": \"Buy on breakout/dip\",\n      \"reason\": \"Range expansion; buy strength above 1589\u20131592 or buy dip to 1568\u20131575 with stop ~1546.\",\n      \"price\": 1585.2\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"LTF\",\n      \"action\": \"Sell\",\n      \"reason\": \"Risk control: trim into any breakdown to keep single-name exposure in check.\",\n      \"quantity\": 8,\n      \"price\": \"SL-M 288.80 (trigger on breakdown 289.00)\"\n    },\n    {\n      \"symbol\": \"SAIL\",\n      \"action\": \"Buy\",\n      \"reason\": \"Momentum entry if breakout confirms; uses available cash without overleveraging.\",\n      \"quantity\": 6,\n      \"price\": \"Buy stop 145.20; LMT 146.00; initial SL 137.50\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 969.8,\n    \"total_value\": 27637.75,\n    \"holdings_count\": 8,\n    \"holdings\": [\n      \"BSE: 1 units @ Buy \u20b92385.00 (CMP \u20b92775.40)\",\n      \"LTF: 28 units @ Buy \u20b9275.59 (CMP \u20b9294.90)\",\n      \"BEL: 10 units @ Buy \u20b9419.45 (CMP \u20b9424.75)\",\n      \"LAURUSLABS: 3 units @ Buy \u20b9900.05 (CMP \u20b9989.25)\",\n      \"BHEL: 10 units @ Buy \u20b9265.49 (CMP \u20b9287.05)\",\n      \"NHPC: 30 units @ Buy \u20b981.48 (CMP \u20b981.98)\",\n      \"SAIL: 10 units @ Buy \u20b9144.05 (CMP \u20b9143.49)\",\n      \"CDSL: 1 units @ Buy \u20b91600.90 (CMP \u20b91655.30)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Pharma leadership broadening: BIOCON, LUPIN, WOCKPHARMA, ALKEM strong; LAURUSLABS steady\u2014prefer adds only on strength, avoid chasing extended candles.\",\n    \"Exchanges/depositories firm: BSE constructive; CDSL holding above 1600; MCX extended\u2014prefer dips only.\",\n    \"Telecom towers constructive: INDUSTOWER basing under 411 trigger.\",\n    \"Metals mixed: HINDCOPPER saw heavy fade; look for stabilization above 346 before considering dips. SAIL coiling under 145.2 breakout.\",\n    \"NBFCs: LTF stable but keep a trailing stop near 289\u2013291 to manage concentration; ABCAPITAL steady near 330\u2014buy retest only.\",\n    \"IT/ER&D: KPITTECH strong close (1244.3); PERSISTENT/MPHASIS stable\u2014no urgency for fresh adds in small portfolio.\",\n    \"PSU/defence: BHEL constructive; BEL needs a push above 429\u2013432 to re-accelerate.\",\n    \"Staples/Discretionary: MARICO/DABUR range-bound; JUBLFOOD constructive but needs >586\u2013589 to confirm.\",\n    \"Utilities/Renewables: NHPC range 80\u201383\u2014continue hold; NTPCGREEN stuck near 98\u2014wait for range break.\",\n    \"Real estate/infra: PRESTIGE cooled off; MAZDOCK/GRSE trends intact\u2014prefer pullbacks, not breakouts.\",\n    \"Risk controls (current holdings): LTF 289\u2013291 trail; BSE 2680 (for new adds); BEL 404; BHEL 276; LAURUS 965; NHPC 79.9; SAIL 137.5; CDSL 1515.\",\n    \"Execution: If market gaps >0.7%, allow 20\u201330 minutes to set ranges; use pullback entries and avoid chasing opening spikes.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1763042072,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4438,
+    "prompt_tokens": 8484,
+    "total_tokens": 12922,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2880,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
