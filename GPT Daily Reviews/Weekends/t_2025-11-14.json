@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-Cc1BBsQvtAZHwXg0WlVNjDQCUMNfe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"Mid/small caps stayed constructive. Leadership rotated into pharma (Laurus, Biocon, Lupin), exchanges/depositories (BSE, CDSL), and capital goods (Voltas, BHEL). PSU metals coiled (SAIL near 145.2 trigger). NBFCs were choppy; manage LTF concentration with a tight trail. We rotate out of weak utilities (NHPC) into stronger momentum themes and rebalance risk.\",\n  \"trades\": [\n    {\n      \"action\": \"sell\",\n      \"symbol\": \"NHPC\",\n      \"shares\": 30,\n      \"amount\": 2409.0,\n      \"reason\": \"Exit laggard; below 82.5 and weak within 80\u201383 range. Reallocate to higher-RS themes.\"\n    },\n    {\n      \"action\": \"sell\",\n      \"symbol\": \"LTF\",\n      \"shares\": 6,\n      \"amount\": 1764.9,\n      \"reason\": \"Trim concentration (~21% -> ~15%) and trail risk while it remains below 300; line-in-sand near 289.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"CDSL\",\n      \"shares\": 1,\n      \"amount\": 1625.8,\n      \"reason\": \"Add within strong exchange/depository theme; holding >1600. Risk marker ~1515.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"SAIL\",\n      \"shares\": 10,\n      \"amount\": 1419.9,\n      \"reason\": \"Accumulate in 140\u2013142 coil ahead of 145.2 breakout; initial risk to ~137.5.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"NBCC\",\n      \"shares\": 10,\n      \"amount\": 1141.4,\n      \"reason\": \"High-volume momentum; buy-the-dip near 111\u2013114 with stop ~107.5. Diversifies away from NBFC risk.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 167.8,\n    \"total_value\": 27473.5,\n    \"holdings_count\": 8,\n    \"holdings\": [\n      \"BSE: 1 units\",\n      \"LTF: 14 units\",\n      \"BEL: 10 units\",\n      \"LAURUSLABS: 3 units\",\n      \"BHEL: 10 units\",\n      \"SAIL: 30 units\",\n      \"CDSL: 3 units\",\n      \"NBCC: 10 units\"\n    ],\n    \"weekly_pnl\": \"-0.1%\"\n  },\n  \"screening_changes\": [\n    \"Remove IDEA: speculative penny behavior and outsized volatility; not aligned with risk profile.\",\n    \"Remove EMCURE: weak RS and repeated failed attempts near 1400; prefer clearer pharma leaders.\",\n    \"Remove GODIGIT: range-bound near 350 with low edge; drop to reduce list clutter.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1763177033,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 6021,
+    "prompt_tokens": 33042,
+    "total_tokens": 39063,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5376,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
