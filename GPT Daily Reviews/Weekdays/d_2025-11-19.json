@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-Cdi9j6NC8jzVtKZVyH5B1nzUYrbd5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Calm, constructive day for mid/small caps. Leadership rotated among exchanges/depositories (BSE, CDSL) and cap goods/PSUs (BHEL). Pharma cooled intraday (Laurus, Biocon faded from highs) but structure remains positive. Our book held gains with BSE strong near highs, LTF defended the 295\u2013302 band, and CDSL held >1600. Metals mixed; SAIL back around 140 support.\",\n  \"top_signals\": [\n    {\"symbol\": \"LTF\", \"signal\": \"Hold/Trail; add on breakout\", \"reason\": \"Healthy consolidation; momentum continuation above 301.6 can extend the move. Trail risk to ~291.\", \"price\": 297.65},\n    {\"symbol\": \"BSE\", \"signal\": \"Add on breakout or controlled dip\", \"reason\": \"Theme strong; clean trigger above 2910 or buy dip 2830\u20132860 with tight stop for adds.\", \"price\": 2898.30},\n    {\"symbol\": \"CDSL\", \"signal\": \"Add on retest/strength\", \"reason\": \"Holds >1600. Prefer dip to 1605\u20131615 or strength through 1665\u20131670.\", \"price\": 1622.80},\n    {\"symbol\": \"BHEL\", \"signal\": \"Add on breakout\", \"reason\": \"Constructive close; a decisive push >292\u2013293 can resume PSU momentum.\", \"price\": 289.20},\n    {\"symbol\": \"BEL\", \"signal\": \"Add on strength only\", \"reason\": \"Supply near 430\u2013432; cleaner upside only on a high-volume push through that band.\", \"price\": 423.20},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Hold/Trail; add on strength\", \"reason\": \"Pharma leader; adds only above 1010/1025. Trail existing to ~965\u2013975.\", \"price\": 987.50},\n    {\"symbol\": \"SAIL\", \"signal\": \"Accumulate on dip or strength-only\", \"reason\": \"Support 138\u2013140 holding; adds on dip with stop ~137.5 or strength above 145.2.\", \"price\": 139.99},\n    {\"symbol\": \"NBCC\", \"signal\": \"Momentum add on breakout\", \"reason\": \"Continuation trigger above 117.5; use ~111.5 stop on fresh adds.\", \"price\": 113.04},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Breakout watch\", \"reason\": \"Coiling base; a clean move >415 can start a fresh leg. Risk marker ~392.\", \"price\": 403.25},\n    {\"symbol\": \"BIOCON\", \"signal\": \"Buy on strength\", \"reason\": \"Rejected intraday highs; cleaner continuation only above 423\u2013424. Risk to ~405.\", \"price\": 410.10},\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Buy on breakout\", \"reason\": \"High volume base; trigger above 105 with stop ~99.5.\", \"price\": 102.92},\n    {\"symbol\": \"RVNL\", \"signal\": \"Breakout watch\", \"reason\": \"Tight range; momentum resumes above 328 (early signal >322). Fresh risk ~311.\", \"price\": 320.15},\n    {\"symbol\": \"IDBI\", \"signal\": \"Momentum add on strength\", \"reason\": \"PSU banks firm; continuation above 105 can extend trend. Manage risk tight given recent run.\", \"price\": 104.62}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"LTF\", \"action\": \"Sell\", \"reason\": \"Protect gains if momentum breaks; 291 is the recent line-in-sand.\", \"quantity\": 7, \"price\": \"SL-M 291.00\"},\n    {\"symbol\": \"SAIL\", \"action\": \"Sell\", \"reason\": \"Cut risk if 136.80 breaks, invalidating current support zone.\", \"quantity\": 15, \"price\": \"SL-M 136.80\"},\n    {\"symbol\": \"NBCC\", \"action\": \"Sell\", \"reason\": \"If 111.50 fails, momentum setup negated\u2014exit to limit drawdown.\", \"quantity\": 10, \"price\": \"SL-M 111.50\"}\n  ],\n  \"portfolio\": {\n    \"cash\": 4326.80,\n    \"total_value\": 27493.80,\n    \"holdings_count\": 8,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (CMP 2898.30)\",\n      \"LTF: 7 units @ 275.59 (CMP 297.65)\",\n      \"BEL: 10 units @ 419.45 (CMP 423.20)\",\n      \"LAURUSLABS: 3 units @ 900.05 (CMP 987.50)\",\n      \"BHEL: 10 units @ 265.49 (CMP 289.20)\",\n      \"SAIL: 15 units @ 142.68 (CMP 139.99)\",\n      \"CDSL: 3 units @ 1617.60 (CMP 1622.80)\",\n      \"NBCC: 10 units @ 114.14 (CMP 113.04)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Pharma: Laurus cooled from highs but remains a leader; Biocon needs >423\u2013424; LUPIN/ALKEM steady\u2014prefer strength entries.\",\n    \"Exchanges/Depositories: BSE near highs; CDSL firm above 1600; MCX extended\u2014favor dips over chasing.\",\n    \"PSU/Cap goods/Defence: BHEL constructive with trigger >292; BEL needs >430\u2013432; shipyards (MAZDOCK/GRSE) steady; HAL trend intact on dips.\",\n    \"Telecom towers: INDUSTOWER basing under 415; breakout watch.\",\n    \"Infra/Rail PSU: RVNL setup >328; IRCON steady; HUDCO holding ~237 zone.\",\n    \"Metals: SAIL defending 138\u2013140; HINDCOPPER around 327\u2014use tight stops on dips, add strength.\",\n    \"Banks/NBFC: LTF resilient in 295\u2013302 band; PSU banks active (IDBI/UCO/CENTRALBK/IOB)\u2014prefer strength confirmations, avoid overextension.\",\n    \"Renewables: INOXWIND choppy; WAAREEENER firm; NTPCGREEN range-bound\u2014wait for decisive breaks.\",\n    \"Execution plan (Monday): Avoid chasing gap >0.7%; let first 20\u201330 mins set range. For adds, size small (<=8\u201310% of portfolio per trade) with predefined stops as above and trail winners.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1763580563,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4596,
+    "prompt_tokens": 8140,
+    "total_tokens": 12736,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3136,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
