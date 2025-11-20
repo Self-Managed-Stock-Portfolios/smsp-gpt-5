@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-Cdyj0N3wh4zoaeuBhWmAAVVLlAsLs",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Quiet, constructive session for mid/small caps. Exchanges/depositories (BSE, CDSL) and cap goods stayed firm; pharma cooled but held key levels (Laurus >970). PSU/cap goods mixed (BHEL inside day). Metals soft (SAIL/Hindcopper). Breadth neutral; several names are coiling just under breakout triggers.\",\n  \"top_signals\": [\n    {\n      \"symbol\": \"BSE\",\n      \"signal\": \"Add on breakout or buy-the-dip\",\n      \"reason\": \"Strong theme; closed just under highs. Add through 2960\u20132975 or on a controlled dip to 2830\u20132860 with tight risk (~2790).\",\n      \"price\": 2895.50\n    },\n    {\n      \"symbol\": \"CDSL\",\n      \"signal\": \"Add on strength/retest\",\n      \"reason\": \"Holding above 1600. Prefer adds on retest 1615\u20131625 or strength through 1665\u20131670. Risk marker ~1580.\",\n      \"price\": 1640.10\n    },\n    {\n      \"symbol\": \"BHEL\",\n      \"signal\": \"Hold/Trail; add on breakout\",\n      \"reason\": \"Inside day; momentum resumes on a decisive push above 292\u2013293. Trail existing risk to ~276\u2013278.\",\n      \"price\": 285.25\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"signal\": \"Add on strength only\",\n      \"reason\": \"Supply band at 430\u2013432. Cleaner momentum only on a high-volume push through that zone. Risk marker ~404 on fresh adds.\",\n      \"price\": 423.00\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"signal\": \"Hold/Trail; add on strength\",\n      \"reason\": \"Pharma leader holding >970. Consider adds above 1005/1025. Trail existing to ~965.\",\n      \"price\": 987.10\n    },\n    {\n      \"symbol\": \"GMRAIRPORT\",\n      \"signal\": \"Buy on breakout\",\n      \"reason\": \"Big volume base intact; a clean move above 105 can start next leg. Stop ~99.5.\",\n      \"price\": 103.27\n    },\n    {\n      \"symbol\": \"INDUSTOWER\",\n      \"signal\": \"Breakout watch\",\n      \"reason\": \"Coiling below 415; continuation only on decisive breakout >415 with volume. Risk marker ~392.\",\n      \"price\": 400.50\n    },\n    {\n      \"symbol\": \"RVNL\",\n      \"signal\": \"Breakout watch\",\n      \"reason\": \"Tight range under resistance; momentum resumes above 328. Fresh risk ~311.\",\n      \"price\": 319.10\n    },\n    {\n      \"symbol\": \"NBCC\",\n      \"signal\": \"Momentum add on breakout\",\n      \"reason\": \"Continuation trigger above 117.5; use ~111.5 stop on fresh buys.\",\n      \"price\": 115.99\n    },\n    {\n      \"symbol\": \"IDBI\",\n      \"signal\": \"Strength-only continuation\",\n      \"reason\": \"PSU banks cooled; cleaner upside only on reclaim >105 with tight risk (~99.8).\",\n      \"price\": 102.80\n    }\n  ],\n  \"emergency_trades\": [\n    {\n      \"symbol\": \"BSE\",\n      \"action\": \"Sell\",\n      \"reason\": \"Cut risk if key dip-buy zone fails; loss of 2830\u20132860 weakens structure.\",\n      \"quantity\": 1,\n      \"price\": \"SL-M 2825.00\"\n    },\n    {\n      \"symbol\": \"BEL\",\n      \"action\": \"Sell\",\n      \"reason\": \"Break below multi-week risk marker would negate setup.\",\n      \"quantity\": 10,\n      \"price\": \"SL-M 404.00\"\n    },\n    {\n      \"symbol\": \"LAURUSLABS\",\n      \"action\": \"Sell\",\n      \"reason\": \"Lose of key swing support invalidates bullish structure near term.\",\n      \"quantity\": 3,\n      \"price\": \"SL-M 965.00\"\n    },\n    {\n      \"symbol\": \"BHEL\",\n      \"action\": \"Sell\",\n      \"reason\": \"Below recent floor, momentum setup fails; protect capital.\",\n      \"quantity\": 10,\n      \"price\": \"SL-M 276.00\"\n    },\n    {\n      \"symbol\": \"CDSL\",\n      \"action\": \"Sell\",\n      \"reason\": \"Break of higher-low stack below ~1590 weakens trend.\",\n      \"quantity\": 3,\n      \"price\": \"SL-M 1588.00\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 9640.60,\n    \"total_value\": 27500.20,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"BSE: 1 units @ 2385.00 (CMP 2895.50)\",\n      \"BEL: 10 units @ 419.45 (CMP 423.00)\",\n      \"LAURUSLABS: 3 units @ 900.05 (CMP 987.10)\",\n      \"BHEL: 10 units @ 265.49 (CMP 285.25)\",\n      \"CDSL: 3 units @ 1617.60 (CMP 1640.10)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Pharma: Laurus holding >970; adds only above 1005/1025. Biocon reversed hard (395 close) \u2014 avoid until >405/423. LUPIN/ALKEM steady.\",\n    \"Exchanges/Depositories: BSE near highs; CDSL >1600; MCX extended \u2014 prefer dips, not chase.\",\n    \"PSU/Cap goods/Defence: BHEL needs >292 for momentum; BEL needs >430\u2013432; shipyards (MAZDOCK/GRSE) strong \u2014 prefer retests.\",\n    \"Telecom towers: IndusTower coiling under 415; Bharti Hexacom firm; wait for decisive breakouts.\",\n    \"Infra/Rail PSU: RVNL setup above 328; IRCON steady ~165; NBCC needs >117.5 for continuation.\",\n    \"Metals: SAIL soft near 138; HindCopper ~327 consolidating \u2014 strength-only adds.\",\n    \"Banks/NBFC: LTF closed 292.3 near line-in-sand 291 \u2014 strength-only >301.5; PSU banks cooled (IDBI/UCO/IOB/CENTRALBK) \u2014 avoid chasing.\",\n    \"Renewables: InoxWind choppy; KPIGREEN basing; Waaree consolidating; NTPC Green range-bound.\",\n    \"Discretionary/FMCG: Voltas firm; Trent resilient; Jubilant Food weak under 600 \u2014 needs >619.\",\n    \"Execution: For Monday, avoid chasing gaps >0.7%; let first 20\u201330 mins set ranges. Prefer breakout retests over initial spikes; size small with tight stops as above.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1763644254,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5868,
+    "prompt_tokens": 9489,
+    "total_tokens": 15357,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4352,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
