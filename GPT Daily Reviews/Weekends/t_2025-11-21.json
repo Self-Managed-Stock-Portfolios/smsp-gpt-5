@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CexxFipoE2QA8tjZl9LD5mGQXPtjR",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"Constructive but range-bound week for mid/small caps. Leadership rotated through exchanges/depositories (BSE, CDSL) and select PSU/cap goods (BHEL). Telecom towers (IndusTower) continued to coil under resistance; rail PSUs (RVNL/IRCON) based below triggers. Pharma mixed (Laurus cooled but held structure). Metals softened (SAIL/HindCopper). Our focus remains on high-quality themes showing relative strength, buying near support or on confirmed breakouts with tight risk.\",\n  \"trades\": [\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"BSE\",\n      \"shares\": 1,\n      \"amount\": 2858.30,\n      \"reason\": \"Add on controlled dip near support; exchange theme remains strong. Risk manageable below ~2790; looking for a push back toward 2915\u20132960.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"CDSL\",\n      \"shares\": 1,\n      \"amount\": 1610.20,\n      \"reason\": \"Add near the 1605\u20131615 retest zone with clear risk marker (~1580). Participation in exchanges/depositories theme with improving breadth.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 3785.45,\n    \"total_value\": 27523.20,\n    \"holdings_count\": 4,\n    \"holdings\": [\n      \"GMRAIRPORT: 45 units @ ~104.05\",\n      \"BHEL: 20 units @ ~281.30\",\n      \"BSE: 3 units @ ~2858.80/2858.30\",\n      \"CDSL: 3 units @ ~1610.20\"\n    ],\n    \"weekly_pnl\": \"+0.8%\"\n  },\n  \"screening_changes\": [\n    \"Remove ANANDRATHI: Liquidity/volatility not favorable versus stronger exchange plays (BSE/MCX).\",\n    \"Remove METROPOLIS: Consistently low volumes and relative underperformance vs Dr Lal PathLabs.\",\n    \"Remove SUMICHEM: Momentum lost; no active setup and weak relative strength.\",\n    \"Remove FACT: Range-bound, catalyst-light; better opportunities in PSU/cap goods elsewhere.\",\n    \"Remove AFFLE: Choppy, inconsistent trend; reallocating attention to clearer momentum names.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1763879621,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5185,
+    "prompt_tokens": 31154,
+    "total_tokens": 36339,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4672,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
