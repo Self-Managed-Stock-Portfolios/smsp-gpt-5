@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-CgAtF1yexIVBeBVr65VLRmrJAV2W5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Constructive breadth in mid/small caps. Clean breakouts in GMRAIRPORT (>105.5) and LTF (>302). PSU rail/infrastructure stayed firm (RVNL, NBCC, HUDCO). Exchanges/Depositories reclaimed key levels (BSE >2860, CDSL >1605). Capital goods improved (BHEL cleared 287\u2013292 band; BEL >414). Metals mixed (SAIL still sub-145; HindCopper testing 330). We remain all-cash; plan to build 3\u20135 small positions on Monday. Only if momentum runs away, use emergency buys tomorrow with tight stops.\",\n  \"top_signals\": [\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Breakout buy (continuation)\", \"reason\": \"Decisive breakout above 105.5 with strong volume; room toward 111/115 if holds >103\u2013104.\", \"price\": 106.76},\n    {\"symbol\": \"LTF\", \"signal\": \"Breakout buy\", \"reason\": \"Tight base resolved above 302; strong close and volume; momentum intact while >297/291.\", \"price\": 307.60},\n    {\"symbol\": \"RVNL\", \"signal\": \"Momentum buy on strength\", \"reason\": \"Strong close near HOD; continuation trigger >329.9 can open 338/345. Risk reference ~311.\", \"price\": 323.60},\n    {\"symbol\": \"BHEL\", \"signal\": \"Buy on dips/strength\", \"reason\": \"Cleared 287\u2013292 supply; buy pullbacks to 285\u2013288 or strength >292 with stop ~282/276.\", \"price\": 289.70},\n    {\"symbol\": \"NBCC\", \"signal\": \"Breakout-retest buy\", \"reason\": \"Held above 117.5 area; add on strength >119 or dips 114\u2013115 with stop ~111.5.\", \"price\": 118.51},\n    {\"symbol\": \"HUDCO\", \"signal\": \"Trend continuation buy\", \"reason\": \"Higher-highs with volume; buy near 236\u2013239 or add >235\u2192240 strength; stop ~221.\", \"price\": 239.17},\n    {\"symbol\": \"CDSL\", \"signal\": \"Reclaim buy\", \"reason\": \"Reclaimed >1605; momentum builds >1665\u20131670; cut if slips <1575.\", \"price\": 1619.90},\n    {\"symbol\": \"BSE\", \"signal\": \"Reclaim/continuation buy\", \"reason\": \"Closed back above 2860/2879; improved structure while >2795\u20132800.\", \"price\": 2886.70},\n    {\"symbol\": \"BEL\", \"signal\": \"Continuation buy\", \"reason\": \"Recovered >414; follow-through above 418/432 strengthens trend; stop ~403.\", \"price\": 415.30},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Breakout watch\", \"reason\": \"Coiling; sustained move >415 with volume can start next leg; risk ~392.\", \"price\": 405.60},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Breakout watch\", \"reason\": \"Testing resistance; >330 sustain targets 335\u2013340; risk ~312.\", \"price\": 329.10},\n    {\"symbol\": \"IDBI\", \"signal\": \"Two-sided plan\", \"reason\": \"Accumulate 100\u2013102 with stop ~96 or buy strength only above 105.\", \"price\": 101.95},\n    {\"symbol\": \"SAIL\", \"signal\": \"Avoid until breakout\", \"reason\": \"Bounce but still below key 145\u2013146 resistance; strength-only entry.\", \"price\": 136.92},\n    {\"symbol\": \"KPITTECH\", \"signal\": \"Breakout continuation (small size)\", \"reason\": \"Strong close from flag; volatile\u2014use tight stop under 1168.\", \"price\": 1194.90}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"GMRAIRPORT\", \"action\": \"Buy\", \"reason\": \"Don\u2019t miss fresh breakout follow-through if momentum persists tomorrow.\", \"quantity\": 50, \"price\": \"Buy-Stop 107.20, SL 101.90\"},\n    {\"symbol\": \"NBCC\", \"action\": \"Buy\", \"reason\": \"Breakout-retest; strength through 119 confirms continuation.\", \"quantity\": 60, \"price\": \"Buy-Stop 119.00, SL 111.50\"},\n    {\"symbol\": \"HUDCO\", \"action\": \"Buy\", \"reason\": \"Strong uptrend; buy near prior breakout zone with defined risk.\", \"quantity\": 30, \"price\": \"Limit 236.00\u2013239.50, SL 221.00\"},\n    {\"symbol\": \"IDBI\", \"action\": \"Buy\", \"reason\": \"Dip-accumulate within range; risk well-defined ahead of 105 breakout attempt.\", \"quantity\": 40, \"price\": \"Limit 100.50\u2013102.00, SL 96.00\"},\n    {\"symbol\": \"LTF\", \"action\": \"Buy\", \"reason\": \"Fresh breakout; small starter in case of immediate continuation.\", \"quantity\": 10, \"price\": \"Buy-Stop 309.00, SL 291.00\"}\n  ],\n  \"portfolio\": {\"cash\": 27267.00, \"total_value\": 27267.00, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\n    \"PSU rails/infrastructure: RVNL closed strong; clean trigger >329.9. IRCON steady 160\u2013162; pace above 165. NBCC held breakout; HUDCO trending.\",\n    \"Exchanges/Depositories: BSE reclaimed 2860/2879; CDSL reclaimed >1605; MCX extended\u2014prefer dips only.\",\n    \"Airports: GMRAIRPORT confirmed breakout >105.5 on strong volume; constructive for continuation.\",\n    \"Capital goods/cables: BHEL cleared 287\u2013292; BEL >414 improves odds; KEI/Polycab firm but size small and use strength-only entries.\",\n    \"Metals: SAIL bounce but below 145 cap; HindCopper flirting with 330 breakout\u2014needs follow-through.\",\n    \"Banks/NBFC: LTF breakout >302; PSU banks consolidating (IDBI 100\u2013105, IOB/CENTRALBK range-bound).\",\n    \"Telecom towers: IndusTower coiling; sustained >415 needed for next leg; Bharti Hexacom steady, lighter volumes.\",\n    \"Renewables/Power: NTPCGREEN range 94\u201396; InoxWind choppy; Waaree Ener steady.\",\n    \"Pharma: Lupin firm; Biocon improved to ~398; Laurus stable >970; Zydus constructive.\",\n    \"IT/Services: KPITTECH strong close; COFORGE/MPHASIS constructive\u2014volatility warrants small sizing.\",\n    \"Discretionary/FMCG: Voltas reclaimed 1380s; Trent firm; Jubilant Food needs >619 for momentum; VBL strong continuation.\",\n    \"Execution: If tomorrow gaps >0.7%, let first 20\u201330 minutes set range; prioritize pullback entries to marked zones with predefined stops; keep position sizes small given 27k capital.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764167673,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4523,
+    "prompt_tokens": 7840,
+    "total_tokens": 12363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2944,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
