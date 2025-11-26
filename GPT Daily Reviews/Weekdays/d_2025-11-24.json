@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-Cg1bXup13vl2PZZSK6xk2rUARKvi4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Risk-off close for exchanges/depositories (BSE, CDSL) while PSU rail/infrastructure showed strength (RVNL strong close near day\u2019s high). Towers continue to coil (IndusTower), metals soft (SAIL). Pharma mixed with LUPIN firm, Biocon weak. Our book (-1.16%) held key supports: BSE defended ~2798; CDSL slipped below 1600 but held above 1580; BHEL inside-to-soft day near 276\u2013284 band; GMRAIRPORT still coiling under 105.5 breakout.\",\n  \"top_signals\": [\n    {\"symbol\": \"RVNL\", \"signal\": \"Breakout buy on strength\", \"reason\": \"Big volume, strong close near HOD. Clean continuation above 329.9; early momentum >326. Use ~311 as risk for fresh buys.\", \"price\": 324.85},\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Hold; add only on breakout\", \"reason\": \"High-volume base intact; trigger >105.5\u2013106. Risk reference ~99.5. Avoid adding in the range.\", \"price\": 103.76},\n    {\"symbol\": \"BHEL\", \"signal\": \"Hold; add on breakout\", \"reason\": \"Momentum resumes only on decisive push above 287\u2013292. Risk marker ~275\u2013276 on existing.\", \"price\": 277.90},\n    {\"symbol\": \"BSE\", \"signal\": \"Defend support; add on reclaim\", \"reason\": \"Defended 2798 intraday. Add only on reclaim >2860/2879. If 2768 fails, structure weakens.\", \"price\": 2802.20},\n    {\"symbol\": \"CDSL\", \"signal\": \"Manage risk; add back on reclaim\", \"reason\": \"Closed <1600; keep tight risk. Reclaim >1605 for stability; momentum >1665\u20131670. Consider trimming if <1575.\", \"price\": 1587.60},\n    {\"symbol\": \"NBCC\", \"signal\": \"Breakout-retest buy\", \"reason\": \"Cleared 117.5 intraday (H 118.9) then retested. Buy on strength >118.5\u2013119 or dip 114\u2013115 with stop ~111.5.\", \"price\": 116.47},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Breakout watch\", \"reason\": \"Coiling base; sustained move >415 with volume can start next leg. Risk marker ~392 on fresh buys.\", \"price\": 400.10},\n    {\"symbol\": \"LTF\", \"signal\": \"Add on breakout; trail\", \"reason\": \"Healthy consolidation. Continuation above 301.5\u2013302; trail risk ~291.\", \"price\": 292.55},\n    {\"symbol\": \"HUDCO\", \"signal\": \"Buy-the-dip setup\", \"reason\": \"Strong trend; buy near 226\u2013228 zone with tight stop ~221; add through 235 on strength.\", \"price\": 228.19},\n    {\"symbol\": \"IDBI\", \"signal\": \"Two-sided plan\", \"reason\": \"Accumulate 96\u201397 with stop ~94.5 or buy strength only above 105 for continuation.\", \"price\": 98.93}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"BSE\", \"action\": \"Sell\", \"reason\": \"Break of key support would weaken structure; cut risk.\", \"quantity\": 2, \"price\": \"SL-M 2768.00\"},\n    {\"symbol\": \"CDSL\", \"action\": \"Sell\", \"reason\": \"Loss of higher-low stack below recent floor; protect capital.\", \"quantity\": 2, \"price\": \"SL-M 1575.00\"},\n    {\"symbol\": \"BHEL\", \"action\": \"Sell\", \"reason\": \"If 274.8 breaks, momentum setup fails near term; reduce exposure.\", \"quantity\": 10, \"price\": \"SL-M 274.80\"},\n    {\"symbol\": \"GMRAIRPORT\", \"action\": \"Sell\", \"reason\": \"If it loses 101.9, breakdown risk rises; trim to control drawdown.\", \"quantity\": 20, \"price\": \"SL-M 101.90\"}\n  ],\n  \"portfolio\": {\n    \"cash\": 3785.45,\n    \"total_value\": 27182.05,\n    \"holdings_count\": 4,\n    \"holdings\": [\n      \"GMRAIRPORT: 45 units @ 104.05 (CMP 103.76)\",\n      \"BHEL: 20 units @ 281.30 (CMP 277.90)\",\n      \"BSE: 3 units @ 2858.63 (CMP 2802.20)\",\n      \"CDSL: 3 units @ 1610.20 (CMP 1587.60)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU rail/infrastructure: RVNL strong close near HOD; watch clean breakout >329.9. IRCON steady around 160\u2013162; confirmation >165.\",\n    \"Exchanges/Depositories: BSE tested 2798 support; CDSL slipped <1600 but held >1580. Prefer strength reclaims for adds; MCX still extended\u2014buy only on dips.\",\n    \"Pharma: LUPIN firm; Biocon weak (395 area last week) and needs >405/423 to reassert; Laurus stable above ~970 but add only >1005/1025.\",\n    \"Cap goods/PSU: BHEL range 276\u2013284; trigger >287\u2013292. BEL weak close (403.8); cleaner only >430\u2013432.\",\n    \"Telecom towers: IndusTower coiling; sustained >415 can open fresh leg. Bharti Hexacom steady but lower volume.\",\n    \"Metals: SAIL soft (132); avoid until >145.2. HindCopper range 308\u2013319; prefer strength-only entries with tight stops.\",\n    \"NBFC/Banks: LTF constructive below 301.5; PSU banks (IDBI/UCO/IOB/CENTRALBK) consolidating\u2014favor either reclaim triggers or dip-buys with defined risk.\",\n    \"Renewables: InoxWind choppy; Waaree Ener volatile but holding; NTPC Green range-bound\u2014wait for decisive breakouts.\",\n    \"Discretionary/FMCG: Voltas pulled back to mid-1340s support; Trent firm; Jubilant Food needs >619 to turn momentum.\",\n    \"Execution: If next session gaps >0.7%, let 20\u201330 minutes set range; favor pullback entries to marked levels with predefined stops. Keep position sizes small given portfolio scale and raise stops on strength.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764131979,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5803,
+    "prompt_tokens": 12006,
+    "total_tokens": 17809,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4352,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
