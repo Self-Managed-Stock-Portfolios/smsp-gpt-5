@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-ChEaahL7UCpQEr9Jvv4dgsuO9CReZ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Constructive, risk-on close in mid/small caps. Fresh/ongoing momentum in GMRAIRPORT (>105.5 follow-through), LTF (post-302 breakout), ABCAPITAL (near highs), and LAURUSLABS (break above 1,025). PSU rail/infrastructure stayed firm (RVNL coiling just below breakout), capital goods steady (BHEL holding above 287\u2013292 band). Exchanges/depositories mixed but stable (BSE above 2860; CDSL holding >1600). Plan: stage 3\u20135 small positions Monday on strength; use tight, strength-only emergency buys tomorrow if triggers fire.\",\n  \"top_signals\": [\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Breakout continuation buy\", \"reason\": \"Follow-through above 105.5 with strong close; add on strength through today\u2019s high for 111/115 potential; invalidation below ~103.8.\", \"price\": 108.35},\n    {\"symbol\": \"LTF\", \"signal\": \"Breakout continuation buy\", \"reason\": \"Tight base resolved >302; sustained strength while >297; look for push above 315 for next leg.\", \"price\": 312.35},\n    {\"symbol\": \"RVNL\", \"signal\": \"Breakout buy on strength\", \"reason\": \"Coiling just under key 329.9\u2013330; strong trend resumes on decisive breakout; use ~311 as risk.\", \"price\": 324.1},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Continuation buy\", \"reason\": \"Closed near highs; push through 360\u2013361 can extend; manage risk under ~346.\", \"price\": 358.05},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Fresh breakout buy\", \"reason\": \"Cleared 1005/1025 supply; momentum intact above 1004 with room toward 1065/1090.\", \"price\": 1031.35},\n    {\"symbol\": \"BHEL\", \"signal\": \"Buy pullbacks / trend support\", \"reason\": \"Holding above 287\u2013292 breakout band; buy dips to 286\u2013288 or strength >292; risk 281.5/276.\", \"price\": 290.85},\n    {\"symbol\": \"NBCC\", \"signal\": \"Retest-buy setup\", \"reason\": \"Retesting 117.5 breakout; buy dips ~114\u2013115 or strength >118.9 with tight stop ~111.5.\", \"price\": 116.69},\n    {\"symbol\": \"IDBI\", \"signal\": \"Accumulate on dip; momentum only >105\", \"reason\": \"Base 98\u2013105 intact; accumulate near 99\u2013101 with stop ~96 or wait for breakout >105.\", \"price\": 100.38},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Breakout watch\", \"reason\": \"Testing 330 resistance; sustain >331 opens 335\u2013340; risk ~312.\", \"price\": 327.0},\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Breakout watch\", \"reason\": \"Coiling; sustained move >415 with volume can start next leg; risk ~392.\", \"price\": 401.05},\n    {\"symbol\": \"CDSL\", \"signal\": \"Reclaim buy on strength\", \"reason\": \"Stable >1600; momentum builds on reclaim >1665\u20131670; cut if <1575.\", \"price\": 1617.2},\n    {\"symbol\": \"BSE\", \"signal\": \"Reclaim/pullback buy\", \"reason\": \"Back above 2860/2879; buy pullbacks toward that zone with risk below ~2795\u20132800.\", \"price\": 2902.4}\n  ],\n  \"emergency_trades\": [\n    {\"symbol\": \"GMRAIRPORT\", \"action\": \"Buy\", \"reason\": \"Don\u2019t miss continuation if it breaks today\u2019s high with volume.\", \"quantity\": 30, \"price\": \"Buy-Stop 109.20, SL 103.80\"},\n    {\"symbol\": \"LTF\", \"action\": \"Buy\", \"reason\": \"Fresh leg likely if it powers through recent high; tight risk.\", \"quantity\": 20, \"price\": \"Buy-Stop 315.60, SL 297.00\"},\n    {\"symbol\": \"RVNL\", \"action\": \"Buy\", \"reason\": \"Breakout trigger above 330 resumes trend; defined risk.\", \"quantity\": 20, \"price\": \"Buy-Stop 330.00, SL 311.00\"},\n    {\"symbol\": \"ABCAPITAL\", \"action\": \"Buy\", \"reason\": \"Continuation through 360\u2013361; strong relative strength.\", \"quantity\": 10, \"price\": \"Buy-Stop 360.50, SL 346.00\"},\n    {\"symbol\": \"NBCC\", \"action\": \"Buy\", \"reason\": \"Retest-buy near support with favorable R:R.\", \"quantity\": 40, \"price\": \"Limit 115.00, SL 111.50\"}\n  ],\n  \"portfolio\": {\"cash\": 27184.3, \"total_value\": 27184.3, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\n    \"PSU rail/infrastructure: RVNL strong close near highs; clean trigger >330. IRCON steady 160\u2013162; confirmation >165. GRSE volatile but trend intact.\",\n    \"Exchanges/Depositories: BSE firm above 2860/2879; CDSL holding >1600, momentum only on >1665\u20131670. MCX corrected sharply; avoid chasing.\",\n    \"Airports: GMRAIRPORT sustained breakout; add only on strength or pullbacks >105.5 holding.\",\n    \"Capital goods/cables: BHEL constructive above 287\u2013292; BEL needs >418 then >432 for momentum. KEI/Polycab firm but extended\u2014small size only on strength.\",\n    \"Metals: HINDCOPPER flirting with 330; SAIL still sub-145 resistance\u2014avoid until breakout.\",\n    \"Banks/NBFC: LTF leading post-breakout; PSU banks (IDBI/IOB/CENTRALBK) in bases\u2014prefer dip-buys or breakout triggers.\",\n    \"Power/Renewables: NTPCGREEN range-bound 94\u201395.5; InoxWind choppy; Waaree Ener cooled off\u2014strength-only entries.\",\n    \"Pharma: LAURUSLABS breakout; LUPIN firm >2070; Biocon needs >405 to improve.\",\n    \"IT/Services: KPITTECH/MPHASIS constructive; COFORGE steady\u2014use strength-only entries given volatility.\",\n    \"Discretionary/FMCG: Trent firm; VBL strong; JUBLFOOD needs >608\u2013612 for momentum; Voltas stable.\",\n    \"Execution: Prefer Monday entries after first 20\u201330 min range. If tomorrow gaps >0.7%, let range form and buy pullbacks into marked levels with predefined stops; keep sizes small given 27k capital.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764420220,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4151,
+    "prompt_tokens": 10990,
+    "total_tokens": 15141,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2624,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
