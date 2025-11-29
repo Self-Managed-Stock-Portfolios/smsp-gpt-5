@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-ChEh3BM2pBKqf68IV5bj9MtE3WQF6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"Risk-on week with improving breadth in mid/small caps. Clean continuation in GMRAIRPORT and LTF, ABCAPITAL near highs, RVNL coiled just under breakout, NBCC retested prior breakout, and LAURUSLABS broke above the 1,005/1,025 supply. Capital goods steady (BHEL holding above 287\u2013292 band). Exchanges/depositories stable (BSE >2860, CDSL >1600). Plan: add small on strength, keep tight stops.\",\n  \"trades\": [\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"GMRAIRPORT\",\n      \"shares\": 10,\n      \"amount\": 1084.00,\n      \"reason\": \"Add on breakout continuation only above \u20b9109.2 with volume; protective SL \u20b9103.8. Trend held above 105.5 and closed firm.\"\n    },\n    {\n      \"action\": \"buy\",\n      \"symbol\": \"LAURUSLABS\",\n      \"shares\": 1,\n      \"amount\": 1031.35,\n      \"reason\": \"Fresh breakout >\u20b91005/1025; buy on strength above \u20b91033 with SL \u20b91004 to diversify into pharma momentum.\"\n    }\n  ],\n  \"portfolio\": {\n    \"cash\": 868.95,\n    \"total_value\": 27184.30,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"GMRAIRPORT: 40 units\",\n      \"LTF: 20 units\",\n      \"RVNL: 20 units\",\n      \"ABCAPITAL: 10 units\",\n      \"NBCC: 40 units\",\n      \"LAURUSLABS: 1 unit\"\n    ],\n    \"weekly_pnl\": \"+0.0%\"\n  },\n  \"screening_changes\": [\n    \"Remove MCX: capital-inefficient (\u20b910k/share) and elevated gap risk for a \u20b925k portfolio; prefer BSE/CDSL in the exchanges theme.\",\n    \"Remove AMBER: high ticket size (\u20b97k/share) and lower liquidity vs alternatives; capital-inefficient for this portfolio.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764420621,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 5842,
+    "prompt_tokens": 31260,
+    "total_tokens": 37102,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5376,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
