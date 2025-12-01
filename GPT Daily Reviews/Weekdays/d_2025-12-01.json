@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-ChxEw5gj7wko7U9BhdzC33aOyaaDS",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Constructive to mixed day in mid/small caps. Our book is broadly intact: NBCC closed strong; GMRAIRPORT held above its 105.5 breakout; LTF stayed above the 302 breakout; RVNL coiled just under 330; ABCAPITAL paused below 360; LAURUSLABS held above 1,004 after a deeper intraday dip. Prefer strength-only adds on Monday; no emergency trades needed today.\",\n  \"top_signals\": [\n    {\"symbol\": \"NBCC\", \"signal\": \"Add on breakout\", \"reason\": \"Retest-hold of 117.5; continuation on push >118.9\u2013119 with tight risk ~111.5\", \"price\": 118.01},\n    {\"symbol\": \"RVNL\", \"signal\": \"Breakout buy on strength\", \"reason\": \"Clean trigger above 329.9\u2013330 can open 338/345; risk reference ~311\", \"price\": 321.65},\n    {\"symbol\": \"LTF\", \"signal\": \"Continuation buy\", \"reason\": \"Post-302 breakout; next leg if it powers >314\u2013316; risk 297/291\", \"price\": 309.15},\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Add on strength\", \"reason\": \"Breakout intact; add only on >109.6/110 with risk under ~103.8\", \"price\": 107.64},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Continuation buy\", \"reason\": \"Push through 360\u2013361 can extend trend; manage risk below ~346\", \"price\": 356.10},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Fresh breakout follow-through\", \"reason\": \"Above 1,025; add on >1,040/1,050; invalidation below ~1,004\", \"price\": 1029.40},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Breakout continuation\", \"reason\": \"Big volume; sustain >340 to extend; risk ~312\", \"price\": 339.30},\n    {\"symbol\": \"BEL\", \"signal\": \"Strength-only buy\", \"reason\": \"Follow-through >418/432 improves odds; risk ~403\", \"price\": 417.25},\n    {\"symbol\": \"CDSL\", \"signal\": \"Reclaim/momentum buy\", \"reason\": \"Stable >1,600; momentum >1,665\u20131,670; cut if <1,575\", \"price\": 1604.50},\n    {\"symbol\": \"BHEL\", \"signal\": \"Strength-only add\", \"reason\": \"Trend improves above 295; defend 287\u2013292 band\", \"price\": 291.00},\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Momentum pullback/breakout\", \"reason\": \"Buy pullbacks ~158\u2013159 or breakout >161.4\", \"price\": 160.30},\n    {\"symbol\": \"JUBLFOOD\", \"signal\": \"Breakout watch\", \"reason\": \"Trigger >612/619 for momentum\", \"price\": 609.35}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 868.95,\n    \"total_value\": 27101.35,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"GMRAIRPORT: 40 units @ 108.40 (CMP 107.64)\",\n      \"LTF: 20 units @ 311.20 (CMP 309.15)\",\n      \"RVNL: 20 units @ 324.10 (CMP 321.65)\",\n      \"ABCAPITAL: 10 units @ 357.60 (CMP 356.10)\",\n      \"NBCC: 40 units @ 116.65 (CMP 118.01)\",\n      \"LAURUSLABS: 1 units @ 1031.35 (CMP 1029.40)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"PSU rail/infrastructure: RVNL needs >330 for a clean breakout; IRCON stable but momentum only >165; NBCC constructive above 117.5 with add on >118.9.\",\n    \"Exchanges/Depositories: BSE held above 2860; buy pullbacks to 2860\u20132879 with risk below ~2795. CDSL steady >1600; momentum only on >1665\u20131670.\",\n    \"Capital goods: BHEL holding the 287\u2013292 breakout band; add only on >295. BEL steady; watch >418/432.\",\n    \"Metals: HINDCOPPER strong with high volume; sustain >340 for continuation. SAIL still below 145 resistance\u2014avoid until breakout.\",\n    \"Power/Renewables: NTPCGREEN range 93.7\u201395.5; confirm >95.5. InoxWind choppy; strength-only.\",\n    \"IT/Services: KPITTECH strong but volatile\u2014small size only on strength; COFORGE/MPHASIS constructive.\",\n    \"Pharma: LAURUSLABS breakout intact; add only on strength. WOCKPHARMA extended\u2014avoid chasing.\",\n    \"Autos: ASHOKLEY strong; prefer pullbacks or breakout confirmation >161.4.\",\n    \"Discretionary/FMCG: JUBLFOOD needs >612/619 to turn momentum; VBL firm; VOLTAS steady near trend support.\",\n    \"Execution plan: No trades until Monday unless a true emergency. Favor strength-only entries at marked triggers; keep sizes small given ~\u20b90.87k cash and use tight stops.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764591858,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4417,
+    "prompt_tokens": 12762,
+    "total_tokens": 17179,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3200,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
