@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-Cj8H3zUG5GtWMn9hx8tWHxi92MxY9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed-to-soft session in mid/small caps with PSU/infra consolidating. Our holdings mostly hovered near support and did not trigger invalidations. Cash is limited, so we will stick to strength-only entries and defer actions to Monday unless a true emergency stop is breached. No emergency trades today.\",\n  \"top_signals\": [\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Momentum buy\", \"reason\": \"Decisive close above 161.4 trigger; look to buy Monday on retest >161.5 with risk ~159.5; room to 165/169 if breadth supportive\", \"price\": 162.71},\n    {\"symbol\": \"NBCC\", \"signal\": \"Add on breakout\", \"reason\": \"Coiling above 112.5; momentum only on push >118.9\u2013119; manage risk under ~111.5\", \"price\": 113.21},\n    {\"symbol\": \"RVNL\", \"signal\": \"Breakout buy on strength\", \"reason\": \"Tight coil near support; clean trigger >329.9\u2013330 opens 338/345; risk reference 307/311\", \"price\": 311.65},\n    {\"symbol\": \"LTF\", \"signal\": \"Continuation buy\", \"reason\": \"Holding the 302 base; next leg only if >314\u2013316; risk 297/291; avoid adds if <305\", \"price\": 302.8},\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Add on strength\", \"reason\": \"Structure intact above ~103.8; add only on decisive >109.6/110 reclaim; risk 103.8\", \"price\": 105.35},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Continuation buy\", \"reason\": \"Trend resumes on a push through 360\u2013361; risk ~346\", \"price\": 350.0},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Breakout follow-through\", \"reason\": \"Higher-low intact; add only on >1040/1050; invalidation below ~1004\", \"price\": 1016.5},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Breakout continuation\", \"reason\": \"Sustain >340 to extend; good volume leadership in metals; risk 325/312; avoid if slips <332\", \"price\": 339.2},\n    {\"symbol\": \"BEL\", \"signal\": \"Strength-only buy\", \"reason\": \"Momentum improves above 418 with extension past 432; risk ~403/396\", \"price\": 403.95},\n    {\"symbol\": \"CDSL\", \"signal\": \"Reclaim/momentum buy\", \"reason\": \"Reclaim >1600 improves stability; real momentum above 1665\u20131670; cut if <1525\", \"price\": 1550.5},\n    {\"symbol\": \"JUBLFOOD\", \"signal\": \"Breakout watch\", \"reason\": \"Reversal trigger lies at >612/619; risk ~580; avoid until reclaimed\", \"price\": 589.2},\n    {\"symbol\": \"IDBI\", \"signal\": \"Breakout watch\", \"reason\": \"Psychological breakout above 100/100.3 can accelerate; risk ~96.5\", \"price\": 97.65}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 868.95,\n    \"total_value\": 26416.85,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"GMRAIRPORT: 40 units @ 108.40 (CMP 105.35)\",\n      \"LTF: 20 units @ 311.20 (CMP 302.80)\",\n      \"RVNL: 20 units @ 324.10 (CMP 311.65)\",\n      \"ABCAPITAL: 10 units @ 357.60 (CMP 350.00)\",\n      \"NBCC: 40 units @ 116.65 (CMP 113.21)\",\n      \"LAURUSLABS: 1 units @ 1031.35 (CMP 1016.50)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Holdings risk lines (emergency only if decisively broken): GMRAIRPORT <103.8; LTF <297 (hard) / <291 (absolute); RVNL sustained <309\u2013311; ABCAPITAL <346; NBCC <111.5; LAURUSLABS <1004. None triggered today.\",\n    \"PSU rail/infra: RVNL and NBCC consolidating; wait for RVNL >330 and NBCC >118.9 for adds. IRCON steady; momentum only >165.\",\n    \"Autos: ASHOKLEY closed above 161.4 trigger; prefer small, strength-only buys on Monday if >161.5 holds. ESCORTS needs >3830 to improve.\",\n    \"Pharma: LAURUSLABS constructive above 1004; adds only >1040/1050. WOCKPHARMA extended\u2014avoid chasing. BIOCON firm; momentum improves if >412.5.\",\n    \"Banks/NBFC: LTF building base above 302; continuation needs >314\u2013316. AUBANK healthy above ~938\u2013953 zone; UNIONBANK range-bound; INDIANB cooling\u2014wait for stability.\",\n    \"Capital goods/Defence: BEL watch >418/432; BHEL weak below 287\u2013292\u2014wait for reclaim >287. HAL trend intact; buy-on-dips only.\",\n    \"Exchanges/Depositories: BSE slipped to 2751 support; better only >2849; CDSL needs reclaim >1600 then >1665\u20131670 for momentum.\",\n    \"Power/Renewables: NTPCGREEN stuck 91.7\u201395.5; confirmation only >95.5. INOXWIND choppy\u2014strength-only >134.5. KPIGREEN looks strong if >450.\",\n    \"Metals: HINDCOPPER leadership if it sustains >340; SAIL capped below 135/145 band\u2014avoid until breakout. NAVA constructive >530.\",\n    \"Discretionary/FMCG: JUBLFOOD reversal only >612/619; VBL steady; VOLTAS near trend support, needs >1350 reclaim.\",\n    \"IT/Services: KPITTECH constructive\u2014momentum >1267\u20131275; COFORGE/MPHASIS firm but prefer strength-only entries given cash constraints.\",\n    \"Realty/Hospitals: PRESTIGE needs >1660 for momentum; OBEROIRLTY constructive above 1640; MAXHEALTH/NH firm with buy-on-dips bias.\",\n    \"Execution: No trades until Monday unless an emergency stop is breached with authority (gap-and-go below invalidation with volume). With limited cash, take only top strength triggers and keep sizes small with tight stops.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764872601,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4557,
+    "prompt_tokens": 7761,
+    "total_tokens": 12318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3072,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
