@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-Cj8WeaFajScx6yDHAnGlFaA0X3tKT",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Mixed day in mid/small caps. Metals led (HINDCOPPER broke out with big volume). PSU rails/infra consolidated but held key supports (RVNL ~311-313, NBCC ~112-113). Our book slipped modestly; GMRAIRPORT closed just below the ~103.8 risk reference but not a decisive breakdown yet. No emergency actions. Plan: strength-only entries on Monday if triggers fire; preserve cash.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Breakout continuation (buy on strength/pullback)\", \"reason\": \"Fresh high-volume breakout; consider buys on minor dips 352-358 or strength >368-370; manage risk 346/340\", \"price\": 365.75},\n    {\"symbol\": \"RVNL\", \"signal\": \"Breakout buy on strength\", \"reason\": \"Coiling; clean trigger >329.9-330 opens 338/345; risk reference 307/311\", \"price\": 312.40},\n    {\"symbol\": \"NBCC\", \"signal\": \"Add on breakout\", \"reason\": \"Constructive above 112; momentum trigger >118.9-119 can open 123/126; invalidate below ~111.5\", \"price\": 112.52},\n    {\"symbol\": \"LTF\", \"signal\": \"Continuation buy (strength-only)\", \"reason\": \"Base above 302 intact; next leg only if >314-316; risk 297 (hard) / 291 (absolute)\", \"price\": 300.45},\n    {\"symbol\": \"GMRAIRPORT\", \"signal\": \"Add only on strength; watch support\", \"reason\": \"Hold bias while >102.5; re-add only on decisive >109.6-110; treat <102 with volume as weakness\", \"price\": 103.06},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Continuation buy (strength-only)\", \"reason\": \"Trend extension on push >360-361; manage risk below ~346\", \"price\": 349.40},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Breakout follow-through (strength-only)\", \"reason\": \"Higher-low above 1004 intact; add only on >1040/1050; invalidation below ~1004\", \"price\": 1013.50},\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Breakout watch\", \"reason\": \"Trigger >161.4 improves momentum; pullback buys 158-159 with tight risk acceptable\", \"price\": 160.21},\n    {\"symbol\": \"BEL\", \"signal\": \"Strength-only buy\", \"reason\": \"Momentum improves >418; extension >432; risk ~400-403\", \"price\": 407.15},\n    {\"symbol\": \"CDSL\", \"signal\": \"Reclaim/momentum buy\", \"reason\": \"Stability improves >1600; real momentum >1665-1670; cut idea if <1508-1525\", \"price\": 1536.30}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 868.95,\n    \"total_value\": 26256.65,\n    \"holdings_count\": 6,\n    \"holdings\": [\n      \"GMRAIRPORT: 40 @ 108.40 (CMP 103.06)\",\n      \"LTF: 20 @ 311.20 (CMP 300.45)\",\n      \"RVNL: 20 @ 324.10 (CMP 312.40)\",\n      \"ABCAPITAL: 10 @ 357.60 (CMP 349.40)\",\n      \"NBCC: 40 @ 116.65 (CMP 112.52)\",\n      \"LAURUSLABS: 1 @ 1031.35 (CMP 1013.50)\"\n    ]\n  },\n  \"screening_notes\": [\n    \"Holdings risk lines (emergency only if decisively broken): GMRAIRPORT ~102.5 (soft) / 101.8 (hard); LTF <297 (hard) / <291 (absolute); RVNL sustained <309-311; ABCAPITAL <346; NBCC <111.5; LAURUSLABS <1004. None triggered decisively today.\",\n    \"Metals: HINDCOPPER leadership with volume; continuation if >368-370. SAIL still capped below 135-145 zone; avoid until breakout.\",\n    \"PSU rail/infra: RVNL needs >330 for clean breakout; NBCC >118.9-119 for momentum; IRCON stable but momentum only >165.\",\n    \"Banks/NBFC: LTF base intact above 302; continuation requires >314-316. UNIONBANK/INDIANB range-bound; AUBANK healthy >938-953.\",\n    \"IT/Services: KPITTECH momentum >1275/1284; COFORGE/MPHASIS constructive on dips.\",\n    \"Exchanges/Depositories: CDSL needs reclaim >1600 then >1665-1670 for momentum; BSE stabilizing but better >2849-2895.\",\n    \"Autos: ASHOKLEY watch >161.4 for follow-through; ESCORTS needs >3830 to improve structure.\",\n    \"Pharma: LAURUSLABS add only on strength >1040/1050; BIOCON attempting base, watch >402/412.\",\n    \"Power/Renewables: NTPCGREEN range 90.8-95.5 (confirm >95.5); INOXWIND choppy; KPIGREEN constructive >450.\",\n    \"Realty/Hospitals: PRESTIGE momentum if >1667; OBEROIRLTY constructive above 1640; MAXHEALTH/NH firm on dips.\",\n    \"Execution: No trades until Monday unless a true emergency stop is decisively breached. With ~\u20b90.87k cash, any new entry Monday must be small and funded only if a high-conviction trigger fires.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764873568,
+  "model": "gpt-5-2025-08-07",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 4366,
+    "prompt_tokens": 9219,
+    "total_tokens": 13585,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3072,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}
